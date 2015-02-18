@@ -1,0 +1,1 @@
+# iCapps Crash Reporting assistant #
