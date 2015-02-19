@@ -10,6 +10,9 @@ pod 'ICACrashReporter'
 ```
 * Run pod install
 
+If not using pods, make sure to integrate the Splunk framework as well:
+http://docs.splunk.com/Documentation/MintSDKs/latest/SplunkMINTSDKs/AddSplunkMINTtoyourprojectforiOS
+
 ## Usage ##
 
 Include the header file
