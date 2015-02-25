@@ -14,7 +14,6 @@
 static id<ICACrashReporterProvider> _instance = nil;
 
 + (void)initAndStartWithInstance:(id<ICACrashReporterProvider>)instance {
-    //[[Mint sharedInstance] initAndStartSession:key];
     _instance = instance;
     
     [ICACrashReporter logExtraData:@"BundleId" value:[[NSBundle mainBundle] objectForInfoDictionaryKey:(NSString *)kCFBundleIdentifierKey]];
