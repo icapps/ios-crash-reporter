@@ -12,6 +12,11 @@ pod 'ICACrashReporter'
 
 *If not using pods, make sure to integrate the [Splunk framework](http://docs.splunk.com/Documentation/MintSDKs/latest/SplunkMINTSDKs/AddSplunkMINTtoyourprojectforiOS) as well.*
 
+If you only need console logging you can use the this instead:
+```
+pod 'ICACrashReporter/Core'
+```
+
 ## Usage ##
 
 Include the header file
@@ -24,22 +29,20 @@ Include the header file
 
 **Start a new session:**
 ```
-[ICACrashReporter initAndStartSession:@"KEY"];
+//Console:
+[ICACrashReporter initAndStartWithInstance:[ICAConsoleCrashReporter new]];
+
+//Splunk:
+[ICACrashReporter initAndStartWithInstance:[[ICASplunkCrashReporter alloc] initWithKey:@"SPLUNKKEY"]];
 ```
 
 **Set the user identifier:**
 ```
 [ICACrashReporter setUserIdentifier:@"USERID"];
 ```
-
-**Restarting the session and setting the user identifier:**
-```
-[ICACrashReporter restartSession:@"KEY" user:@"USERID"];
-```
-
 **Breadcrumb logging:**
 ```
-[ICACrashReporter logBreadcrumb:@"User entered view"];
+[ICACrashReporter logBreadcrumb:@"User entered %@", view.name];
 ```
 
 **Service failure logging:**
@@ -59,4 +62,16 @@ Takes an NSException object as argument
 **Logging additional information:**
 ```
 [ICACrashReporter logExtraData:@"KEY" value:@"VALUE"];
+```
+
+**Transactions**
+```
+//Create a new transaction
+ICACrashReporterTransactionController *controller = [ICACrashReporter transactionController];
+//Starting the transaction
+[controller startTransaction];
+//Stopping the transaction
+[controller stopTransaction];
+//Cancelling the transaction
+[controller cancelTransaction];
 ```
