@@ -22,6 +22,7 @@ pod 'ICACrashReporter/Core'
 Include the header file
 
 ```
+#!objc
 #import <ICACrashReporter.h>
 ```
 
@@ -32,6 +33,7 @@ There is also the option of combining multiple modules using the ICAMultiCrashRe
 
 **Start a new session:**
 ```
+#!objc
 //Console:
 #import <ICAConsoleCrashReporter.h>
 [ICACrashReporter initAndStartWithInstance:[ICAConsoleCrashReporter new]];
@@ -53,15 +55,18 @@ ICAMultiCrashReporter *multiReporter = [[ICAMultiCrashReporter alloc] initWithRe
 
 **Set the user identifier:**
 ```
+#!objc
 [ICACrashReporter setUserIdentifier:@"USERID"];
 ```
 **Breadcrumb logging:**
 ```
+#!objc
 [ICACrashReporter logBreadcrumb:@"User entered %@", view.name];
 ```
 
 **Service failure logging:**
 ```
+#!objc
 [ICACrashReporter logServiceFailureWithURLResponse:response httpMethod:@"GET"];
 ```
 Directly pass an NSHTTPURLResponse object. This will log an event in the following format:
@@ -70,22 +75,26 @@ Directly pass an NSHTTPURLResponse object. This will log an event in the followi
 
 **Log event:**
 ```
+#!objc
 [ICACrashReporter logEvent:@"Event has happened"];
 ```
 
 **Log handled exception:**
 ```
+#!objc
 [ICACrashReporter logException:exception];
 ```
 Takes an NSException object as argument
 
 **Logging additional information:**
 ```
+#!objc
 [ICACrashReporter logExtraData:@"KEY" value:@"VALUE"];
 ```
 
 **Transactions**
 ```
+#!objc
 //Create a new transaction
 ICACrashReporterTransactionController *controller = [ICACrashReporter transactionController];
 //Starting the transaction
