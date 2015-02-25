@@ -13,7 +13,6 @@
 
 /* Begin PBXFileReference section */
 		BABABA281A9B80A80013BE5D /* ICACrashReporter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ICACrashReporter.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BABABA2C1A9B80A80013BE5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BABABA511A9B81160013BE5D /* ICACrashReporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICACrashReporter.h; sourceTree = SOURCE_ROOT; };
 		BABABA521A9B81160013BE5D /* ICACrashReporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICACrashReporter.m; sourceTree = SOURCE_ROOT; };
 		BABABA551A9B82040013BE5D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -52,17 +51,8 @@
 				BABABA551A9B82040013BE5D /* main.m */,
 				BABABA511A9B81160013BE5D /* ICACrashReporter.h */,
 				BABABA521A9B81160013BE5D /* ICACrashReporter.m */,
-				BABABA2B1A9B80A80013BE5D /* Supporting Files */,
 			);
 			path = ICACrashReporter;
-			sourceTree = "<group>";
-		};
-		BABABA2B1A9B80A80013BE5D /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				BABABA2C1A9B80A80013BE5D /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

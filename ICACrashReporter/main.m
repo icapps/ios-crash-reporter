@@ -10,9 +10,6 @@
 #import "ICACrashReporter.h"
 
 int main(int argc, char * argv[]) {
-    /*@autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
-    }*/
     [ICACrashReporter logBreadcrumb:@"test %@ %f %@", @"x", 23.3, @"TEST"];
     
 }
