@@ -26,8 +26,14 @@
     [ICACrashReporter initAndStartSession:key];
 }
 
-+ (void)logBreadcrumb:(NSString *)breadcrumb {
-    [[Mint sharedInstance] leaveBreadcrumb:breadcrumb];
++ (void)logBreadcrumb:(NSString *)message, ... {
+    va_list args;
+    va_start(args, message);
+    NSString *content = [[NSString alloc] initWithFormat:message arguments:args];
+    va_end(args);
+    
+    NSLog(content);
+    //[[Mint sharedInstance] leaveBreadcrumb:content];
 }
 
 + (void)logEvent:(NSString *)eventInfo {

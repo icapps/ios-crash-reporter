@@ -15,7 +15,7 @@
 + (void)initAndStartSession:(NSString *)key;
 + (void)setUserIdentifier:(NSString *)userId;
 + (void)restartSession:(NSString *)key user:(NSString *)userId;
-+ (void)logBreadcrumb:(NSString *)breadcrumb;
++ (void)logBreadcrumb:(NSString *)message, ...;
 + (void)logEvent:(NSString *)eventInfo;
 + (void)logExtraData:(NSString *)key value:(NSString *)value;
 + (void)logServiceFailure:(NSInteger)statusCode serviceUrl:(NSString *)serviceUrl httpMethod:(NSString *)httpMethod;
