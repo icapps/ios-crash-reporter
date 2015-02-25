@@ -25,12 +25,6 @@
     return self;
 }
 
-- (void)restartSession:(NSString *)key user:(NSString *)userId {
-    _key = key;
-    [self setUserIdentifier:userId];
-    [[Mint sharedInstance] initAndStartSession:key];
-}
-
 - (void)logBreadcrumb:(NSString *)breadcrumb {
     [[Mint sharedInstance] leaveBreadcrumb:breadcrumb];
 }
@@ -49,6 +43,7 @@
 
 - (void)setUserIdentifier:(NSString *)userId {
     [[Mint sharedInstance] setUserIdentifier:userId];
+    [[Mint sharedInstance] initAndStartSession:self.key];
 }
 
 - (void)startTransaction:(NSString *)transactionId {
