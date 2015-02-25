@@ -68,6 +68,11 @@ Directly pass an NSHTTPURLResponse object. This will log an event in the followi
 <HTTPMETHOD>: <ERRORCODE>: <SERVICEURL> 
 (for example: GET: 404: http://test.com/function)
 
+**Log event:**
+```
+[ICACrashReporter logEvent:@"Event has happened"];
+```
+
 **Log handled exception:**
 ```
 [ICACrashReporter logException:exception];
