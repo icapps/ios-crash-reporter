@@ -1,0 +1,25 @@
+//
+//  ICAMultiCrashReporter.h
+//  ICACrashReporter
+//
+//  Created by Pieterjan Vandegaer on 25/02/15.
+//  Copyright (c) 2015 iCapps. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+#import "ICACrashReporter.h"
+
+@interface ICAMultiCrashReporter : NSObject <ICACrashReporterProvider>
+
+- (id)initWithReporters:(NSArray *)reporters;
+
+- (void)logBreadcrumb:(NSString *)breadcrumb;
+- (void)logEvent:(NSString *)eventInfo;
+- (void)logExtraData:(NSString *)key value:(NSString *)value;
+- (void)logException:(NSException *)exception;
+- (void)setUserIdentifier:(NSString *)userId;
+- (void)startTransaction:(NSString *)transactionId;
+- (void)stopTransaction:(NSString *)transactionId;
+- (void)cancelTransaction:(NSString *)transactionId;
+
+@end

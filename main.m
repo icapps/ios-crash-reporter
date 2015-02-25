@@ -11,10 +11,20 @@
 #import "ICASplunkCrashReporter.h"
 #import "ICAConsoleCrashReporter.h"
 #import "ICACrashReporterTransactionController.h"
+#import "ICAMultiCrashReporter.h"
 
 int main(int argc, char * argv[]) {
+    
     //[ICACrashReporter initAndStartWithInstance:[[ICASplunkCrashReporter alloc] initWithKey:@"bc3ef72f"]];
-    [ICACrashReporter initAndStartWithInstance:[ICAConsoleCrashReporter new]];
+    //[ICACrashReporter initAndStartWithInstance:[ICAConsoleCrashReporter new]];
+    
+    ICAMultiCrashReporter *multiReporter = [[ICAMultiCrashReporter alloc] initWithReporters:@[
+                                                                                              [[ICASplunkCrashReporter alloc] initWithKey:@"bc3ef72f"],
+                                                                                              [ICAConsoleCrashReporter new]
+                                                                                              ]
+                                            ];
+    [ICACrashReporter initAndStartWithInstance:multiReporter];
+    
     [ICACrashReporter logBreadcrumb:@"test %@ %f %@", @"x", 23.3, @"TEST"];
 
     [ICACrashReporter logServiceFailure:404 serviceUrl:@"http://icapps.com" httpMethod:@"GET"];
