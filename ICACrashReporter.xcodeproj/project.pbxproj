@@ -10,15 +10,22 @@
 		BABABA531A9B81160013BE5D /* ICACrashReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = BABABA521A9B81160013BE5D /* ICACrashReporter.m */; };
 		BABABA561A9B82040013BE5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BABABA551A9B82040013BE5D /* main.m */; };
 		BABABA5A1A9DD0460013BE5D /* ICASplunkCrashReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = BABABA591A9DD0460013BE5D /* ICASplunkCrashReporter.m */; };
+		BABABA5D1A9DDB480013BE5D /* ICACrashReporterTransactionController.m in Sources */ = {isa = PBXBuildFile; fileRef = BABABA5C1A9DDB480013BE5D /* ICACrashReporterTransactionController.m */; };
+		E35C820F023BBD11264D349D /* libPods-ICACrashReporter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F22E62AA2A6AF7F466949A5 /* libPods-ICACrashReporter.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3DBAAF1B8A95807E8A3D5AD2 /* Pods-ICACrashReporter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ICACrashReporter.release.xcconfig"; path = "Pods/Target Support Files/Pods-ICACrashReporter/Pods-ICACrashReporter.release.xcconfig"; sourceTree = "<group>"; };
+		6B7B02993C009BB4A864B46E /* Pods-ICACrashReporter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ICACrashReporter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ICACrashReporter/Pods-ICACrashReporter.debug.xcconfig"; sourceTree = "<group>"; };
+		8F22E62AA2A6AF7F466949A5 /* libPods-ICACrashReporter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ICACrashReporter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BABABA281A9B80A80013BE5D /* ICACrashReporter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ICACrashReporter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BABABA511A9B81160013BE5D /* ICACrashReporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICACrashReporter.h; sourceTree = SOURCE_ROOT; };
 		BABABA521A9B81160013BE5D /* ICACrashReporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICACrashReporter.m; sourceTree = SOURCE_ROOT; };
 		BABABA551A9B82040013BE5D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BABABA581A9DD0460013BE5D /* ICASplunkCrashReporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ICASplunkCrashReporter.h; path = Splunk/ICASplunkCrashReporter.h; sourceTree = SOURCE_ROOT; };
 		BABABA591A9DD0460013BE5D /* ICASplunkCrashReporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ICASplunkCrashReporter.m; path = Splunk/ICASplunkCrashReporter.m; sourceTree = SOURCE_ROOT; };
+		BABABA5B1A9DDB480013BE5D /* ICACrashReporterTransactionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICACrashReporterTransactionController.h; sourceTree = SOURCE_ROOT; };
+		BABABA5C1A9DDB480013BE5D /* ICACrashReporterTransactionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICACrashReporterTransactionController.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +33,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E35C820F023BBD11264D349D /* libPods-ICACrashReporter.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		332A9DE4F42C6B849018426F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F22E62AA2A6AF7F466949A5 /* libPods-ICACrashReporter.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BABABA1F1A9B80A80013BE5D = {
 			isa = PBXGroup;
 			children = (
 				BABABA2A1A9B80A80013BE5D /* ICACrashReporter */,
 				BABABA291A9B80A80013BE5D /* Products */,
+				CB841B9C2D12C61864BD7AC8 /* Pods */,
+				332A9DE4F42C6B849018426F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,6 +73,8 @@
 				BABABA551A9B82040013BE5D /* main.m */,
 				BABABA511A9B81160013BE5D /* ICACrashReporter.h */,
 				BABABA521A9B81160013BE5D /* ICACrashReporter.m */,
+				BABABA5B1A9DDB480013BE5D /* ICACrashReporterTransactionController.h */,
+				BABABA5C1A9DDB480013BE5D /* ICACrashReporterTransactionController.m */,
 			);
 			path = ICACrashReporter;
 			sourceTree = "<group>";
@@ -68,6 +88,15 @@
 			name = Splunk;
 			sourceTree = "<group>";
 		};
+		CB841B9C2D12C61864BD7AC8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B7B02993C009BB4A864B46E /* Pods-ICACrashReporter.debug.xcconfig */,
+				3DBAAF1B8A95807E8A3D5AD2 /* Pods-ICACrashReporter.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -75,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BABABA4B1A9B80A80013BE5D /* Build configuration list for PBXNativeTarget "ICACrashReporter" */;
 			buildPhases = (
+				F43EA70BC26EC1DD7043C758 /* Check Pods Manifest.lock */,
 				BABABA241A9B80A80013BE5D /* Sources */,
 				BABABA251A9B80A80013BE5D /* Frameworks */,
 				BABABA261A9B80A80013BE5D /* Resources */,
+				285C000C15B1FAAB861869ED /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,12 +161,46 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		285C000C15B1FAAB861869ED /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ICACrashReporter/Pods-ICACrashReporter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F43EA70BC26EC1DD7043C758 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BABABA241A9B80A80013BE5D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BABABA5A1A9DD0460013BE5D /* ICASplunkCrashReporter.m in Sources */,
+				BABABA5D1A9DDB480013BE5D /* ICACrashReporterTransactionController.m in Sources */,
 				BABABA561A9B82040013BE5D /* main.m in Sources */,
 				BABABA531A9B81160013BE5D /* ICACrashReporter.m in Sources */,
 			);
@@ -224,6 +289,7 @@
 		};
 		BABABA4C1A9B80A80013BE5D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B7B02993C009BB4A864B46E /* Pods-ICACrashReporter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
@@ -234,6 +300,7 @@
 		};
 		BABABA4D1A9B80A80013BE5D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DBAAF1B8A95807E8A3D5AD2 /* Pods-ICACrashReporter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";

@@ -1,0 +1,10 @@
+PODS:
+  - SplunkMint-iOS (4.0.24)
+
+DEPENDENCIES:
+  - SplunkMint-iOS
+
+SPEC CHECKSUMS:
+  SplunkMint-iOS: 528329b25dcadcb919b99e46f4a786d11c51c82c
+
+COCOAPODS: 0.34.4

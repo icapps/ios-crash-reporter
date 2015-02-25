@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "ICACrashReporterTransactionController.h"
 
 #define ICACrashReporterTransactionId NSString
 
@@ -16,15 +17,13 @@
 - (void)logEvent:(NSString *)eventInfo;
 - (void)logExtraData:(NSString *)key value:(NSString *)value;
 - (void)logException:(NSException *)exception;
-
+- (void)setUserIdentifier:(NSString *)userId;
 
 @end
 
-
-
 @interface ICACrashReporter : NSObject
 
-+ (void)initAndStartWithInstance:(id<ICACrashReporterProvider>)key;
++ (void)initAndStartWithInstance:(id<ICACrashReporterProvider>)instance;
 + (void)setUserIdentifier:(NSString *)userId;
 + (void)restartSession:(NSString *)key user:(NSString *)userId;
 + (void)logBreadcrumb:(NSString *)message, ...;

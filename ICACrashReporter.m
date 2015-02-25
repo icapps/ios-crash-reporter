@@ -11,19 +11,18 @@
 
 @implementation ICACrashReporter
 
-+ (void)initAndStartSession:(NSString *)key {
+static id<ICACrashReporterProvider> _instance = nil;
+
++ (void)initAndStartWithInstance:(id<ICACrashReporterProvider>)instance {
     //[[Mint sharedInstance] initAndStartSession:key];
+    _instance = instance;
+    
     [ICACrashReporter logExtraData:@"BundleId" value:[[NSBundle mainBundle] objectForInfoDictionaryKey:(NSString *)kCFBundleIdentifierKey]];
     [ICACrashReporter logExtraData:@"BuildVersion" value:[[NSBundle mainBundle] objectForInfoDictionaryKey:(NSString *)kCFBundleVersionKey]];
 }
 
 + (void)setUserIdentifier:(NSString *)userId {
-    //[[Mint sharedInstance] setUserIdentifier:userId];
-}
-
-+ (void)restartSession:(NSString *)key user:(NSString *)userId {
-    [ICACrashReporter setUserIdentifier:userId];
-    [ICACrashReporter initAndStartSession:key];
+    [_instance setUserIdentifier:userId];
 }
 
 + (void)logBreadcrumb:(NSString *)message, ... {
@@ -32,17 +31,16 @@
     NSString *content = [[NSString alloc] initWithFormat:message arguments:args];
     va_end(args);
     
-    NSLog(content);
-    //[[Mint sharedInstance] leaveBreadcrumb:content];
+    [_instance logBreadcrumb:content];
 }
 
 + (void)logEvent:(NSString *)eventInfo {
-    //[[Mint sharedInstance] logEventAsyncWithTag:eventInfo completionBlock:nil];
+    [_instance logEvent:eventInfo];
 }
 
 + (void)logExtraData:(NSString *)key value:(NSString *)value {
     if (key && value) {
-        //[[Mint sharedInstance] addExtraData:[[ExtraData alloc] initWithKey:key andValue:value]];
+        [_instance logExtraData:key value:value];
     }
 }
 
@@ -66,7 +64,7 @@
 }
 
 + (void)logException:(NSException *)exception {
-    //MintLogException(exception, nil);
+    [_instance logException:exception];
 }
 
 + (ICACrashReporterTransactionId *)logTransactionStart {

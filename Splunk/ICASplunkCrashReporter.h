@@ -11,10 +11,14 @@
 
 @interface ICASplunkCrashReporter : NSObject <ICACrashReporterProvider>
 
-- (void)initWithKey:(NSString *)key;
+- (id)initWithKey:(NSString *)key;
+
 - (void)logBreadcrumb:(NSString *)breadcrumb;
 - (void)logEvent:(NSString *)eventInfo;
 - (void)logExtraData:(NSString *)key value:(NSString *)value;
 - (void)logException:(NSException *)exception;
+- (void)setUserIdentifier:(NSString *)userId;
+- (void)restartSession:(NSString *)key user:(NSString *)userId;
+
 
 @end
