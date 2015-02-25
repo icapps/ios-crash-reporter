@@ -44,11 +44,23 @@
 }
 
 - (void)logException:(NSException *)exception {
-    
+    MintLogException(exception, nil);
 }
 
 - (void)setUserIdentifier:(NSString *)userId {
     [[Mint sharedInstance] setUserIdentifier:userId];
+}
+
+- (void)startTransaction:(NSString *)transactionId {
+    [[Mint sharedInstance] transactionStart:transactionId andResultBlock:nil];
+}
+
+- (void)stopTransaction:(NSString *)transactionId {
+    [[Mint sharedInstance] transactionStop:transactionId andResultBlock:nil];
+}
+
+- (void)cancelTransaction:(NSString *)transactionId {
+    [[Mint sharedInstance] transactionCancel:transactionId reason:@"" andResultBlock:nil];
 }
 
 @end

@@ -7,7 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "ICACrashReporter.h"
 
 @interface ICACrashReporterTransactionController : NSObject
+
+- (instancetype)initWithInstance:(id<ICACrashReporterProvider>)instance;
+- (void)startTransaction;
+- (void)stopTransaction;
+- (void)cancelTransaction;
 
 @end

@@ -11,6 +11,7 @@
 		BABABA561A9B82040013BE5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BABABA551A9B82040013BE5D /* main.m */; };
 		BABABA5A1A9DD0460013BE5D /* ICASplunkCrashReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = BABABA591A9DD0460013BE5D /* ICASplunkCrashReporter.m */; };
 		BABABA5D1A9DDB480013BE5D /* ICACrashReporterTransactionController.m in Sources */ = {isa = PBXBuildFile; fileRef = BABABA5C1A9DDB480013BE5D /* ICACrashReporterTransactionController.m */; };
+		BABABA611A9DE0BC0013BE5D /* ICAConsoleCrashReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = BABABA601A9DE0BC0013BE5D /* ICAConsoleCrashReporter.m */; };
 		E35C820F023BBD11264D349D /* libPods-ICACrashReporter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F22E62AA2A6AF7F466949A5 /* libPods-ICACrashReporter.a */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +27,8 @@
 		BABABA591A9DD0460013BE5D /* ICASplunkCrashReporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ICASplunkCrashReporter.m; path = Splunk/ICASplunkCrashReporter.m; sourceTree = SOURCE_ROOT; };
 		BABABA5B1A9DDB480013BE5D /* ICACrashReporterTransactionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICACrashReporterTransactionController.h; sourceTree = SOURCE_ROOT; };
 		BABABA5C1A9DDB480013BE5D /* ICACrashReporterTransactionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICACrashReporterTransactionController.m; sourceTree = SOURCE_ROOT; };
+		BABABA5F1A9DE0BC0013BE5D /* ICAConsoleCrashReporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ICAConsoleCrashReporter.h; path = Console/ICAConsoleCrashReporter.h; sourceTree = SOURCE_ROOT; };
+		BABABA601A9DE0BC0013BE5D /* ICAConsoleCrashReporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ICAConsoleCrashReporter.m; path = Console/ICAConsoleCrashReporter.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +72,7 @@
 		BABABA2A1A9B80A80013BE5D /* ICACrashReporter */ = {
 			isa = PBXGroup;
 			children = (
+				BABABA5E1A9DE09E0013BE5D /* Console */,
 				BABABA571A9DD02B0013BE5D /* Splunk */,
 				BABABA551A9B82040013BE5D /* main.m */,
 				BABABA511A9B81160013BE5D /* ICACrashReporter.h */,
@@ -86,6 +90,15 @@
 				BABABA591A9DD0460013BE5D /* ICASplunkCrashReporter.m */,
 			);
 			name = Splunk;
+			sourceTree = "<group>";
+		};
+		BABABA5E1A9DE09E0013BE5D /* Console */ = {
+			isa = PBXGroup;
+			children = (
+				BABABA5F1A9DE0BC0013BE5D /* ICAConsoleCrashReporter.h */,
+				BABABA601A9DE0BC0013BE5D /* ICAConsoleCrashReporter.m */,
+			);
+			name = Console;
 			sourceTree = "<group>";
 		};
 		CB841B9C2D12C61864BD7AC8 /* Pods */ = {
@@ -201,6 +214,7 @@
 			files = (
 				BABABA5A1A9DD0460013BE5D /* ICASplunkCrashReporter.m in Sources */,
 				BABABA5D1A9DDB480013BE5D /* ICACrashReporterTransactionController.m in Sources */,
+				BABABA611A9DE0BC0013BE5D /* ICAConsoleCrashReporter.m in Sources */,
 				BABABA561A9B82040013BE5D /* main.m in Sources */,
 				BABABA531A9B81160013BE5D /* ICACrashReporter.m in Sources */,
 			);

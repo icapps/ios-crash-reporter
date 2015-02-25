@@ -7,7 +7,7 @@
 //
 
 #import "ICACrashReporter.h"
-//#import <SplunkMint-iOS/SplunkMint-iOS.h>
+#import "ICACrashReporterTransactionController.h"
 
 @implementation ICACrashReporter
 
@@ -67,18 +67,8 @@ static id<ICACrashReporterProvider> _instance = nil;
     [_instance logException:exception];
 }
 
-+ (ICACrashReporterTransactionId *)logTransactionStart {
-    ICACrashReporterTransactionId *UUID = [[NSUUID UUID] UUIDString];
-    //[[Mint sharedInstance] transactionStart:UUID andResultBlock:nil];
-    return UUID;
-}
-
-+ (void)logTransactionStop:(ICACrashReporterTransactionId *)transactionId {
-    //[[Mint sharedInstance] transactionStop:transactionId andResultBlock:nil];
-}
-
-+ (void)logTransactionCancel:(ICACrashReporterTransactionId *)transactionId reason:(NSString *)reason {
-    //[[Mint sharedInstance] transactionCancel:transactionId reason:reason andResultBlock:nil];
++ (ICACrashReporterTransactionController *)transactionController {
+    return [[ICACrashReporterTransactionController alloc] initWithInstance:_instance];
 }
 
 @end

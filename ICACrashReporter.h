@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "ICACrashReporterTransactionController.h"
+@class ICACrashReporterTransactionController;
 
 #define ICACrashReporterTransactionId NSString
 
@@ -18,6 +18,9 @@
 - (void)logExtraData:(NSString *)key value:(NSString *)value;
 - (void)logException:(NSException *)exception;
 - (void)setUserIdentifier:(NSString *)userId;
+- (void)startTransaction:(NSString *)transactionId;
+- (void)stopTransaction:(NSString *)transactionId;
+- (void)cancelTransaction:(NSString *)transactionId;
 
 @end
 
@@ -25,7 +28,6 @@
 
 + (void)initAndStartWithInstance:(id<ICACrashReporterProvider>)instance;
 + (void)setUserIdentifier:(NSString *)userId;
-+ (void)restartSession:(NSString *)key user:(NSString *)userId;
 + (void)logBreadcrumb:(NSString *)message, ...;
 + (void)logEvent:(NSString *)eventInfo;
 + (void)logExtraData:(NSString *)key value:(NSString *)value;
@@ -33,8 +35,6 @@
 + (void)logServiceFailureWithURLResponse:(NSHTTPURLResponse *)response;
 + (void)logServiceFailureWithURLResponse:(NSHTTPURLResponse *)response httpMethod:(NSString *)httpMethod;
 + (void)logException:(NSException *)exception;
-+ (ICACrashReporterTransactionId *)logTransactionStart;
-+ (void)logTransactionStop:(ICACrashReporterTransactionId *)transactionId;
-+ (void)logTransactionCancel:(ICACrashReporterTransactionId *)transactionId reason:(NSString *)reason;
++ (ICACrashReporterTransactionController *)transactionController;
 
 @end

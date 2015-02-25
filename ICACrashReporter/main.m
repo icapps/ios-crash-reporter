@@ -9,11 +9,19 @@
 #import <UIKit/UIKit.h>
 #import "ICACrashReporter.h"
 #import "ICASplunkCrashReporter.h"
+#import "ICAConsoleCrashReporter.h"
+#import "ICACrashReporterTransactionController.h"
 
 int main(int argc, char * argv[]) {
-    
-    [ICACrashReporter initAndStartWithInstance:[[ICASplunkCrashReporter alloc] initWithKey:@"bc3ef72f"]];
-    
+    //[ICACrashReporter initAndStartWithInstance:[[ICASplunkCrashReporter alloc] initWithKey:@"bc3ef72f"]];
+    [ICACrashReporter initAndStartWithInstance:[ICAConsoleCrashReporter new]];
     [ICACrashReporter logBreadcrumb:@"test %@ %f %@", @"x", 23.3, @"TEST"];
+
+    [ICACrashReporter logServiceFailure:404 serviceUrl:@"http://icapps.com" httpMethod:@"GET"];
     
+    
+    ICACrashReporterTransactionController *controller = [ICACrashReporter transactionController];
+    [controller startTransaction];
+    [controller stopTransaction];
+    [controller cancelTransaction];
 }

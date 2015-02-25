@@ -1,5 +1,5 @@
 //
-//  ICASplunkCrashReporter.h
+//  ICAConsoleCrashReporter.h
 //  ICACrashReporter
 //
 //  Created by Pieterjan Vandegaer on 25/02/15.
@@ -9,16 +9,13 @@
 #import <Foundation/Foundation.h>
 #import "ICACrashReporter.h"
 
-@interface ICASplunkCrashReporter : NSObject <ICACrashReporterProvider>
-
-- (id)initWithKey:(NSString *)key;
+@interface ICAConsoleCrashReporter : NSObject <ICACrashReporterProvider>
 
 - (void)logBreadcrumb:(NSString *)breadcrumb;
 - (void)logEvent:(NSString *)eventInfo;
 - (void)logExtraData:(NSString *)key value:(NSString *)value;
 - (void)logException:(NSException *)exception;
 - (void)setUserIdentifier:(NSString *)userId;
-- (void)restartSession:(NSString *)key user:(NSString *)userId;
 - (void)startTransaction:(NSString *)transactionId;
 - (void)stopTransaction:(NSString *)transactionId;
 - (void)cancelTransaction:(NSString *)transactionId;
