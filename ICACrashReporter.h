@@ -10,9 +10,21 @@
 
 #define ICACrashReporterTransactionId NSString
 
+@protocol ICACrashReporterProvider <NSObject>
+
+- (void)logBreadcrumb:(NSString *)breadcrumb;
+- (void)logEvent:(NSString *)eventInfo;
+- (void)logExtraData:(NSString *)key value:(NSString *)value;
+- (void)logException:(NSException *)exception;
+
+
+@end
+
+
+
 @interface ICACrashReporter : NSObject
 
-+ (void)initAndStartSession:(NSString *)key;
++ (void)initAndStartWithInstance:(id<ICACrashReporterProvider>)key;
 + (void)setUserIdentifier:(NSString *)userId;
 + (void)restartSession:(NSString *)key user:(NSString *)userId;
 + (void)logBreadcrumb:(NSString *)message, ...;

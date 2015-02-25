@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		BABABA531A9B81160013BE5D /* ICACrashReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = BABABA521A9B81160013BE5D /* ICACrashReporter.m */; };
 		BABABA561A9B82040013BE5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BABABA551A9B82040013BE5D /* main.m */; };
+		BABABA5A1A9DD0460013BE5D /* ICASplunkCrashReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = BABABA591A9DD0460013BE5D /* ICASplunkCrashReporter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +17,8 @@
 		BABABA511A9B81160013BE5D /* ICACrashReporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICACrashReporter.h; sourceTree = SOURCE_ROOT; };
 		BABABA521A9B81160013BE5D /* ICACrashReporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICACrashReporter.m; sourceTree = SOURCE_ROOT; };
 		BABABA551A9B82040013BE5D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BABABA581A9DD0460013BE5D /* ICASplunkCrashReporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ICASplunkCrashReporter.h; path = Splunk/ICASplunkCrashReporter.h; sourceTree = SOURCE_ROOT; };
+		BABABA591A9DD0460013BE5D /* ICASplunkCrashReporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ICASplunkCrashReporter.m; path = Splunk/ICASplunkCrashReporter.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,11 +51,21 @@
 		BABABA2A1A9B80A80013BE5D /* ICACrashReporter */ = {
 			isa = PBXGroup;
 			children = (
+				BABABA571A9DD02B0013BE5D /* Splunk */,
 				BABABA551A9B82040013BE5D /* main.m */,
 				BABABA511A9B81160013BE5D /* ICACrashReporter.h */,
 				BABABA521A9B81160013BE5D /* ICACrashReporter.m */,
 			);
 			path = ICACrashReporter;
+			sourceTree = "<group>";
+		};
+		BABABA571A9DD02B0013BE5D /* Splunk */ = {
+			isa = PBXGroup;
+			children = (
+				BABABA581A9DD0460013BE5D /* ICASplunkCrashReporter.h */,
+				BABABA591A9DD0460013BE5D /* ICASplunkCrashReporter.m */,
+			);
+			name = Splunk;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BABABA5A1A9DD0460013BE5D /* ICASplunkCrashReporter.m in Sources */,
 				BABABA561A9B82040013BE5D /* main.m in Sources */,
 				BABABA531A9B81160013BE5D /* ICACrashReporter.m in Sources */,
 			);
