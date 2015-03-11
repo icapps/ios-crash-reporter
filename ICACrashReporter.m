@@ -30,7 +30,10 @@ static id<ICACrashReporterProvider> _instance = nil;
     NSString *content = [[NSString alloc] initWithFormat:message arguments:args];
     va_end(args);
     
-    [_instance logBreadcrumb:content];
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    [formatter setDateFormat:@"hh:mm:ss"];
+    
+    [_instance logBreadcrumb:[NSString stringWithFormat:@"(%@) %@",[formatter stringFromDate:[NSDate date]], content]];
 }
 
 + (void)logEvent:(NSString *)eventInfo {
