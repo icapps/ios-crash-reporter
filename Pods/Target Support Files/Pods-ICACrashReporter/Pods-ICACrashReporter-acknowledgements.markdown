@@ -1,10 +1,6 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## GoogleAnalytics-iOS-SDK
-
-Copyright 2009 - 2015 Google, Inc. All rights reserved.
-
 ## SplunkMint-iOS
 
 See https://mint.splunk.com/termsofuse

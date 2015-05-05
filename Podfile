@@ -5,6 +5,5 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 target 'ICACrashReporter' do
 pod 'SplunkMint-iOS'
-pod 'GoogleAnalytics-iOS-SDK'
 end
 
