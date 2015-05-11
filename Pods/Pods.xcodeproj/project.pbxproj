@@ -1,2616 +1,479 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>00B5709194082830FE6D551A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MintRequestContentType.h</string>
-			<key>path</key>
-			<string>SplunkMint-iOS.framework/Versions/A/Headers/MintRequestContentType.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>00E71F0C95FC000ECA3D7DB7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>DataErrorResponse.h</string>
-			<key>path</key>
-			<string>SplunkMint-iOS.framework/Versions/A/Headers/DataErrorResponse.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>01178F828FBC83C8521B43FA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MintInternalRequest.h</string>
-			<key>path</key>
-			<string>SplunkMint-iOS.framework/Versions/A/Headers/MintInternalRequest.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>03217CB5863DF2EAB5BFC542</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MintTransaction.h</string>
-			<key>path</key>
-			<string>SplunkMint-iOS.framework/Versions/A/Headers/MintTransaction.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>03FFE7E613BE1DF3CCAAADFF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ExceptionDataFixture.h</string>
-			<key>path</key>
-			<string>SplunkMint-iOS.framework/Versions/A/Headers/ExceptionDataFixture.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>08B8ABCCFBCBCA638161EAE6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6A69C53E112979686074562B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>09A86FACE50EA2CFA7C32E61</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1DC9118697F4BDEBFACBC40C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>09F9D403F40CE73F04CF7D35</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A51EA7C3B897DC325972DE48</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0A239DCD326DFB57DD34E034</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B36E2A56B83ADF6C9DB1B1E8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0AFA6BFF279F8F478B5A025A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>TransactionStopResult.h</string>
-			<key>path</key>
-			<string>SplunkMint-iOS.framework/Versions/A/Headers/TransactionStopResult.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0C43AF3728F6C52F422D55BD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SPLJSONKeyMapper.h</string>
-			<key>path</key>
-			<string>SplunkMint-iOS.framework/Versions/A/Headers/SPLJSONKeyMapper.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0F2266F8790B655C25E47FFD</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>6CBF3BE76F0A469C051EC1FE</string>
-				<string>4206D4407E2FFC4462476BED</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>11A44A13C84065AE606B0842</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>XamarinHelper.h</string>
-			<key>path</key>
-			<string>SplunkMint-iOS.framework/Versions/A/Headers/XamarinHelper.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>125698D50D54FAE9B26865F4</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8A878AF56B7D182CC1D927AD</string>
-				<string>AE3C5DD054ECC15579FD96A6</string>
-				<string>1BB4C7B77FFC2663C763A7F6</string>
-				<string>0F2266F8790B655C25E47FFD</string>
-				<string>F68B145B83CB86B2922CECF1</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>12EACC0EEA72848FFB0556E3</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>4582166831C393839E93214E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>1306109808845ED2E1D6B679</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-ICACrashReporter.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>149F00F74C3CB3CBDC482E94</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E924DEFB1473FF39FC6C3663</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1561D105D87DB8D8D5F25F27</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A2973C68039596D9762115B5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>188DA9E4FA844F13262EFA02</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MintLogResult.h</string>
-			<key>path</key>
-			<string>SplunkMint-iOS.framework/Versions/A/Headers/MintLogResult.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>197BCA777A0FA6CB5936E965</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NSDate+DateExtensions.h</string>
-			<key>path</key>
-			<string>SplunkMint-iOS.framework/Versions/A/Headers/NSDate+DateExtensions.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1A410E215DADD3017823D5A7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>LimitedBreadcrumbList.h</string>
-			<key>path</key>
-			<string>SplunkMint-iOS.framework/Versions/A/Headers/LimitedBreadcrumbList.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1A89D7E556CFCCF082223D4C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BE999E6A332E36807CAA1216</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1AA721A9B262683AF7FDFF67</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NSString+Extensions.h</string>
-			<key>path</key>
-			<string>SplunkMint-iOS.framework/Versions/A/Headers/NSString+Extensions.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1BB4C7B77FFC2663C763A7F6</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D3922B11BAC196BECFCBF87B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1D8E6415BB501A346B2BD039</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>TransactionResult.h</string>
-			<key>path</key>
-			<string>SplunkMint-iOS.framework/Versions/A/Headers/TransactionResult.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1DC9118697F4BDEBFACBC40C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>TypeBlocks.h</string>
-			<key>path</key>
-			<string>SplunkMint-iOS.framework/Versions/A/Headers/TypeBlocks.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2044FDFA88F3FDC3106BC571</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>67AEF100418DFABF6F42DD26</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>9BD3DA2DA931FFB15DA36A97</string>
-			<key>remoteInfo</key>
-			<string>Pods-ICACrashReporter-SplunkMint-iOS</string>
-		</dict>
-		<key>20DCA129F26A7C5DF4050B96</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MintClient.h</string>
-			<key>path</key>
-			<string>SplunkMint-iOS.framework/Versions/A/Headers/MintClient.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>21CDD83DD57210CC33022A33</key>
-		<dict>
-			<key>fileRef</key>
-			<string>28638C9AB54AF01F9CBBF414</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>249E1F39E31A421D4E1D17E7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7DB8E7661F25F2F3EEACCD38</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2633F55023EBEBAD7C85397D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>DeviceInfoDelegate.h</string>
-			<key>path</key>
-			<string>SplunkMint-iOS.framework/Versions/A/Headers/DeviceInfoDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>28638C9AB54AF01F9CBBF414</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>TransactionStartResult.h</string>
-			<key>path</key>
-			<string>SplunkMint-iOS.framework/Versions/A/Headers/TransactionStartResult.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2AEA91BA18D96EF5A332D4A3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MintResult.h</string>
-			<key>path</key>
-			<string>SplunkMint-iOS.framework/Versions/A/Headers/MintResult.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2AFC6E85D891430BC3AE103D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>TrStop.h</string>
-			<key>path</key>
-			<string>SplunkMint-iOS.framework/Versions/A/Headers/TrStop.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2C5FDB38F26A4A41D67287F8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>BugSenseBase.h</string>
-			<key>path</key>
-			<string>SplunkMint-iOS.framework/Versions/A/Headers/BugSenseBase.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2D3DFAF53B575704B9484F84</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MintProperties.h</string>
-			<key>path</key>
-			<string>SplunkMint-iOS.framework/Versions/A/Headers/MintProperties.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2DCB27E4A766325B0CE916D1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>503DCC3080046BC9FEA9D77F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>311C1CE95049C56CB85BAAEF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8317198B6438B9D2613D422B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>323C5D9B2561E2B868939DEA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-ICACrashReporter-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>35921C28DEADEE5B69DEC087</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F3D4339C342092C8DEAF5A1C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>360BA23615150DF7C1611BD9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>LimitedExtraDataList.h</string>
-			<key>path</key>
-			<string>SplunkMint-iOS.framework/Versions/A/Headers/LimitedExtraDataList.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3697791D25076582DE591AD4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0C43AF3728F6C52F422D55BD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3738F119B735380A23A1AED5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>RemoteSettingsData.h</string>
-			<key>path</key>
-			<string>SplunkMint-iOS.framework/Versions/A/Headers/RemoteSettingsData.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>37753222D3A596CCDBB6626E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>360BA23615150DF7C1611BD9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>393A573A56612727B3D3EFAE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-ICACrashReporter-environment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3A4FA89F754A25DF283D4735</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>68CF0F64B4808AE1DC3DBD42</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>3A6A078D652DF703059263A6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>LoggedRequestEventArgs.h</string>
-			<key>path</key>
-			<string>SplunkMint-iOS.framework/Versions/A/Headers/LoggedRequestEventArgs.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3A93D7E170A17E7B1103706D</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>NO</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>RELEASE=1</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.1</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>3C2786F797F166B614C84A33</key>
-		<dict>
-			<key>fileRef</key>
-			<string>03217CB5863DF2EAB5BFC542</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3C3C957CD869529EDEAF14D4</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreTelephony.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreTelephony.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>3D7830CBEAA316D5CE2D9E26</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3C3C957CD869529EDEAF14D4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3DD8D3C60BA92B410FCA14F2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>01178F828FBC83C8521B43FA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3E4A2D5358D4310CE270CB0E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>TrStart.h</string>
-			<key>path</key>
-			<string>SplunkMint-iOS.framework/Versions/A/Headers/TrStart.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>40FC09B8ACDFFDB1CEA18A1A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MintException.h</string>
-			<key>path</key>
-			<string>SplunkMint-iOS.framework/Versions/A/Headers/MintException.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4206D4407E2FFC4462476BED</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-ICACrashReporter-SplunkMint-iOS.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>42269DF717286A4C0E053705</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SplunkMint-iOS.h</string>
-			<key>path</key>
-			<string>SplunkMint-iOS.framework/Versions/A/Headers/SplunkMint-iOS.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>44B4DFA452D34CB9D88C3659</key>
-		<dict>
-			<key>fileRef</key>
-			<string>188DA9E4FA844F13262EFA02</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4582166831C393839E93214E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>900F67A9F38E9CFDBF03FA08</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>45C9B18D3E416E6381730EBF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MintPerformance.h</string>
-			<key>path</key>
-			<string>SplunkMint-iOS.framework/Versions/A/Headers/MintPerformance.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>46C093A725F3471E43BE0B99</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MintLogger.h</string>
-			<key>path</key>
-			<string>SplunkMint-iOS.framework/Versions/A/Headers/MintLogger.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4820F584AB41DBACDAF349AB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>93FA6025D8CEAB4BB096CC39</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4896B686BFE668EE974EEEB5</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>84310BBE02C9BD00416D31FB</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-ICACrashReporter-SplunkMint-iOS/Pods-ICACrashReporter-SplunkMint-iOS-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>4A0A6705D47A832760F25075</key>
-		<dict>
-			<key>fileRef</key>
-			<string>90D04E17A66A7A84928D3E7E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4A3644B6EA89C314DA89F9FD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UnhandledCrashExtra.h</string>
-			<key>path</key>
-			<string>SplunkMint-iOS.framework/Versions/A/Headers/UnhandledCrashExtra.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4C6B94A7AFB038EE2F4A7B3F</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>84310BBE02C9BD00416D31FB</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-ICACrashReporter-SplunkMint-iOS/Pods-ICACrashReporter-SplunkMint-iOS-prefix.pch</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>4D6FBB183FB0CD7B81369F8B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D9FB43EECE55ECB5CA679EBB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4EF401AA3BDF7C0482F71664</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>59D9F4EF7FD2A20CE7B521AA</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>4FC908C6044EAB81053E38E7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B8D858AF7CC3C105AA639768</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>503DCC3080046BC9FEA9D77F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>RequestWorkerDelegate.h</string>
-			<key>path</key>
-			<string>SplunkMint-iOS.framework/Versions/A/Headers/RequestWorkerDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>50DAB453D4D10DFDB897777B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>3D7830CBEAA316D5CE2D9E26</string>
-				<string>B2558CF729674867828BA954</string>
-				<string>ED6B19D6E3F817432576FB1D</string>
-				<string>4820F584AB41DBACDAF349AB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>534C2DBA9698696E7CB81193</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>1306109808845ED2E1D6B679</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>540C6D5EE8FFE799C24B4578</key>
-		<dict>
-			<key>fileRef</key>
-			<string>03FFE7E613BE1DF3CCAAADFF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>545B230E968F06DC6FD4D846</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D455BAAE113F0C9FAFFC4076</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>548277B6EBE90FC607FFEFE1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2AEA91BA18D96EF5A332D4A3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>55AB8647F77B530C6205899A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4A3644B6EA89C314DA89F9FD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5804A75201B803FF8AB1062F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MintMessageException.h</string>
-			<key>path</key>
-			<string>SplunkMint-iOS.framework/Versions/A/Headers/MintMessageException.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>58EEEF24090A58A801A92AFD</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3C3C957CD869529EDEAF14D4</string>
-				<string>A72921FE5A4D53E67B273AE8</string>
-				<string>BEAF4103102C137423C300FA</string>
-				<string>93FA6025D8CEAB4BB096CC39</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>59710E6F3EAA976002BE0F8E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>EventDataFixture.h</string>
-			<key>path</key>
-			<string>SplunkMint-iOS.framework/Versions/A/Headers/EventDataFixture.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>59755D39DDA53BE06D6C63FC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>11A44A13C84065AE606B0842</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>59D9F4EF7FD2A20CE7B521AA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-ICACrashReporter.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5BB88810B815E8D1F38062B1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SPLJSONValueTransformer.h</string>
-			<key>path</key>
-			<string>SplunkMint-iOS.framework/Versions/A/Headers/SPLJSONValueTransformer.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5E31BFAD42EB4A7ABBA49E7F</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>NO</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.1</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>5E40549D58D8EB57BDD3BED6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2D3DFAF53B575704B9484F84</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5F7B76B1BF882F300A0EF7A1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>675BEF5D3391775D9045FB10</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>60B87741448B5B662C5ED071</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>81DD852B8F49831F26B8E56F</string>
-			<key>buildPhases</key>
-			<array>
-				<string>12EACC0EEA72848FFB0556E3</string>
-				<string>3A4FA89F754A25DF283D4735</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>6CFB69FAE36CE4DD9054D641</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-ICACrashReporter</string>
-			<key>productName</key>
-			<string>Pods-ICACrashReporter</string>
-			<key>productReference</key>
-			<string>6CBF3BE76F0A469C051EC1FE</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>656B6B199A6258517F71F5EA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>ABB68358775E35ED0F3998E5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>675BEF5D3391775D9045FB10</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>BugSense.h</string>
-			<key>path</key>
-			<string>SplunkMint-iOS.framework/Versions/A/Headers/BugSense.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>67AEF100418DFABF6F42DD26</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0510</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>6F6314C09C9D4F8D2F511FD3</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>125698D50D54FAE9B26865F4</string>
-			<key>productRefGroup</key>
-			<string>0F2266F8790B655C25E47FFD</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>60B87741448B5B662C5ED071</string>
-				<string>9BD3DA2DA931FFB15DA36A97</string>
-			</array>
-		</dict>
-		<key>687BD964F26788AC6466B610</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>EnumStringHelper.h</string>
-			<key>path</key>
-			<string>SplunkMint-iOS.framework/Versions/A/Headers/EnumStringHelper.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>68CF0F64B4808AE1DC3DBD42</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A72921FE5A4D53E67B273AE8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6A69C53E112979686074562B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MintAppEnvironment.h</string>
-			<key>path</key>
-			<string>SplunkMint-iOS.framework/Versions/A/Headers/MintAppEnvironment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6AEEB43C09A9C4979E3DEE46</key>
-		<dict>
-			<key>fileRef</key>
-			<string>905D18F0C669C33D075305A2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6C3BA4063EC0493AF1D95E6E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2C5FDB38F26A4A41D67287F8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6CBF3BE76F0A469C051EC1FE</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-ICACrashReporter.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>6CFB69FAE36CE4DD9054D641</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>9BD3DA2DA931FFB15DA36A97</string>
-			<key>targetProxy</key>
-			<string>2044FDFA88F3FDC3106BC571</string>
-		</dict>
-		<key>6DA732DC085D0C6F44C56501</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E9E440341FFB6BAC49C43B93</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6DE2902C97382E98AFC7E760</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A3E4BEA885A20CE4AB30BF66</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>6F6314C09C9D4F8D2F511FD3</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>5E31BFAD42EB4A7ABBA49E7F</string>
-				<string>3A93D7E170A17E7B1103706D</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>73D6DA584A3C3F63EC066F13</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2633F55023EBEBAD7C85397D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7679D43948AA697D10DAED0B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3A6A078D652DF703059263A6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7A2D63700987807599C52DAF</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>323C5D9B2561E2B868939DEA</string>
-				<string>826F75692D5508B5ADE6112E</string>
-				<string>900F67A9F38E9CFDBF03FA08</string>
-				<string>393A573A56612727B3D3EFAE</string>
-				<string>7B1627070B12ABFCBF9F4052</string>
-				<string>59D9F4EF7FD2A20CE7B521AA</string>
-				<string>1306109808845ED2E1D6B679</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-ICACrashReporter</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-ICACrashReporter</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7B1627070B12ABFCBF9F4052</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-ICACrashReporter-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7C220C6AC2019A6E7E3A23C1</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D8784E41DE5AA744E19BAF44</string>
-				<string>84310BBE02C9BD00416D31FB</string>
-				<string>E924DEFB1473FF39FC6C3663</string>
-				<string>855F284056888509B9FF72DC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/Pods-ICACrashReporter-SplunkMint-iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7D547CEF83FCA727B538787F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EDF6FB9D51961A812AE62405</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7DB8E7661F25F2F3EEACCD38</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MintExceptionRequest.h</string>
-			<key>path</key>
-			<string>SplunkMint-iOS.framework/Versions/A/Headers/MintExceptionRequest.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7EBDC150C8CE7D0AA021D184</key>
-		<dict>
-			<key>fileRef</key>
-			<string>928C9D041AFD596E046F4659</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7F1D28B8DDC3ADAB883F1113</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2AFC6E85D891430BC3AE103D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7F90ACB82E77EA2CEFA0C4EA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B736B24ACF7871535BB1C4FE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>81DD852B8F49831F26B8E56F</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>4EF401AA3BDF7C0482F71664</string>
-				<string>534C2DBA9698696E7CB81193</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>826F75692D5508B5ADE6112E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-ICACrashReporter-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8317198B6438B9D2613D422B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NetworkDataFixture.h</string>
-			<key>path</key>
-			<string>SplunkMint-iOS.framework/Versions/A/Headers/NetworkDataFixture.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84310BBE02C9BD00416D31FB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-ICACrashReporter-SplunkMint-iOS-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>852A10FE0EFEF582E49C8455</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BE9BCE2717A189CCA18DC59E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>855F284056888509B9FF72DC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-ICACrashReporter-SplunkMint-iOS-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86D05E57C8085A35CF6489A0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>46C093A725F3471E43BE0B99</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8755614C7BA7C4462070F81E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A22AB7E3715FD06A35A61E51</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>876D4E194E943BD4FA3178EC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>98D6219368ADEDCAE13BAAA2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>879148533DCB3F3E855AB079</key>
-		<dict>
-			<key>fileRef</key>
-			<string>45C9B18D3E416E6381730EBF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>87ADBBE1B0BBBC06AC47411C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B7612CF710F664E725B6D765</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>88EFD69F4F2EE1E817C8F8FA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1D8E6415BB501A346B2BD039</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8A878AF56B7D182CC1D927AD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>8C75EA696B54B8BB12539506</key>
-		<dict>
-			<key>fileRef</key>
-			<string>40FC09B8ACDFFDB1CEA18A1A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8D271EE085F06B12420D65A6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>JsonRequestType.h</string>
-			<key>path</key>
-			<string>SplunkMint-iOS.framework/Versions/A/Headers/JsonRequestType.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8E499A4BFCA365E7BE8C445A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>RequestJsonSerializerDelegate.h</string>
-			<key>path</key>
-			<string>SplunkMint-iOS.framework/Versions/A/Headers/RequestJsonSerializerDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>900F67A9F38E9CFDBF03FA08</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-ICACrashReporter-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>905D18F0C669C33D075305A2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ExtraData.h</string>
-			<key>path</key>
-			<string>SplunkMint-iOS.framework/Versions/A/Headers/ExtraData.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>90BB6769098C343A74186D36</key>
-		<dict>
-			<key>fileRef</key>
-			<string>42269DF717286A4C0E053705</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>90D04E17A66A7A84928D3E7E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SPLJSONModelLib.h</string>
-			<key>path</key>
-			<string>SplunkMint-iOS.framework/Versions/A/Headers/SPLJSONModelLib.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>928C9D041AFD596E046F4659</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SPLTransaction.h</string>
-			<key>path</key>
-			<string>SplunkMint-iOS.framework/Versions/A/Headers/SPLTransaction.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>93FA6025D8CEAB4BB096CC39</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>SystemConfiguration.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/SystemConfiguration.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>97EEBDA15B1980A74EF53969</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9CD281D7730C3D991B017A49</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>98D6219368ADEDCAE13BAAA2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CrashOnLastRun.h</string>
-			<key>path</key>
-			<string>SplunkMint-iOS.framework/Versions/A/Headers/CrashOnLastRun.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9BD3DA2DA931FFB15DA36A97</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>C012D553B25C71C77121DADF</string>
-			<key>buildPhases</key>
-			<array>
-				<string>E62B2BB43B8D2B6302AB3657</string>
-				<string>50DAB453D4D10DFDB897777B</string>
-				<string>F9438CEBAC8A8ADA80396911</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-ICACrashReporter-SplunkMint-iOS</string>
-			<key>productName</key>
-			<string>Pods-ICACrashReporter-SplunkMint-iOS</string>
-			<key>productReference</key>
-			<string>4206D4407E2FFC4462476BED</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>9CD281D7730C3D991B017A49</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>Mint.h</string>
-			<key>path</key>
-			<string>SplunkMint-iOS.framework/Versions/A/Headers/Mint.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9E3EA0F9CFB20F3236C73191</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ScreenProperties.h</string>
-			<key>path</key>
-			<string>SplunkMint-iOS.framework/Versions/A/Headers/ScreenProperties.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9FD6390FB93937475428AF58</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3E4A2D5358D4310CE270CB0E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A0F4E5723BF0920F7246ECFD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3738F119B735380A23A1AED5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A22AB7E3715FD06A35A61E51</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SPLJSONModelArray.h</string>
-			<key>path</key>
-			<string>SplunkMint-iOS.framework/Versions/A/Headers/SPLJSONModelArray.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A2973C68039596D9762115B5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MintConstants.h</string>
-			<key>path</key>
-			<string>SplunkMint-iOS.framework/Versions/A/Headers/MintConstants.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A359CE205111BBEB44097581</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>RequestWorkerFacadeDelegate.h</string>
-			<key>path</key>
-			<string>SplunkMint-iOS.framework/Versions/A/Headers/RequestWorkerFacadeDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A3E4BEA885A20CE4AB30BF66</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ContentTypeDelegate.h</string>
-			<key>path</key>
-			<string>SplunkMint-iOS.framework/Versions/A/Headers/ContentTypeDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A4283C3F3F6202B1F7785FBF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5804A75201B803FF8AB1062F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A51EA7C3B897DC325972DE48</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>DataFixture.h</string>
-			<key>path</key>
-			<string>SplunkMint-iOS.framework/Versions/A/Headers/DataFixture.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A626BAB97D43FEFAAEDDAF65</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F4D5EE38D1FB828CBFFCE686</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A72921FE5A4D53E67B273AE8</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>AA9AF8380234EFF02ED6F354</key>
-		<dict>
-			<key>fileRef</key>
-			<string>20DCA129F26A7C5DF4050B96</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>ABB68358775E35ED0F3998E5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>BugSenseEventFactory.h</string>
-			<key>path</key>
-			<string>SplunkMint-iOS.framework/Versions/A/Headers/BugSenseEventFactory.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AC45E795D54141A301F4EA1E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BBDB7AD79E79E46BB92E22D7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AE3C5DD054ECC15579FD96A6</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>58EEEF24090A58A801A92AFD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AE6074694163242303FF81D7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MintBase.h</string>
-			<key>path</key>
-			<string>SplunkMint-iOS.framework/Versions/A/Headers/MintBase.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B0658B008308B88B60D3989E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>197BCA777A0FA6CB5936E965</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B2558CF729674867828BA954</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A72921FE5A4D53E67B273AE8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B36E2A56B83ADF6C9DB1B1E8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NSArray+SPLJSONModel.h</string>
-			<key>path</key>
-			<string>SplunkMint-iOS.framework/Versions/A/Headers/NSArray+SPLJSONModel.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B736B24ACF7871535BB1C4FE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ExceptionManagerDelegate.h</string>
-			<key>path</key>
-			<string>SplunkMint-iOS.framework/Versions/A/Headers/ExceptionManagerDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B7612CF710F664E725B6D765</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MintEnums.h</string>
-			<key>path</key>
-			<string>SplunkMint-iOS.framework/Versions/A/Headers/MintEnums.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B8D858AF7CC3C105AA639768</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ScreenDataFixture.h</string>
-			<key>path</key>
-			<string>SplunkMint-iOS.framework/Versions/A/Headers/ScreenDataFixture.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B9A565D4A200141BDF6249F4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A359CE205111BBEB44097581</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BBA2F7F87227DDE6608CA0A2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8E499A4BFCA365E7BE8C445A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BBDB7AD79E79E46BB92E22D7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SPLJSONModelError.h</string>
-			<key>path</key>
-			<string>SplunkMint-iOS.framework/Versions/A/Headers/SPLJSONModelError.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BD5F5DC92079FED90FB118E1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>59710E6F3EAA976002BE0F8E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BE999E6A332E36807CAA1216</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UnhandledCrashReportArgs.h</string>
-			<key>path</key>
-			<string>SplunkMint-iOS.framework/Versions/A/Headers/UnhandledCrashReportArgs.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BE9BCE2717A189CCA18DC59E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MintResponseResult.h</string>
-			<key>path</key>
-			<string>SplunkMint-iOS.framework/Versions/A/Headers/MintResponseResult.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BEAF4103102C137423C300FA</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>SplunkMint-iOS.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/SplunkMint-iOS.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>C012D553B25C71C77121DADF</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>4896B686BFE668EE974EEEB5</string>
-				<string>4C6B94A7AFB038EE2F4A7B3F</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>C0998E7F622C29A4904591C9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0AFA6BFF279F8F478B5A025A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C1C26F202F9A179CDAC4A7E5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>00E71F0C95FC000ECA3D7DB7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C2666187D30D12E65A86A675</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1A410E215DADD3017823D5A7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C3EBC24B93C336AD6435B0FE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1AA721A9B262683AF7FDFF67</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C792D65187F2813EA5654F33</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AE6074694163242303FF81D7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D3922B11BAC196BECFCBF87B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>675BEF5D3391775D9045FB10</string>
-				<string>2C5FDB38F26A4A41D67287F8</string>
-				<string>ABB68358775E35ED0F3998E5</string>
-				<string>A3E4BEA885A20CE4AB30BF66</string>
-				<string>98D6219368ADEDCAE13BAAA2</string>
-				<string>00E71F0C95FC000ECA3D7DB7</string>
-				<string>A51EA7C3B897DC325972DE48</string>
-				<string>2633F55023EBEBAD7C85397D</string>
-				<string>687BD964F26788AC6466B610</string>
-				<string>59710E6F3EAA976002BE0F8E</string>
-				<string>03FFE7E613BE1DF3CCAAADFF</string>
-				<string>B736B24ACF7871535BB1C4FE</string>
-				<string>905D18F0C669C33D075305A2</string>
-				<string>D9FB43EECE55ECB5CA679EBB</string>
-				<string>8D271EE085F06B12420D65A6</string>
-				<string>1A410E215DADD3017823D5A7</string>
-				<string>360BA23615150DF7C1611BD9</string>
-				<string>3A6A078D652DF703059263A6</string>
-				<string>9CD281D7730C3D991B017A49</string>
-				<string>6A69C53E112979686074562B</string>
-				<string>AE6074694163242303FF81D7</string>
-				<string>20DCA129F26A7C5DF4050B96</string>
-				<string>A2973C68039596D9762115B5</string>
-				<string>B7612CF710F664E725B6D765</string>
-				<string>E9E440341FFB6BAC49C43B93</string>
-				<string>40FC09B8ACDFFDB1CEA18A1A</string>
-				<string>7DB8E7661F25F2F3EEACCD38</string>
-				<string>01178F828FBC83C8521B43FA</string>
-				<string>188DA9E4FA844F13262EFA02</string>
-				<string>46C093A725F3471E43BE0B99</string>
-				<string>5804A75201B803FF8AB1062F</string>
-				<string>D455BAAE113F0C9FAFFC4076</string>
-				<string>45C9B18D3E416E6381730EBF</string>
-				<string>2D3DFAF53B575704B9484F84</string>
-				<string>00B5709194082830FE6D551A</string>
-				<string>BE9BCE2717A189CCA18DC59E</string>
-				<string>2AEA91BA18D96EF5A332D4A3</string>
-				<string>03217CB5863DF2EAB5BFC542</string>
-				<string>B36E2A56B83ADF6C9DB1B1E8</string>
-				<string>197BCA777A0FA6CB5936E965</string>
-				<string>1AA721A9B262683AF7FDFF67</string>
-				<string>8317198B6438B9D2613D422B</string>
-				<string>3738F119B735380A23A1AED5</string>
-				<string>8E499A4BFCA365E7BE8C445A</string>
-				<string>503DCC3080046BC9FEA9D77F</string>
-				<string>A359CE205111BBEB44097581</string>
-				<string>0C43AF3728F6C52F422D55BD</string>
-				<string>EDF6FB9D51961A812AE62405</string>
-				<string>A22AB7E3715FD06A35A61E51</string>
-				<string>F4D5EE38D1FB828CBFFCE686</string>
-				<string>BBDB7AD79E79E46BB92E22D7</string>
-				<string>90D04E17A66A7A84928D3E7E</string>
-				<string>5BB88810B815E8D1F38062B1</string>
-				<string>928C9D041AFD596E046F4659</string>
-				<string>B8D858AF7CC3C105AA639768</string>
-				<string>9E3EA0F9CFB20F3236C73191</string>
-				<string>ED893B1D0B76B9FDD3167D5E</string>
-				<string>F3D4339C342092C8DEAF5A1C</string>
-				<string>42269DF717286A4C0E053705</string>
-				<string>3E4A2D5358D4310CE270CB0E</string>
-				<string>2AFC6E85D891430BC3AE103D</string>
-				<string>1D8E6415BB501A346B2BD039</string>
-				<string>28638C9AB54AF01F9CBBF414</string>
-				<string>0AFA6BFF279F8F478B5A025A</string>
-				<string>1DC9118697F4BDEBFACBC40C</string>
-				<string>4A3644B6EA89C314DA89F9FD</string>
-				<string>BE999E6A332E36807CAA1216</string>
-				<string>11A44A13C84065AE606B0842</string>
-				<string>7C220C6AC2019A6E7E3A23C1</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>SplunkMint-iOS</string>
-			<key>path</key>
-			<string>SplunkMint-iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D455BAAE113F0C9FAFFC4076</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MintNotificationDelegate.h</string>
-			<key>path</key>
-			<string>SplunkMint-iOS.framework/Versions/A/Headers/MintNotificationDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D8784E41DE5AA744E19BAF44</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-ICACrashReporter-SplunkMint-iOS.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D9FB43EECE55ECB5CA679EBB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FileClientDelegate.h</string>
-			<key>path</key>
-			<string>SplunkMint-iOS.framework/Versions/A/Headers/FileClientDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DCF13810D7983B5895E5BFD7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>00B5709194082830FE6D551A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DD54382DE42B1E4E6711120D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9E3EA0F9CFB20F3236C73191</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DF0F85E6E12AB360DD3F5F1A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>ED893B1D0B76B9FDD3167D5E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E62B2BB43B8D2B6302AB3657</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>149F00F74C3CB3CBDC482E94</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>E924DEFB1473FF39FC6C3663</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-ICACrashReporter-SplunkMint-iOS-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E9E440341FFB6BAC49C43B93</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MintErrorResponse.h</string>
-			<key>path</key>
-			<string>SplunkMint-iOS.framework/Versions/A/Headers/MintErrorResponse.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>ED0761885582C7601DCBDABB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5BB88810B815E8D1F38062B1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>ED6B19D6E3F817432576FB1D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BEAF4103102C137423C300FA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>ED893B1D0B76B9FDD3167D5E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SerializeResult.h</string>
-			<key>path</key>
-			<string>SplunkMint-iOS.framework/Versions/A/Headers/SerializeResult.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EDF6FB9D51961A812AE62405</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SPLJSONModel.h</string>
-			<key>path</key>
-			<string>SplunkMint-iOS.framework/Versions/A/Headers/SPLJSONModel.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F3D4339C342092C8DEAF5A1C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ServiceClientDelegate.h</string>
-			<key>path</key>
-			<string>SplunkMint-iOS.framework/Versions/A/Headers/ServiceClientDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F4D5EE38D1FB828CBFFCE686</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SPLJSONModelClassProperty.h</string>
-			<key>path</key>
-			<string>SplunkMint-iOS.framework/Versions/A/Headers/SPLJSONModelClassProperty.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F68B145B83CB86B2922CECF1</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7A2D63700987807599C52DAF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F9438CEBAC8A8ADA80396911</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>5F7B76B1BF882F300A0EF7A1</string>
-				<string>6C3BA4063EC0493AF1D95E6E</string>
-				<string>656B6B199A6258517F71F5EA</string>
-				<string>6DE2902C97382E98AFC7E760</string>
-				<string>876D4E194E943BD4FA3178EC</string>
-				<string>C1C26F202F9A179CDAC4A7E5</string>
-				<string>09F9D403F40CE73F04CF7D35</string>
-				<string>73D6DA584A3C3F63EC066F13</string>
-				<string>FA6CFCDA26D1F4010943E1E1</string>
-				<string>BD5F5DC92079FED90FB118E1</string>
-				<string>540C6D5EE8FFE799C24B4578</string>
-				<string>7F90ACB82E77EA2CEFA0C4EA</string>
-				<string>6AEEB43C09A9C4979E3DEE46</string>
-				<string>4D6FBB183FB0CD7B81369F8B</string>
-				<string>FA9DB5EFFA7C6EC49395C93B</string>
-				<string>C2666187D30D12E65A86A675</string>
-				<string>37753222D3A596CCDBB6626E</string>
-				<string>7679D43948AA697D10DAED0B</string>
-				<string>97EEBDA15B1980A74EF53969</string>
-				<string>08B8ABCCFBCBCA638161EAE6</string>
-				<string>C792D65187F2813EA5654F33</string>
-				<string>AA9AF8380234EFF02ED6F354</string>
-				<string>1561D105D87DB8D8D5F25F27</string>
-				<string>87ADBBE1B0BBBC06AC47411C</string>
-				<string>6DA732DC085D0C6F44C56501</string>
-				<string>8C75EA696B54B8BB12539506</string>
-				<string>249E1F39E31A421D4E1D17E7</string>
-				<string>3DD8D3C60BA92B410FCA14F2</string>
-				<string>44B4DFA452D34CB9D88C3659</string>
-				<string>86D05E57C8085A35CF6489A0</string>
-				<string>A4283C3F3F6202B1F7785FBF</string>
-				<string>545B230E968F06DC6FD4D846</string>
-				<string>879148533DCB3F3E855AB079</string>
-				<string>5E40549D58D8EB57BDD3BED6</string>
-				<string>DCF13810D7983B5895E5BFD7</string>
-				<string>852A10FE0EFEF582E49C8455</string>
-				<string>548277B6EBE90FC607FFEFE1</string>
-				<string>3C2786F797F166B614C84A33</string>
-				<string>0A239DCD326DFB57DD34E034</string>
-				<string>B0658B008308B88B60D3989E</string>
-				<string>C3EBC24B93C336AD6435B0FE</string>
-				<string>311C1CE95049C56CB85BAAEF</string>
-				<string>A0F4E5723BF0920F7246ECFD</string>
-				<string>BBA2F7F87227DDE6608CA0A2</string>
-				<string>2DCB27E4A766325B0CE916D1</string>
-				<string>B9A565D4A200141BDF6249F4</string>
-				<string>3697791D25076582DE591AD4</string>
-				<string>7D547CEF83FCA727B538787F</string>
-				<string>8755614C7BA7C4462070F81E</string>
-				<string>A626BAB97D43FEFAAEDDAF65</string>
-				<string>AC45E795D54141A301F4EA1E</string>
-				<string>4A0A6705D47A832760F25075</string>
-				<string>ED0761885582C7601DCBDABB</string>
-				<string>7EBDC150C8CE7D0AA021D184</string>
-				<string>4FC908C6044EAB81053E38E7</string>
-				<string>DD54382DE42B1E4E6711120D</string>
-				<string>DF0F85E6E12AB360DD3F5F1A</string>
-				<string>35921C28DEADEE5B69DEC087</string>
-				<string>90BB6769098C343A74186D36</string>
-				<string>9FD6390FB93937475428AF58</string>
-				<string>7F1D28B8DDC3ADAB883F1113</string>
-				<string>88EFD69F4F2EE1E817C8F8FA</string>
-				<string>21CDD83DD57210CC33022A33</string>
-				<string>C0998E7F622C29A4904591C9</string>
-				<string>09A86FACE50EA2CFA7C32E61</string>
-				<string>55AB8647F77B530C6205899A</string>
-				<string>1A89D7E556CFCCF082223D4C</string>
-				<string>59755D39DDA53BE06D6C63FC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>FA6CFCDA26D1F4010943E1E1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>687BD964F26788AC6466B610</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FA9DB5EFFA7C6EC49395C93B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8D271EE085F06B12420D65A6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>67AEF100418DFABF6F42DD26</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AE988634659E61567F87685 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBB025CC87DB76C684930AA0 /* Foundation.framework */; };
+		DF3E7C16F13ECCA3AEC10BAC /* Pods-ICACrashReporter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 39130C3BA0AC452E455720A2 /* Pods-ICACrashReporter-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02D116F5C1DCABC3491D9E92 /* SPLJSONModelError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPLJSONModelError.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/SPLJSONModelError.h"; sourceTree = "<group>"; };
+		053AEAAD6FE29086ACDE432D /* GAIEcommerceFields.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIEcommerceFields.h; path = GoogleAnalytics/Library/GAIEcommerceFields.h; sourceTree = "<group>"; };
+		0C44CDCF8FCE813296597E28 /* MintProperties.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MintProperties.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/MintProperties.h"; sourceTree = "<group>"; };
+		0D6E48B1EE12AB65BC385D20 /* LoggedRequestEventArgs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LoggedRequestEventArgs.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/LoggedRequestEventArgs.h"; sourceTree = "<group>"; };
+		1145BDC509EF0EB8DCF9C366 /* SPLJSONKeyMapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPLJSONKeyMapper.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/SPLJSONKeyMapper.h"; sourceTree = "<group>"; };
+		1250F788EB939425F4C98ABD /* MintResponseResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MintResponseResult.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/MintResponseResult.h"; sourceTree = "<group>"; };
+		14045CBC1F43BFC34CFC9DCD /* SPLJSONModelClassProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPLJSONModelClassProperty.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/SPLJSONModelClassProperty.h"; sourceTree = "<group>"; };
+		194C03368D451BC3EBB5E9DC /* SPLTransaction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPLTransaction.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/SPLTransaction.h"; sourceTree = "<group>"; };
+		1B9D0B6EB1C930CB754DEA24 /* GAITrackedViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAITrackedViewController.h; path = GoogleAnalytics/Library/GAITrackedViewController.h; sourceTree = "<group>"; };
+		1CB6348379F3262A758DF59E /* MintTransaction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MintTransaction.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/MintTransaction.h"; sourceTree = "<group>"; };
+		1EB8A4D6FC46E52A2D4B3AA5 /* JsonRequestType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JsonRequestType.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/JsonRequestType.h"; sourceTree = "<group>"; };
+		203BE9BC71E4CDF115442921 /* TypeBlocks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TypeBlocks.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/TypeBlocks.h"; sourceTree = "<group>"; };
+		226A7DAF1A86EBED629305A8 /* MintRequestContentType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MintRequestContentType.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/MintRequestContentType.h"; sourceTree = "<group>"; };
+		257CA8486887B2586241FF7B /* SPLJSONValueTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPLJSONValueTransformer.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/SPLJSONValueTransformer.h"; sourceTree = "<group>"; };
+		2C2B47788DFC8946AD034DDD /* NSDate+DateExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+DateExtensions.h"; path = "SplunkMint-iOS.framework/Versions/A/Headers/NSDate+DateExtensions.h"; sourceTree = "<group>"; };
+		2E8E6F9A3D6B9DEB0C6258BA /* XamarinHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XamarinHelper.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/XamarinHelper.h"; sourceTree = "<group>"; };
+		36AA38F269EB0DA79693CBED /* GAI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAI.h; path = GoogleAnalytics/Library/GAI.h; sourceTree = "<group>"; };
+		39130C3BA0AC452E455720A2 /* Pods-ICACrashReporter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ICACrashReporter-dummy.m"; sourceTree = "<group>"; };
+		3A6CCDE6687E31B481C8425E /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIDictionaryBuilder.h; path = GoogleAnalytics/Library/GAIDictionaryBuilder.h; sourceTree = "<group>"; };
+		3CC7B99B7808501FF2630FD1 /* UnhandledCrashReportArgs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UnhandledCrashReportArgs.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/UnhandledCrashReportArgs.h"; sourceTree = "<group>"; };
+		3D9088DDF13D558B828FBE88 /* GAIEcommerceProduct.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIEcommerceProduct.h; path = GoogleAnalytics/Library/GAIEcommerceProduct.h; sourceTree = "<group>"; };
+		3EF6A608839EE26F82C25D34 /* EnumStringHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EnumStringHelper.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/EnumStringHelper.h"; sourceTree = "<group>"; };
+		410BC96BFB972D53050FA2D3 /* ScreenDataFixture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ScreenDataFixture.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/ScreenDataFixture.h"; sourceTree = "<group>"; };
+		46F7F8C7157D924778FEEE93 /* MintNotificationDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MintNotificationDelegate.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/MintNotificationDelegate.h"; sourceTree = "<group>"; };
+		4AB1D1AFE23DC61C67CF9206 /* Mint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Mint.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/Mint.h"; sourceTree = "<group>"; };
+		4B79488EC98220060B175861 /* TrStop.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TrStop.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/TrStop.h"; sourceTree = "<group>"; };
+		5325DCB39BEECB78FC2927E3 /* NSArray+SPLJSONModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+SPLJSONModel.h"; path = "SplunkMint-iOS.framework/Versions/A/Headers/NSArray+SPLJSONModel.h"; sourceTree = "<group>"; };
+		54BD3E79FC653C1B8AA50386 /* Pods-ICACrashReporter-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ICACrashReporter-resources.sh"; sourceTree = "<group>"; };
+		59673B879A503488907A12EE /* GAIEcommercePromotion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIEcommercePromotion.h; path = GoogleAnalytics/Library/GAIEcommercePromotion.h; sourceTree = "<group>"; };
+		5A157086BA8BABE9188FC2CC /* TAGManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TAGManager.h; path = GoogleTagManager/Library/TAGManager.h; sourceTree = "<group>"; };
+		5B0A69FAD5EBC379D5F156F7 /* SplunkMint-iOS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SplunkMint-iOS.h"; path = "SplunkMint-iOS.framework/Versions/A/Headers/SplunkMint-iOS.h"; sourceTree = "<group>"; };
+		5B67D32C3430B39797D6890D /* TransactionStopResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TransactionStopResult.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/TransactionStopResult.h"; sourceTree = "<group>"; };
+		5BAAD4378FF51EDB46F508F1 /* MintAppEnvironment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MintAppEnvironment.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/MintAppEnvironment.h"; sourceTree = "<group>"; };
+		5FA8D2CCC716D115C169E637 /* GAILogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAILogger.h; path = GoogleAnalytics/Library/GAILogger.h; sourceTree = "<group>"; };
+		611B3E7F7556FA7E1B3029DA /* TransactionResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TransactionResult.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/TransactionResult.h"; sourceTree = "<group>"; };
+		6454ADC162A97E632239EF96 /* NSString+Extensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Extensions.h"; path = "SplunkMint-iOS.framework/Versions/A/Headers/NSString+Extensions.h"; sourceTree = "<group>"; };
+		69EBE1B46518D16EDB2829EC /* DeviceInfoDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DeviceInfoDelegate.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/DeviceInfoDelegate.h"; sourceTree = "<group>"; };
+		71D8EE583807ACA1CC9C624B /* DataFixture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DataFixture.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/DataFixture.h"; sourceTree = "<group>"; };
+		73BEFE00EDEAF56F4247E081 /* MintEnums.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MintEnums.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/MintEnums.h"; sourceTree = "<group>"; };
+		7620C2DFF320C5D5723CCE2F /* TransactionStartResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TransactionStartResult.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/TransactionStartResult.h"; sourceTree = "<group>"; };
+		781C6FD682CE77C6D038D8D0 /* BugSense.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BugSense.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/BugSense.h"; sourceTree = "<group>"; };
+		7D367301EB329D8A052B4BF0 /* TrStart.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TrStart.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/TrStart.h"; sourceTree = "<group>"; };
+		7F0345F7590965642B325568 /* MintConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MintConstants.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/MintConstants.h"; sourceTree = "<group>"; };
+		81369D2E1D201FA291861E3A /* RemoteSettingsData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RemoteSettingsData.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/RemoteSettingsData.h"; sourceTree = "<group>"; };
+		8382727116BA4CAF8CE1EACD /* MintException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MintException.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/MintException.h"; sourceTree = "<group>"; };
+		838ACC88089B722E276D51CD /* MintInternalRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MintInternalRequest.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/MintInternalRequest.h"; sourceTree = "<group>"; };
+		88E02CA27A3023D6BAEBCC59 /* ExtraData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ExtraData.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/ExtraData.h"; sourceTree = "<group>"; };
+		8AFBA9A58E833E05DD25D698 /* BugSenseEventFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BugSenseEventFactory.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/BugSenseEventFactory.h"; sourceTree = "<group>"; };
+		8B5ED406B7483B133A78A74A /* FileClientDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FileClientDelegate.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/FileClientDelegate.h"; sourceTree = "<group>"; };
+		8D4E555722318452D26D4862 /* EventDataFixture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EventDataFixture.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/EventDataFixture.h"; sourceTree = "<group>"; };
+		8FA03BB55076B439974ED817 /* NetworkDataFixture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NetworkDataFixture.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/NetworkDataFixture.h"; sourceTree = "<group>"; };
+		934303796E7ED513B25EDDC4 /* SerializeResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SerializeResult.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/SerializeResult.h"; sourceTree = "<group>"; };
+		982113FCC5043553811A5235 /* MintExceptionRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MintExceptionRequest.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/MintExceptionRequest.h"; sourceTree = "<group>"; };
+		983A3F5D59BB1D4C85B07124 /* Pods-ICACrashReporter-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ICACrashReporter-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9ADE3838A91BD561042CD55D /* Pods-ICACrashReporter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ICACrashReporter.release.xcconfig"; sourceTree = "<group>"; };
+		9ED1960941B1BB82D673656E /* RequestWorkerFacadeDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RequestWorkerFacadeDelegate.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/RequestWorkerFacadeDelegate.h"; sourceTree = "<group>"; };
+		A22629636CC23476CAB1ACEA /* ScreenProperties.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ScreenProperties.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/ScreenProperties.h"; sourceTree = "<group>"; };
+		A76C134AB23618EE19F55A1F /* BugSenseBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BugSenseBase.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/BugSenseBase.h"; sourceTree = "<group>"; };
+		AD6BE5F59AD3810DC08AA0D3 /* RequestJsonSerializerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RequestJsonSerializerDelegate.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/RequestJsonSerializerDelegate.h"; sourceTree = "<group>"; };
+		AEFFC20FED7B8F31CCAB934C /* MintResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MintResult.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/MintResult.h"; sourceTree = "<group>"; };
+		AF7E45EA5EEC10D88CC9446C /* LimitedExtraDataList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LimitedExtraDataList.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/LimitedExtraDataList.h"; sourceTree = "<group>"; };
+		B25F384645961B42DD4324F5 /* libPods-ICACrashReporter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ICACrashReporter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2DAD7DA642ED9D5C076E4ED /* MintLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MintLogger.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/MintLogger.h"; sourceTree = "<group>"; };
+		B57693749B0B65C8DDF32E3F /* TAGDataLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TAGDataLayer.h; path = GoogleTagManager/Library/TAGDataLayer.h; sourceTree = "<group>"; };
+		BBB025CC87DB76C684930AA0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		BE5CC7CCED24DEB59D279D84 /* RequestWorkerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RequestWorkerDelegate.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/RequestWorkerDelegate.h"; sourceTree = "<group>"; };
+		C072E24AC7ACA9E87B910459 /* Pods-ICACrashReporter-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ICACrashReporter-environment.h"; sourceTree = "<group>"; };
+		C10922C46ADA488C5A0D51EC /* Pods-ICACrashReporter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ICACrashReporter.debug.xcconfig"; sourceTree = "<group>"; };
+		C17729BF1FF1B68967288838 /* CrashOnLastRun.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CrashOnLastRun.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/CrashOnLastRun.h"; sourceTree = "<group>"; };
+		C268E768BCBC130C26D123FC /* MintLogResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MintLogResult.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/MintLogResult.h"; sourceTree = "<group>"; };
+		CA490AFF00DF8DA0BCAE8687 /* TAGContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TAGContainer.h; path = GoogleTagManager/Library/TAGContainer.h; sourceTree = "<group>"; };
+		CA7B68B2AB2DA0E17487CE8D /* DataErrorResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DataErrorResponse.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/DataErrorResponse.h"; sourceTree = "<group>"; };
+		D404031CD7B308449A9EDB9F /* TAGContainerOpener.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TAGContainerOpener.h; path = GoogleTagManager/Library/TAGContainerOpener.h; sourceTree = "<group>"; };
+		D46B7B054CE3748B631020E3 /* GAITracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAITracker.h; path = GoogleAnalytics/Library/GAITracker.h; sourceTree = "<group>"; };
+		D5EE1AE5E3FE5639F348B8B6 /* MintClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MintClient.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/MintClient.h"; sourceTree = "<group>"; };
+		D6B3F5FB1736F9C66DAA2347 /* SPLJSONModelLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPLJSONModelLib.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/SPLJSONModelLib.h"; sourceTree = "<group>"; };
+		D886902F3DE4BBD2C6C1C5C5 /* ExceptionDataFixture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ExceptionDataFixture.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/ExceptionDataFixture.h"; sourceTree = "<group>"; };
+		D97361EF41FD719034D283ED /* MintPerformance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MintPerformance.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/MintPerformance.h"; sourceTree = "<group>"; };
+		DD7FB9EEFC82364C99DB9F87 /* GAIEcommerceProductAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIEcommerceProductAction.h; path = GoogleAnalytics/Library/GAIEcommerceProductAction.h; sourceTree = "<group>"; };
+		DDCC67203D31F4D184662BEC /* UnhandledCrashExtra.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UnhandledCrashExtra.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/UnhandledCrashExtra.h"; sourceTree = "<group>"; };
+		EB4D56B5E34C69B18C807A9D /* MintErrorResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MintErrorResponse.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/MintErrorResponse.h"; sourceTree = "<group>"; };
+		F07B5511A4885D0A0149169A /* ContentTypeDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ContentTypeDelegate.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/ContentTypeDelegate.h"; sourceTree = "<group>"; };
+		F092F54001FC793F27C39782 /* MintMessageException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MintMessageException.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/MintMessageException.h"; sourceTree = "<group>"; };
+		F20414CB609C401DC1AC1D02 /* ServiceClientDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ServiceClientDelegate.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/ServiceClientDelegate.h"; sourceTree = "<group>"; };
+		F46378ECA3FC6FAE20F6F21E /* MintBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MintBase.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/MintBase.h"; sourceTree = "<group>"; };
+		F5A552ADAA910D5CDD77A774 /* GAIFields.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIFields.h; path = GoogleAnalytics/Library/GAIFields.h; sourceTree = "<group>"; };
+		F661ACABBE8C08B38071AAD0 /* Pods-ICACrashReporter-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ICACrashReporter-acknowledgements.plist"; sourceTree = "<group>"; };
+		F6A4511035BAEFD00E63B61C /* SPLJSONModelArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPLJSONModelArray.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/SPLJSONModelArray.h"; sourceTree = "<group>"; };
+		F89C5B531ED0866D410BF4BC /* LimitedBreadcrumbList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LimitedBreadcrumbList.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/LimitedBreadcrumbList.h"; sourceTree = "<group>"; };
+		F98C5AED29AEF5753648751F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F9D26E0CD76518EDD560DD23 /* SPLJSONModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPLJSONModel.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/SPLJSONModel.h"; sourceTree = "<group>"; };
+		FC8D4E1E7D76E70C25442516 /* ExceptionManagerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ExceptionManagerDelegate.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/ExceptionManagerDelegate.h"; sourceTree = "<group>"; };
+		FE1B5A645D38C480D723BBDD /* TAGLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TAGLogger.h; path = GoogleTagManager/Library/TAGLogger.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEB9DEE8C368D4424272163B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AE988634659E61567F87685 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		047BE9B0D41DE48F4D0AB190 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				BBB025CC87DB76C684930AA0 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		0F52E647155731682789BDF8 /* Pods-ICACrashReporter */ = {
+			isa = PBXGroup;
+			children = (
+				983A3F5D59BB1D4C85B07124 /* Pods-ICACrashReporter-acknowledgements.markdown */,
+				F661ACABBE8C08B38071AAD0 /* Pods-ICACrashReporter-acknowledgements.plist */,
+				39130C3BA0AC452E455720A2 /* Pods-ICACrashReporter-dummy.m */,
+				C072E24AC7ACA9E87B910459 /* Pods-ICACrashReporter-environment.h */,
+				54BD3E79FC653C1B8AA50386 /* Pods-ICACrashReporter-resources.sh */,
+				C10922C46ADA488C5A0D51EC /* Pods-ICACrashReporter.debug.xcconfig */,
+				9ADE3838A91BD561042CD55D /* Pods-ICACrashReporter.release.xcconfig */,
+			);
+			name = "Pods-ICACrashReporter";
+			path = "Target Support Files/Pods-ICACrashReporter";
+			sourceTree = "<group>";
+		};
+		13415471541974A0D1BC53CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F57339E470B5D597ADBC51C6 /* GoogleAnalytics-iOS-SDK */,
+				DD358FCD317643FBB2BD9502 /* SplunkMint-iOS */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		158CBA888B8E3A53D0C1E10A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F52E647155731682789BDF8 /* Pods-ICACrashReporter */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1A061B216C63A8AE2EFC7524 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B25F384645961B42DD4324F5 /* libPods-ICACrashReporter.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A32F998384DED8B9E452099 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				36AA38F269EB0DA79693CBED /* GAI.h */,
+				3A6CCDE6687E31B481C8425E /* GAIDictionaryBuilder.h */,
+				053AEAAD6FE29086ACDE432D /* GAIEcommerceFields.h */,
+				3D9088DDF13D558B828FBE88 /* GAIEcommerceProduct.h */,
+				DD7FB9EEFC82364C99DB9F87 /* GAIEcommerceProductAction.h */,
+				59673B879A503488907A12EE /* GAIEcommercePromotion.h */,
+				F5A552ADAA910D5CDD77A774 /* GAIFields.h */,
+				5FA8D2CCC716D115C169E637 /* GAILogger.h */,
+				1B9D0B6EB1C930CB754DEA24 /* GAITrackedViewController.h */,
+				D46B7B054CE3748B631020E3 /* GAITracker.h */,
+				CA490AFF00DF8DA0BCAE8687 /* TAGContainer.h */,
+				D404031CD7B308449A9EDB9F /* TAGContainerOpener.h */,
+				B57693749B0B65C8DDF32E3F /* TAGDataLayer.h */,
+				FE1B5A645D38C480D723BBDD /* TAGLogger.h */,
+				5A157086BA8BABE9188FC2CC /* TAGManager.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		B0ACB9F33F93D9A3EA080F73 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				047BE9B0D41DE48F4D0AB190 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD358FCD317643FBB2BD9502 /* SplunkMint-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				781C6FD682CE77C6D038D8D0 /* BugSense.h */,
+				A76C134AB23618EE19F55A1F /* BugSenseBase.h */,
+				8AFBA9A58E833E05DD25D698 /* BugSenseEventFactory.h */,
+				F07B5511A4885D0A0149169A /* ContentTypeDelegate.h */,
+				C17729BF1FF1B68967288838 /* CrashOnLastRun.h */,
+				CA7B68B2AB2DA0E17487CE8D /* DataErrorResponse.h */,
+				71D8EE583807ACA1CC9C624B /* DataFixture.h */,
+				69EBE1B46518D16EDB2829EC /* DeviceInfoDelegate.h */,
+				3EF6A608839EE26F82C25D34 /* EnumStringHelper.h */,
+				8D4E555722318452D26D4862 /* EventDataFixture.h */,
+				D886902F3DE4BBD2C6C1C5C5 /* ExceptionDataFixture.h */,
+				FC8D4E1E7D76E70C25442516 /* ExceptionManagerDelegate.h */,
+				88E02CA27A3023D6BAEBCC59 /* ExtraData.h */,
+				8B5ED406B7483B133A78A74A /* FileClientDelegate.h */,
+				1EB8A4D6FC46E52A2D4B3AA5 /* JsonRequestType.h */,
+				F89C5B531ED0866D410BF4BC /* LimitedBreadcrumbList.h */,
+				AF7E45EA5EEC10D88CC9446C /* LimitedExtraDataList.h */,
+				0D6E48B1EE12AB65BC385D20 /* LoggedRequestEventArgs.h */,
+				4AB1D1AFE23DC61C67CF9206 /* Mint.h */,
+				5BAAD4378FF51EDB46F508F1 /* MintAppEnvironment.h */,
+				F46378ECA3FC6FAE20F6F21E /* MintBase.h */,
+				D5EE1AE5E3FE5639F348B8B6 /* MintClient.h */,
+				7F0345F7590965642B325568 /* MintConstants.h */,
+				73BEFE00EDEAF56F4247E081 /* MintEnums.h */,
+				EB4D56B5E34C69B18C807A9D /* MintErrorResponse.h */,
+				8382727116BA4CAF8CE1EACD /* MintException.h */,
+				982113FCC5043553811A5235 /* MintExceptionRequest.h */,
+				838ACC88089B722E276D51CD /* MintInternalRequest.h */,
+				C268E768BCBC130C26D123FC /* MintLogResult.h */,
+				B2DAD7DA642ED9D5C076E4ED /* MintLogger.h */,
+				F092F54001FC793F27C39782 /* MintMessageException.h */,
+				46F7F8C7157D924778FEEE93 /* MintNotificationDelegate.h */,
+				D97361EF41FD719034D283ED /* MintPerformance.h */,
+				0C44CDCF8FCE813296597E28 /* MintProperties.h */,
+				226A7DAF1A86EBED629305A8 /* MintRequestContentType.h */,
+				1250F788EB939425F4C98ABD /* MintResponseResult.h */,
+				AEFFC20FED7B8F31CCAB934C /* MintResult.h */,
+				1CB6348379F3262A758DF59E /* MintTransaction.h */,
+				5325DCB39BEECB78FC2927E3 /* NSArray+SPLJSONModel.h */,
+				2C2B47788DFC8946AD034DDD /* NSDate+DateExtensions.h */,
+				6454ADC162A97E632239EF96 /* NSString+Extensions.h */,
+				8FA03BB55076B439974ED817 /* NetworkDataFixture.h */,
+				81369D2E1D201FA291861E3A /* RemoteSettingsData.h */,
+				AD6BE5F59AD3810DC08AA0D3 /* RequestJsonSerializerDelegate.h */,
+				BE5CC7CCED24DEB59D279D84 /* RequestWorkerDelegate.h */,
+				9ED1960941B1BB82D673656E /* RequestWorkerFacadeDelegate.h */,
+				1145BDC509EF0EB8DCF9C366 /* SPLJSONKeyMapper.h */,
+				F9D26E0CD76518EDD560DD23 /* SPLJSONModel.h */,
+				F6A4511035BAEFD00E63B61C /* SPLJSONModelArray.h */,
+				14045CBC1F43BFC34CFC9DCD /* SPLJSONModelClassProperty.h */,
+				02D116F5C1DCABC3491D9E92 /* SPLJSONModelError.h */,
+				D6B3F5FB1736F9C66DAA2347 /* SPLJSONModelLib.h */,
+				257CA8486887B2586241FF7B /* SPLJSONValueTransformer.h */,
+				194C03368D451BC3EBB5E9DC /* SPLTransaction.h */,
+				410BC96BFB972D53050FA2D3 /* ScreenDataFixture.h */,
+				A22629636CC23476CAB1ACEA /* ScreenProperties.h */,
+				934303796E7ED513B25EDDC4 /* SerializeResult.h */,
+				F20414CB609C401DC1AC1D02 /* ServiceClientDelegate.h */,
+				5B0A69FAD5EBC379D5F156F7 /* SplunkMint-iOS.h */,
+				7D367301EB329D8A052B4BF0 /* TrStart.h */,
+				4B79488EC98220060B175861 /* TrStop.h */,
+				611B3E7F7556FA7E1B3029DA /* TransactionResult.h */,
+				7620C2DFF320C5D5723CCE2F /* TransactionStartResult.h */,
+				5B67D32C3430B39797D6890D /* TransactionStopResult.h */,
+				203BE9BC71E4CDF115442921 /* TypeBlocks.h */,
+				DDCC67203D31F4D184662BEC /* UnhandledCrashExtra.h */,
+				3CC7B99B7808501FF2630FD1 /* UnhandledCrashReportArgs.h */,
+				2E8E6F9A3D6B9DEB0C6258BA /* XamarinHelper.h */,
+			);
+			path = "SplunkMint-iOS";
+			sourceTree = "<group>";
+		};
+		E52CA96AEF825A0962E49F88 = {
+			isa = PBXGroup;
+			children = (
+				F98C5AED29AEF5753648751F /* Podfile */,
+				B0ACB9F33F93D9A3EA080F73 /* Frameworks */,
+				13415471541974A0D1BC53CD /* Pods */,
+				1A061B216C63A8AE2EFC7524 /* Products */,
+				158CBA888B8E3A53D0C1E10A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		F57339E470B5D597ADBC51C6 /* GoogleAnalytics-iOS-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				9A32F998384DED8B9E452099 /* Core */,
+			);
+			path = "GoogleAnalytics-iOS-SDK";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFC090DCD5DC8FDE50E14066 /* Pods-ICACrashReporter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 423BBF65C1C277301FA5E940 /* Build configuration list for PBXNativeTarget "Pods-ICACrashReporter" */;
+			buildPhases = (
+				739DC79CE86246C29B84BEBD /* Sources */,
+				EEB9DEE8C368D4424272163B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ICACrashReporter";
+			productName = "Pods-ICACrashReporter";
+			productReference = B25F384645961B42DD4324F5 /* libPods-ICACrashReporter.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1C52CA292FB323E28E90D39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = F1EBB573463EFDF762A5C664 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E52CA96AEF825A0962E49F88;
+			productRefGroup = 1A061B216C63A8AE2EFC7524 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFC090DCD5DC8FDE50E14066 /* Pods-ICACrashReporter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		739DC79CE86246C29B84BEBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF3E7C16F13ECCA3AEC10BAC /* Pods-ICACrashReporter-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		69CB0B6C990E137CFC917D23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C10922C46ADA488C5A0D51EC /* Pods-ICACrashReporter.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		984F9E7AE4D2341A42A980FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ADE3838A91BD561042CD55D /* Pods-ICACrashReporter.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E8AAD78F36DF6F9CF365BC3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F4B4E0405222C22092492EDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		423BBF65C1C277301FA5E940 /* Build configuration list for PBXNativeTarget "Pods-ICACrashReporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69CB0B6C990E137CFC917D23 /* Debug */,
+				984F9E7AE4D2341A42A980FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1EBB573463EFDF762A5C664 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8AAD78F36DF6F9CF365BC3E /* Debug */,
+				F4B4E0405222C22092492EDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1C52CA292FB323E28E90D39 /* Project object */;
+}
