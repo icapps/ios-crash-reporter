@@ -12,6 +12,7 @@
 #import "ICAConsoleCrashReporter.h"
 #import "ICACrashReporterTransactionController.h"
 #import "ICAMultiCrashReporter.h"
+#import "ICADefaultCrashReporter.h"
 
 int main(int argc, char * argv[]) {
     
@@ -19,7 +20,7 @@ int main(int argc, char * argv[]) {
     //[ICACrashReporter initAndStartWithInstance:[ICAConsoleCrashReporter new]];
     
     ICAMultiCrashReporter *multiReporter = [[ICAMultiCrashReporter alloc] initWithReporters:@[
-                                                                                              [[ICASplunkCrashReporter alloc] initWithKey:@"bc3ef72f"],
+                                                                                              [[ICADefaultCrashReporter alloc] initWithKey:@"bc3ef72f"],
                                                                                               [ICAConsoleCrashReporter new]
                                                                                               ]
                                             ];

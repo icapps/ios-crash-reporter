@@ -23,6 +23,7 @@
 		8F22E62AA2A6AF7F466949A5 /* libPods-ICACrashReporter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ICACrashReporter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91C265001AF8EF2C00BDC585 /* ICAGoogleAnalyticsCrashReporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICAGoogleAnalyticsCrashReporter.h; sourceTree = "<group>"; };
 		91C265011AF8EF2C00BDC585 /* ICAGoogleAnalyticsCrashReporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICAGoogleAnalyticsCrashReporter.m; sourceTree = "<group>"; };
+		BA01554B1B0F199600B881D0 /* ICADefaultCrashReporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ICADefaultCrashReporter.h; path = Splunk/ICADefaultCrashReporter.h; sourceTree = SOURCE_ROOT; };
 		BABABA281A9B80A80013BE5D /* ICACrashReporter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ICACrashReporter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BABABA511A9B81160013BE5D /* ICACrashReporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICACrashReporter.h; sourceTree = SOURCE_ROOT; };
 		BABABA521A9B81160013BE5D /* ICACrashReporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICACrashReporter.m; sourceTree = SOURCE_ROOT; };
@@ -103,6 +104,7 @@
 		BABABA571A9DD02B0013BE5D /* Splunk */ = {
 			isa = PBXGroup;
 			children = (
+				BA01554B1B0F199600B881D0 /* ICADefaultCrashReporter.h */,
 				BABABA581A9DD0460013BE5D /* ICASplunkCrashReporter.h */,
 				BABABA591A9DD0460013BE5D /* ICASplunkCrashReporter.m */,
 			);
