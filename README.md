@@ -28,8 +28,10 @@ Include the header file
 
 ### Functions: ###
 
-ICACrashReporter has to be started with a reporting module. Modules are available for **Console output**, **Splunk** and **Google Analytics**.
+ICACrashReporter has to be started with a reporting module. Modules are available for **Console output**, **Default Crash Reporting (currently Splunk)**, **Splunk** and **Google Analytics**.
 There is also the option of combining multiple modules using the ICAMultiCrashReporter class.
+
+Note: It is recommended to use ICADefaultCrashReporter instead of ICASplunkCrashReporter, this makes it possible to switch to another crash reporting tool later on with minimal code changes. ICADefaultCrashReporter currently passes everything directly to ICASplunkCrashReporter.
 
 **Start a new session:**
 ```
@@ -37,6 +39,10 @@ There is also the option of combining multiple modules using the ICAMultiCrashRe
 //Console:
 #import <ICAConsoleCrashReporter.h>
 [ICACrashReporter initAndStartWithInstance:[ICAConsoleCrashReporter new]];
+
+//Default:
+#import "ICADefaultCrashReporter.h"
+[ICACrashReporter initAndStartWithInstance:[[ICADefaultCrashReporter alloc] initWithKey:@"SPLUNKKEY"]];
 
 //Splunk:
 #import <ICASplunkCrashReporter.h>
