@@ -20,9 +20,19 @@
 - (id)initWithKey:(NSString *)key {
     if (self = [super init]) {
         _key = key;
-        [[Mint sharedInstance] initAndStartSession:key];
+        [self startSession:key];
+        
     }
     return self;
+}
+
+- (void)startSession:(NSString *)key {
+    @try {
+        [[Mint sharedInstance] initAndStartSession:key];
+    }
+    @catch (NSException *exception) {
+        NSLog(@"Warning! Unable to initialize splunk with key %@.\nSplunk logging will not be active.", key);
+    }
 }
 
 - (void)logBreadcrumb:(NSString *)breadcrumb {
@@ -43,7 +53,7 @@
 
 - (void)setUserIdentifier:(NSString *)userId {
     [[Mint sharedInstance] setUserIdentifier:userId];
-    [[Mint sharedInstance] initAndStartSession:self.key];
+    [self startSession:self.key];
 }
 
 - (void)startTransaction:(NSString *)transactionId {
