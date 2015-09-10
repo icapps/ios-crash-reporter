@@ -1,15 +1,15 @@
 PODS:
-  - GoogleAnalytics-iOS-SDK (3.11):
-    - GoogleAnalytics-iOS-SDK/Core (= 3.11)
-  - GoogleAnalytics-iOS-SDK/Core (3.11)
-  - SplunkMint-iOS (4.0.24)
+  - GoogleAnalytics-iOS-SDK (3.12):
+    - GoogleAnalytics-iOS-SDK/Core (= 3.12)
+  - GoogleAnalytics-iOS-SDK/Core (3.12)
+  - SplunkMint-iOS (4.2)
 
 DEPENDENCIES:
   - GoogleAnalytics-iOS-SDK
   - SplunkMint-iOS
 
 SPEC CHECKSUMS:
-  GoogleAnalytics-iOS-SDK: fb15cc7e3d01d06d531653f37443fda90274d53d
-  SplunkMint-iOS: 6dca12ac7a8a8f4c1f503f70b2abeebc4d1cf90a
+  GoogleAnalytics-iOS-SDK: 13241762fa4aea845eb75bef6c0da3427a26e7b3
+  SplunkMint-iOS: 058e5297f7cc8d335aea3dcaa8111eeb0f657371
 
-COCOAPODS: 0.37.0
+COCOAPODS: 0.38.2
