@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = 'ICACrashReporter'
-  spec.version      = '1.0.7'
+  spec.version      = '1.0.8'
   spec.license      = {
       :type => 'Commercial',
       :text => <<-LICENSE
@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = 'https://bitbucket.org/icapps/pod_icacrashreporter'
   spec.author       = { "Pieterjan Vandegaer" => "pieterjan.vandegaer@icapps.com" }
   spec.summary      = 'iCapps Crash Reporting assistant'
-  spec.source       = { :git => 'https://bitbucket.org/icapps/pod_icacrashreporter.git', :tag => '1.0.7' }
+  spec.source       = { :git => 'https://bitbucket.org/icapps/pod_icacrashreporter.git', :tag => spec.version }
   spec.platform = :ios, "7.0"
   
   spec.subspec 'Core' do |core|
@@ -26,7 +26,7 @@ Pod::Spec.new do |spec|
   spec.subspec 'GoogleAnalytics' do |googleanalytics|
   googleanalytics.source_files = "GoogleAnalytics/*.{h,m}"
   googleanalytics.dependency 'ICACrashReporter/Core'
-  googleanalytics.dependency 'GoogleAnalytics-iOS-SDK'
+  googleanalytics.dependency 'Google/Analytics', '~> 1.0'
   end
   
 end
