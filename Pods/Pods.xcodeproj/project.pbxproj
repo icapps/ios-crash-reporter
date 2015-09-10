@@ -12,98 +12,121 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0480839738820F53DEF94D70505F7BD7 /* GAIEcommercePromotion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIEcommercePromotion.h; path = GoogleAnalytics/Library/GAIEcommercePromotion.h; sourceTree = "<group>"; };
-		074FDF58874999C049908E4F58673EBB /* JsonRequestType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JsonRequestType.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/JsonRequestType.h"; sourceTree = "<group>"; };
-		0934008DA3D2E35BE035C08AB4DF0799 /* TAGContainerOpener.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TAGContainerOpener.h; path = GoogleTagManager/Library/TAGContainerOpener.h; sourceTree = "<group>"; };
-		0B0EECB69B4731A8AB8A764F37615916 /* TrStart.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TrStart.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/TrStart.h"; sourceTree = "<group>"; };
-		0D000F5CF843C5CD2778FA287979AC60 /* ServiceClientDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ServiceClientDelegate.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/ServiceClientDelegate.h"; sourceTree = "<group>"; };
-		11A4D2FFEB55627E98AB5F2ED7C9B553 /* NSArray+SPLJSONModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+SPLJSONModel.h"; path = "SplunkMint-iOS.framework/Versions/A/Headers/NSArray+SPLJSONModel.h"; sourceTree = "<group>"; };
-		15906C1402746BAD7E1D370A6656E981 /* MintClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MintClient.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/MintClient.h"; sourceTree = "<group>"; };
-		173DF779927E1D599B1D6F20EA139DBF /* TAGLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TAGLogger.h; path = GoogleTagManager/Library/TAGLogger.h; sourceTree = "<group>"; };
-		194D41C495FD0B17D18C3072F291C470 /* DataErrorResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DataErrorResponse.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/DataErrorResponse.h"; sourceTree = "<group>"; };
-		1B6EAB8F616852C6314D87C3907ED17D /* MintUIWebView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MintUIWebView.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/MintUIWebView.h"; sourceTree = "<group>"; };
-		1C368BCE7D0BFC7A26B547560FA03EA7 /* CrashOnLastRun.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CrashOnLastRun.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/CrashOnLastRun.h"; sourceTree = "<group>"; };
-		1CE953225738B2021A508AA0DE3B6E82 /* MintTransaction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MintTransaction.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/MintTransaction.h"; sourceTree = "<group>"; };
+		039B9849B4FCA8D36B740B4E1B4A9D6E /* GAIEcommerceProductAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIEcommerceProductAction.h; path = Headers/Public/GAIEcommerceProductAction.h; sourceTree = "<group>"; };
+		047FAA32DA78121DE276524681293C44 /* MintLogResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MintLogResult.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/MintLogResult.h"; sourceTree = "<group>"; };
+		04D929A6A091A90242C5E06FE3346718 /* ContentTypeDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ContentTypeDelegate.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/ContentTypeDelegate.h"; sourceTree = "<group>"; };
+		05B99E8321258E96F3CE2C0067EE7D0D /* TransactionStartResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TransactionStartResult.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/TransactionStartResult.h"; sourceTree = "<group>"; };
+		06D325443F5CFE8A04526D42C192CBFF /* NSArray+SPLJSONModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+SPLJSONModel.h"; path = "SplunkMint-iOS.framework/Versions/A/Headers/NSArray+SPLJSONModel.h"; sourceTree = "<group>"; };
+		0977FBB87E0E66C7843DB7FA12500978 /* RequestJsonSerializerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RequestJsonSerializerDelegate.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/RequestJsonSerializerDelegate.h"; sourceTree = "<group>"; };
+		0B627C2016BB98B0292D2C23EC1C3C89 /* UnhandledCrashReportArgs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UnhandledCrashReportArgs.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/UnhandledCrashReportArgs.h"; sourceTree = "<group>"; };
+		0DDEDEBD8C172A2F6687190EDAB222BC /* libGTM_Regex.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_Regex.a; path = Libraries/libGTM_Regex.a; sourceTree = "<group>"; };
+		0F6285FE102892A1237B33A877C6CB3F /* TransactionStopResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TransactionStopResult.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/TransactionStopResult.h"; sourceTree = "<group>"; };
+		0FF5D29ED8E34906790871C2D01E8C8F /* RemoteSettingsData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RemoteSettingsData.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/RemoteSettingsData.h"; sourceTree = "<group>"; };
+		1141E935291A262EB82D93246BFAFFC5 /* MintTransaction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MintTransaction.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/MintTransaction.h"; sourceTree = "<group>"; };
+		137AF49E833A41A1050FCFEE780160CB /* MintConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MintConstants.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/MintConstants.h"; sourceTree = "<group>"; };
+		176444878259263F0B65455C501C9011 /* GGLContext+Analytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GGLContext+Analytics.h"; path = "Headers/GGLAnalytics/Public/GGLContext+Analytics.h"; sourceTree = "<group>"; };
+		1A25D4BC3B0B2F54C300F9B316E4C286 /* MintInternalRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MintInternalRequest.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/MintInternalRequest.h"; sourceTree = "<group>"; };
 		1D909C60CEDC6CD2434A473943740BB1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		1E6AFA82DB6019EAB13370F90E5700E1 /* GAIFields.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIFields.h; path = GoogleAnalytics/Library/GAIFields.h; sourceTree = "<group>"; };
-		1EEAE90AF75B9A9E63D43310E811D1A4 /* SPLJSONModelClassProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPLJSONModelClassProperty.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/SPLJSONModelClassProperty.h"; sourceTree = "<group>"; };
-		22B13077A906E491D2CA0A559BA1C94E /* DataFixture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DataFixture.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/DataFixture.h"; sourceTree = "<group>"; };
-		2DAAE5EC685874E24B94859A881FB0C4 /* GAITracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAITracker.h; path = GoogleAnalytics/Library/GAITracker.h; sourceTree = "<group>"; };
-		31F484A85A1281F3769DE6F60B7F5FEF /* GAIEcommerceProductAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIEcommerceProductAction.h; path = GoogleAnalytics/Library/GAIEcommerceProductAction.h; sourceTree = "<group>"; };
-		32580896AFA30EC3268679A454A12654 /* NSDate+DateExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+DateExtensions.h"; path = "SplunkMint-iOS.framework/Versions/A/Headers/NSDate+DateExtensions.h"; sourceTree = "<group>"; };
-		374D125F0B65B72482AE2A9F5285095F /* MintProperties.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MintProperties.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/MintProperties.h"; sourceTree = "<group>"; };
+		1F19EF022F95F6A509689F123F510E0C /* GGLContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGLContext.h; path = Headers/GGLCore/Public/GGLContext.h; sourceTree = "<group>"; };
+		24FB3F35865FB0A3A4471701D8E61893 /* BugSenseEventFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BugSenseEventFactory.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/BugSenseEventFactory.h"; sourceTree = "<group>"; };
+		282E306FF31AC8FB902899D9AD8B2B9A /* NetworkDataFixture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NetworkDataFixture.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/NetworkDataFixture.h"; sourceTree = "<group>"; };
+		2B1F593CD15E44AA9E2A69F1665A054C /* TrStart.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TrStart.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/TrStart.h"; sourceTree = "<group>"; };
+		2B7968FFF13F925B18D1646B6045501E /* RequestWorkerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RequestWorkerDelegate.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/RequestWorkerDelegate.h"; sourceTree = "<group>"; };
+		2C5D3645A5FD5BAC3716035F00E37C6C /* Mint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Mint.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/Mint.h"; sourceTree = "<group>"; };
+		2CF6AB3B9D6358B2E1104C741F278380 /* RequestWorkerFacadeDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RequestWorkerFacadeDelegate.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/RequestWorkerFacadeDelegate.h"; sourceTree = "<group>"; };
+		2F6827EF3FC0809FD46C553B473DB202 /* EnumStringHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EnumStringHelper.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/EnumStringHelper.h"; sourceTree = "<group>"; };
+		3103525C1264F5D954474BB3AD9D4AFB /* MintProperties.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MintProperties.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/MintProperties.h"; sourceTree = "<group>"; };
+		312DA5A0C6106D9B71AE01C8EFAE1E5C /* SPLJSONKeyMapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPLJSONKeyMapper.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/SPLJSONKeyMapper.h"; sourceTree = "<group>"; };
+		34FD549C3FE816421E8E8A0097C144B3 /* UnhandledCrashExtra.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UnhandledCrashExtra.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/UnhandledCrashExtra.h"; sourceTree = "<group>"; };
+		35AB079D149345B5101031C4A7BB41CB /* SPLJSONValueTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPLJSONValueTransformer.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/SPLJSONValueTransformer.h"; sourceTree = "<group>"; };
+		3B413DC0E38D60A4CE04EA8617328D76 /* SplunkMint-iOS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SplunkMint-iOS.h"; path = "SplunkMint-iOS.framework/Versions/A/Headers/SplunkMint-iOS.h"; sourceTree = "<group>"; };
 		3D7F598AA65F6571266C86EED082C6E6 /* Pods-ICACrashReporter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ICACrashReporter.release.xcconfig"; sourceTree = "<group>"; };
-		3DCCA251C84FDF420A09C960706AB190 /* BugSenseEventFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BugSenseEventFactory.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/BugSenseEventFactory.h"; sourceTree = "<group>"; };
-		4348B38322A586940A32B485AFEF50B5 /* TrStop.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TrStop.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/TrStop.h"; sourceTree = "<group>"; };
-		436531BA9C3E4BC8787A2C59C0E52D56 /* EventDataFixture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EventDataFixture.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/EventDataFixture.h"; sourceTree = "<group>"; };
-		448B08AACC39D6893AF7251E4577DBE3 /* ScreenProperties.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ScreenProperties.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/ScreenProperties.h"; sourceTree = "<group>"; };
-		4721CECAEB543D972B36E89510E1B4B9 /* MintLogResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MintLogResult.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/MintLogResult.h"; sourceTree = "<group>"; };
-		487C9517F7551F72B2C473A3CD889296 /* GAIEcommerceFields.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIEcommerceFields.h; path = GoogleAnalytics/Library/GAIEcommerceFields.h; sourceTree = "<group>"; };
+		3ECCBE7130B827F282C10784B1DF622F /* ScreenDataFixture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ScreenDataFixture.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/ScreenDataFixture.h"; sourceTree = "<group>"; };
+		4033CBCF59FE3C56D000FAB13DBDA3DD /* libGSDK_Overload.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGSDK_Overload.a; path = Libraries/libGSDK_Overload.a; sourceTree = "<group>"; };
+		415ED105DF8CB7D3FD15D512A83CB270 /* LimitedExtraDataList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LimitedExtraDataList.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/LimitedExtraDataList.h"; sourceTree = "<group>"; };
+		4397031B62465A09AD5FAA66D9CA33C6 /* SPLJSONModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPLJSONModel.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/SPLJSONModel.h"; sourceTree = "<group>"; };
+		470244277B3872A1DC5E15BE0FD3A62B /* NSDate+DateExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+DateExtensions.h"; path = "SplunkMint-iOS.framework/Versions/A/Headers/NSDate+DateExtensions.h"; sourceTree = "<group>"; };
 		48F0B9BBC1C7FED5A2395AE8D2B4F813 /* Pods-ICACrashReporter-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ICACrashReporter-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4A0491C38D656F8B418F638708EF0479 /* Mint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Mint.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/Mint.h"; sourceTree = "<group>"; };
-		4A3371EF6E6733A3D2A9567BA06BB456 /* ContentTypeDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ContentTypeDelegate.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/ContentTypeDelegate.h"; sourceTree = "<group>"; };
-		4B1C67BFC9EFE9725B59013D85F1B7E7 /* UnhandledCrashExtra.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UnhandledCrashExtra.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/UnhandledCrashExtra.h"; sourceTree = "<group>"; };
-		4D2B92BDB8CE4530D72CBB849E901D6B /* MintNotificationDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MintNotificationDelegate.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/MintNotificationDelegate.h"; sourceTree = "<group>"; };
-		54935B9405140E523AEA0BD5B8A0C135 /* LoggedRequestEventArgs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LoggedRequestEventArgs.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/LoggedRequestEventArgs.h"; sourceTree = "<group>"; };
-		55BC16F675EBD8AB435F8CCFA5DAB66A /* GAITrackedViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAITrackedViewController.h; path = GoogleAnalytics/Library/GAITrackedViewController.h; sourceTree = "<group>"; };
-		5B375B1D43A2488112DB5EC296AE295F /* MintEnums.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MintEnums.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/MintEnums.h"; sourceTree = "<group>"; };
-		5F71BC004CF7308BF30F4995AC9D10F9 /* SPLJSONModelArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPLJSONModelArray.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/SPLJSONModelArray.h"; sourceTree = "<group>"; };
-		60ADB2FBB260789D53065DEA016BBE19 /* MintRequestContentType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MintRequestContentType.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/MintRequestContentType.h"; sourceTree = "<group>"; };
-		628E4C7275F4C30EE9BD46050D0F09C5 /* NetworkDataFixture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NetworkDataFixture.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/NetworkDataFixture.h"; sourceTree = "<group>"; };
-		62AC535F967D4086A6111AE8B17B14C6 /* SPLJSONModelLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPLJSONModelLib.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/SPLJSONModelLib.h"; sourceTree = "<group>"; };
-		635245448AEC86A034F0C1D952E54620 /* MintLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MintLogger.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/MintLogger.h"; sourceTree = "<group>"; };
-		6AE202B2E7137154F356D2E95BE12004 /* ScreenDataFixture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ScreenDataFixture.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/ScreenDataFixture.h"; sourceTree = "<group>"; };
-		6CF6EBC0C686855769AA5D0AF8D7F3DF /* ExceptionManagerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ExceptionManagerDelegate.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/ExceptionManagerDelegate.h"; sourceTree = "<group>"; };
-		788F718286562E53C25AB63C3FBCB566 /* RequestWorkerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RequestWorkerDelegate.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/RequestWorkerDelegate.h"; sourceTree = "<group>"; };
-		7B067220C95FE96EB1F7ED67DEEA58B2 /* GAIEcommerceProduct.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIEcommerceProduct.h; path = GoogleAnalytics/Library/GAIEcommerceProduct.h; sourceTree = "<group>"; };
-		7D184C37D1FFA59F74BE720A2F77E2D2 /* SPLTransaction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPLTransaction.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/SPLTransaction.h"; sourceTree = "<group>"; };
-		800079897CB52FCC2BB5D8683BA1D463 /* GAILogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAILogger.h; path = GoogleAnalytics/Library/GAILogger.h; sourceTree = "<group>"; };
-		80F0A4086A714CCE4469219E5F0FCBF3 /* GAI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAI.h; path = GoogleAnalytics/Library/GAI.h; sourceTree = "<group>"; };
-		8326C8BA6BE6DBE05E4E23E7DDAC9E31 /* XamarinHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XamarinHelper.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/XamarinHelper.h"; sourceTree = "<group>"; };
-		83D997F223FEDFB0FE98207A9CC08A8A /* MintResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MintResult.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/MintResult.h"; sourceTree = "<group>"; };
-		857E32052F2E2D645EEDA790C5F25E2C /* MintInternalRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MintInternalRequest.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/MintInternalRequest.h"; sourceTree = "<group>"; };
+		49B0AA8932B4F41AD975287704659AD4 /* libGTM_NSStringXML.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_NSStringXML.a; path = Libraries/libGTM_NSStringXML.a; sourceTree = "<group>"; };
+		4B86C06DBA5E27661CBFFDFCA5615624 /* libGTMSessionFetcher_full.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTMSessionFetcher_full.a; path = Libraries/libGTMSessionFetcher_full.a; sourceTree = "<group>"; };
+		4F2E9C2A6188C7B8206941116D6836D8 /* libGTMStackTrace.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTMStackTrace.a; path = Libraries/libGTMStackTrace.a; sourceTree = "<group>"; };
+		547DE9A2DFC6A8F3741C42DE48B5D9F6 /* JsonRequestType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JsonRequestType.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/JsonRequestType.h"; sourceTree = "<group>"; };
+		5665FE1048019A4B781E28B74038FE1B /* MintWKWebView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MintWKWebView.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/MintWKWebView.h"; sourceTree = "<group>"; };
+		56F71565540990F48E49D74253AF73E7 /* MintResponseResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MintResponseResult.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/MintResponseResult.h"; sourceTree = "<group>"; };
+		5792030AC0F9A65EB632AF85854D071C /* MintPerformance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MintPerformance.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/MintPerformance.h"; sourceTree = "<group>"; };
+		6298CD3CD9FE06D740F07D7F89537485 /* MintNotificationDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MintNotificationDelegate.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/MintNotificationDelegate.h"; sourceTree = "<group>"; };
+		639A7BABD39A9586D6C115B5B8EBB0A2 /* DataFixture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DataFixture.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/DataFixture.h"; sourceTree = "<group>"; };
+		640962B16577D26C16980A6E719DB1B6 /* SerializeResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SerializeResult.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/SerializeResult.h"; sourceTree = "<group>"; };
+		6609673C57E31CA4BDE62084AE6DFEC1 /* SPLJSONModelArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPLJSONModelArray.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/SPLJSONModelArray.h"; sourceTree = "<group>"; };
+		690EB12671354D7E237DF9BE1254B508 /* libGTM_iPhone.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_iPhone.a; path = Libraries/libGTM_iPhone.a; sourceTree = "<group>"; };
+		6CF9EE60488760DE3B2046561C09E331 /* DeviceInfoDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DeviceInfoDelegate.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/DeviceInfoDelegate.h"; sourceTree = "<group>"; };
+		717F0FAAAA54D0CA663BBB645FAFC407 /* LoggedRequestEventArgs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LoggedRequestEventArgs.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/LoggedRequestEventArgs.h"; sourceTree = "<group>"; };
+		72963C3C13823AC3276D6B078829F10A /* MintLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MintLogger.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/MintLogger.h"; sourceTree = "<group>"; };
+		76637EE43CE22D1BD7D688E6E3F6A459 /* Analytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Analytics.h; path = Headers/GGLAnalytics/Public/Analytics.h; sourceTree = "<group>"; };
+		7B4FEE109B0DDEFF6D9C83C159D5A81D /* MintRequestContentType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MintRequestContentType.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/MintRequestContentType.h"; sourceTree = "<group>"; };
+		7F8D02C671929D9F78713EDFDCBEFEE1 /* GAIEcommerceProduct.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIEcommerceProduct.h; path = Headers/Public/GAIEcommerceProduct.h; sourceTree = "<group>"; };
+		807F568BE87590E4EBB820132D2A87BE /* MintResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MintResult.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/MintResult.h"; sourceTree = "<group>"; };
+		837A190EF3AE027D6D663F74FB4C9F3A /* NSString+Extensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Extensions.h"; path = "SplunkMint-iOS.framework/Versions/A/Headers/NSString+Extensions.h"; sourceTree = "<group>"; };
 		8599D25A8512B871B4495EE50B062DC4 /* Pods-ICACrashReporter-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ICACrashReporter-acknowledgements.plist"; sourceTree = "<group>"; };
-		86662FE16E92F8E3B692B600B35ADA8F /* SplunkMint-iOS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SplunkMint-iOS.h"; path = "SplunkMint-iOS.framework/Versions/A/Headers/SplunkMint-iOS.h"; sourceTree = "<group>"; };
+		87647D5979F2F2F3DB046764AC5144D5 /* libGTM_GTMURLBuilder.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_GTMURLBuilder.a; path = Libraries/libGTM_GTMURLBuilder.a; sourceTree = "<group>"; };
 		8795225237B19D0DB4EC055D43009E3E /* libPods-ICACrashReporter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ICACrashReporter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		88D2BBE981065335C34BF8F6FA4E201F /* LimitedExtraDataList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LimitedExtraDataList.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/LimitedExtraDataList.h"; sourceTree = "<group>"; };
-		8B549DA06D3F9D5EF63AD399A67B0533 /* TAGDataLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TAGDataLayer.h; path = GoogleTagManager/Library/TAGDataLayer.h; sourceTree = "<group>"; };
-		8EF3A020593F391F2518FE6286A8DCD0 /* SPLJSONModelError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPLJSONModelError.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/SPLJSONModelError.h"; sourceTree = "<group>"; };
-		9137FF6677AE02A19C4009495077D619 /* MintBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MintBase.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/MintBase.h"; sourceTree = "<group>"; };
-		9350C735EB8CF590325B78C6E9952F9F /* UnhandledCrashReportArgs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UnhandledCrashReportArgs.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/UnhandledCrashReportArgs.h"; sourceTree = "<group>"; };
-		93B435E4EDC86B598F6A7A780448BDD5 /* FileClientDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FileClientDelegate.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/FileClientDelegate.h"; sourceTree = "<group>"; };
-		99588B2BE4D2B95E9F55684BFB2F5211 /* MintExceptionRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MintExceptionRequest.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/MintExceptionRequest.h"; sourceTree = "<group>"; };
-		9A475A48647091C551F114ED41EDB4A5 /* MintException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MintException.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/MintException.h"; sourceTree = "<group>"; };
-		A44E481C70C0BA0B5A45EAA7677A084F /* SPLJSONKeyMapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPLJSONKeyMapper.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/SPLJSONKeyMapper.h"; sourceTree = "<group>"; };
-		A501246B895EBCCB41F082BC1B3AF065 /* MintErrorResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MintErrorResponse.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/MintErrorResponse.h"; sourceTree = "<group>"; };
-		A9EE66623EE098AC1C07021927265212 /* MintWKWebView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MintWKWebView.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/MintWKWebView.h"; sourceTree = "<group>"; };
-		AAD42C89B5DFE36D1FB6A98656790B95 /* TransactionStopResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TransactionStopResult.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/TransactionStopResult.h"; sourceTree = "<group>"; };
-		AAF8CBB8B2FB62EAA52D85F32ACFB26D /* LimitedBreadcrumbList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LimitedBreadcrumbList.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/LimitedBreadcrumbList.h"; sourceTree = "<group>"; };
-		AB59FACA846FF97299D8FC1AB3745190 /* SPLJSONModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPLJSONModel.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/SPLJSONModel.h"; sourceTree = "<group>"; };
-		AD55B7FB602A8C2A5234AF48F1460B03 /* SerializeResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SerializeResult.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/SerializeResult.h"; sourceTree = "<group>"; };
-		B705FE9260C416E23B23E27A51214D6B /* DeviceInfoDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DeviceInfoDelegate.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/DeviceInfoDelegate.h"; sourceTree = "<group>"; };
+		880C98A53CAA0710052B7348C3F3C652 /* Core.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Core.h; path = Headers/GGLCore/Public/Core.h; sourceTree = "<group>"; };
+		89524693F6678D87D7A82D240C6E867D /* FileClientDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FileClientDelegate.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/FileClientDelegate.h"; sourceTree = "<group>"; };
+		8BF503BC806A17BCA63738B38A8F8A1E /* MintUIWebView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MintUIWebView.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/MintUIWebView.h"; sourceTree = "<group>"; };
+		8BF62035ED1A69D120CA44BFAB72616D /* MintAppEnvironment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MintAppEnvironment.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/MintAppEnvironment.h"; sourceTree = "<group>"; };
+		8C9F037C280106212DC00638A32CD3BD /* ExceptionDataFixture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ExceptionDataFixture.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/ExceptionDataFixture.h"; sourceTree = "<group>"; };
+		901BFE855DCD514A89A1B91AD9BD6FAF /* MintExceptionRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MintExceptionRequest.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/MintExceptionRequest.h"; sourceTree = "<group>"; };
+		9452B17042D286D9AB36A8D1C9913579 /* libGTM_SystemVersion.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_SystemVersion.a; path = Libraries/libGTM_SystemVersion.a; sourceTree = "<group>"; };
+		95E796CD08866CC0F56087D181BE267D /* libGTM_NSDictionary+URLArguments.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libGTM_NSDictionary+URLArguments.a"; path = "Libraries/libGTM_NSDictionary+URLArguments.a"; sourceTree = "<group>"; };
+		9CA6A5F59662A2059ACBFFCDB75C2BB7 /* libGTM_NSStringHTML.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_NSStringHTML.a; path = Libraries/libGTM_NSStringHTML.a; sourceTree = "<group>"; };
+		9DAE54E79DD8E1277E37B5D71D86BACB /* SPLJSONModelClassProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPLJSONModelClassProperty.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/SPLJSONModelClassProperty.h"; sourceTree = "<group>"; };
+		A5AC94D8FA5991D0CFBDF84D2049537D /* EventDataFixture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EventDataFixture.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/EventDataFixture.h"; sourceTree = "<group>"; };
+		A69639D09791248A4F455B07530E3492 /* libGGLCore.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGGLCore.a; path = Libraries/libGGLCore.a; sourceTree = "<group>"; };
+		A9E97E0B8D4FA3AC936329F10393C420 /* libGTM_UIFont+LineHeight.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libGTM_UIFont+LineHeight.a"; path = "Libraries/libGTM_UIFont+LineHeight.a"; sourceTree = "<group>"; };
+		AABBB1D649BC5BA453293D778EC5F56D /* TrStop.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TrStop.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/TrStop.h"; sourceTree = "<group>"; };
+		AFA8985B9127FB24368C8847BD9AE3E8 /* CrashOnLastRun.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CrashOnLastRun.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/CrashOnLastRun.h"; sourceTree = "<group>"; };
+		B3960DBA4A035FC3D2AE563496EC7E74 /* libGTM_NSScannerJSON.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_NSScannerJSON.a; path = Libraries/libGTM_NSScannerJSON.a; sourceTree = "<group>"; };
+		B58D505C27A75E00459FB0E50046523C /* libGTM_DebugUtils.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_DebugUtils.a; path = Libraries/libGTM_DebugUtils.a; sourceTree = "<group>"; };
 		B72F859F4470B78E044981A36F469A3D /* Pods-ICACrashReporter-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ICACrashReporter-resources.sh"; sourceTree = "<group>"; };
-		B742040A9BF37084D6CEF12DCD8628FB /* NSString+Extensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Extensions.h"; path = "SplunkMint-iOS.framework/Versions/A/Headers/NSString+Extensions.h"; sourceTree = "<group>"; };
+		B75A976900DBED3F57BDFD2A2A68465F /* libGTM_StringEncoding.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_StringEncoding.a; path = Libraries/libGTM_StringEncoding.a; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C2FE16DE6657171E4C0BE796AD5B9D99 /* MintResponseResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MintResponseResult.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/MintResponseResult.h"; sourceTree = "<group>"; };
-		C81C04BC7CDE8000ADBF59CB6483C7A4 /* TransactionStartResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TransactionStartResult.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/TransactionStartResult.h"; sourceTree = "<group>"; };
-		D0C68C735EB99157B770D0AA68FFFBE6 /* SPLJSONValueTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPLJSONValueTransformer.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/SPLJSONValueTransformer.h"; sourceTree = "<group>"; };
-		D75D1CDA6BEAE88FB7C291EA5CA0954C /* MintMessageException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MintMessageException.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/MintMessageException.h"; sourceTree = "<group>"; };
-		D8355C17C031258AABEBAF709DE0C498 /* RequestWorkerFacadeDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RequestWorkerFacadeDelegate.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/RequestWorkerFacadeDelegate.h"; sourceTree = "<group>"; };
+		BC067AC998E99A96C07CCCA31A3E04B5 /* GAITracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAITracker.h; path = Headers/Public/GAITracker.h; sourceTree = "<group>"; };
+		BF28674FA8258C3096817B07095C0C1D /* SPLTransaction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPLTransaction.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/SPLTransaction.h"; sourceTree = "<group>"; };
+		BF96CCF1B1ED08D1BFC12578D5E4FBA4 /* MintErrorResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MintErrorResponse.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/MintErrorResponse.h"; sourceTree = "<group>"; };
+		C60E219398323F8A9CDD1D2AF2ECA6FE /* MintEnums.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MintEnums.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/MintEnums.h"; sourceTree = "<group>"; };
+		C8C25387FE92013E3EA9B97F9549BEA0 /* libGoogleAnalytics.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGoogleAnalytics.a; path = Libraries/libGoogleAnalytics.a; sourceTree = "<group>"; };
+		CC68478A32EC9E1DF52A0D9026FD5E46 /* TransactionResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TransactionResult.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/TransactionResult.h"; sourceTree = "<group>"; };
+		CCE99070A8ECA0AC011D437D544AA472 /* SPLJSONModelLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPLJSONModelLib.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/SPLJSONModelLib.h"; sourceTree = "<group>"; };
+		CF9D8FB957E3C539188D60715E454371 /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIDictionaryBuilder.h; path = Headers/Public/GAIDictionaryBuilder.h; sourceTree = "<group>"; };
+		D02AEA20BE381989D20B807FD68377E2 /* ExceptionManagerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ExceptionManagerDelegate.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/ExceptionManagerDelegate.h"; sourceTree = "<group>"; };
+		D5081AFD18A9F77CEC082B1F2EFB7318 /* GGLConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGLConfiguration.h; path = Headers/GGLCore/Public/GGLConfiguration.h; sourceTree = "<group>"; };
+		D912FA2E266E086891D251190B47E00B /* MintException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MintException.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/MintException.h"; sourceTree = "<group>"; };
+		DA6B965BF3AE32866BB06B396D57312B /* GAI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAI.h; path = Headers/Public/GAI.h; sourceTree = "<group>"; };
+		DBBD51C6AC8C7855F5F28D22EACE2695 /* ScreenProperties.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ScreenProperties.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/ScreenProperties.h"; sourceTree = "<group>"; };
 		DBD1D1FE9968207509B40E812A018ADE /* Pods-ICACrashReporter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ICACrashReporter.debug.xcconfig"; sourceTree = "<group>"; };
-		DCA8FE8E843B331C09DC40565F9ACB28 /* RequestJsonSerializerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RequestJsonSerializerDelegate.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/RequestJsonSerializerDelegate.h"; sourceTree = "<group>"; };
-		E1331F8064266937E82898DC2985C96E /* TAGManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TAGManager.h; path = GoogleTagManager/Library/TAGManager.h; sourceTree = "<group>"; };
-		E60921C96908C033C9EC47D10B5346A3 /* TransactionResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TransactionResult.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/TransactionResult.h"; sourceTree = "<group>"; };
-		E64CBA1081472825D96D98E282EBFA83 /* ExtraData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ExtraData.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/ExtraData.h"; sourceTree = "<group>"; };
-		ED302223FC214BAEB1B291CD22397BE9 /* EnumStringHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EnumStringHelper.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/EnumStringHelper.h"; sourceTree = "<group>"; };
-		ED3D404EBC0793472337C338E6316478 /* RemoteSettingsData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RemoteSettingsData.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/RemoteSettingsData.h"; sourceTree = "<group>"; };
-		F16437BC8903C0B850F3BB7A47E50B5A /* MintAppEnvironment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MintAppEnvironment.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/MintAppEnvironment.h"; sourceTree = "<group>"; };
-		F210F665318E6826C2BB7D91175CD1C4 /* ExceptionDataFixture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ExceptionDataFixture.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/ExceptionDataFixture.h"; sourceTree = "<group>"; };
+		DCE5EF0DC070A8F7510B2DBEA33EBDBB /* ServiceClientDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ServiceClientDelegate.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/ServiceClientDelegate.h"; sourceTree = "<group>"; };
+		DDF65ADDFFC7718CEEB04F0091605A97 /* GAILogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAILogger.h; path = Headers/Public/GAILogger.h; sourceTree = "<group>"; };
+		E205F368957C9AA2A3A5F81D7C159813 /* libGTM_RoundedRectPath.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_RoundedRectPath.a; path = Libraries/libGTM_RoundedRectPath.a; sourceTree = "<group>"; };
+		E314760318912F7757EF584E9482D4D4 /* libGTM_KVO.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_KVO.a; path = Libraries/libGTM_KVO.a; sourceTree = "<group>"; };
+		E3BC7350A519366E75FEB59589586F5A /* GGLErrorCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GGLErrorCode.h; path = Headers/GGLCore/Public/GGLErrorCode.h; sourceTree = "<group>"; };
+		E4D46A1B3E19EC65881888D960D82CE0 /* libGTM_AddressBook.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_AddressBook.a; path = Libraries/libGTM_AddressBook.a; sourceTree = "<group>"; };
+		E58CBABBFA694F80F08DEFF965E757D9 /* libGGLAnalytics.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGGLAnalytics.a; path = Libraries/libGGLAnalytics.a; sourceTree = "<group>"; };
+		E8EFA150328100648AE694D915A6F296 /* GAIEcommercePromotion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIEcommercePromotion.h; path = Headers/Public/GAIEcommercePromotion.h; sourceTree = "<group>"; };
+		E96D7CD2A7209F5965E730010FFDD65F /* GAITrackedViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAITrackedViewController.h; path = Headers/Public/GAITrackedViewController.h; sourceTree = "<group>"; };
+		EA8002CA09209B531B45CA4A3D03AC92 /* TypeBlocks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TypeBlocks.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/TypeBlocks.h"; sourceTree = "<group>"; };
+		EA918F3A2D321AC7A508F78BC8F20A59 /* GAIEcommerceFields.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIEcommerceFields.h; path = Headers/Public/GAIEcommerceFields.h; sourceTree = "<group>"; };
+		EC3A77BC14AAAB7AF2B46E41E857CF8C /* SPLJSONModelError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPLJSONModelError.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/SPLJSONModelError.h"; sourceTree = "<group>"; };
+		EDD8C06A337AB259E55225068B198076 /* DataErrorResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DataErrorResponse.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/DataErrorResponse.h"; sourceTree = "<group>"; };
+		EFE95854FD251C91279C0FFD6826E9FE /* LimitedBreadcrumbList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LimitedBreadcrumbList.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/LimitedBreadcrumbList.h"; sourceTree = "<group>"; };
+		F0FE9C70964661E4EF2499A0577EAFC5 /* XamarinHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XamarinHelper.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/XamarinHelper.h"; sourceTree = "<group>"; };
+		F1E01643AAB959A160ADA882016BFE42 /* MintClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MintClient.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/MintClient.h"; sourceTree = "<group>"; };
+		F337B45CB8AC6D80A2FF688FE1242930 /* libGTMSessionFetcher_core.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTMSessionFetcher_core.a; path = Libraries/libGTMSessionFetcher_core.a; sourceTree = "<group>"; };
+		F5CDEF7AB86914EEA6B0E06F75707EEA /* libGTM_core.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGTM_core.a; path = Libraries/libGTM_core.a; sourceTree = "<group>"; };
 		F6807A11D64504C251E0BB5A5F2EAB13 /* Pods-ICACrashReporter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ICACrashReporter-dummy.m"; sourceTree = "<group>"; };
-		F6C452EFC1250349B89BF5DD84DCF474 /* TAGContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TAGContainer.h; path = GoogleTagManager/Library/TAGContainer.h; sourceTree = "<group>"; };
-		F73B14AF8E5F723337E60D9DDC7DD2AB /* TypeBlocks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TypeBlocks.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/TypeBlocks.h"; sourceTree = "<group>"; };
-		F75EC4108FC6A63041D24B80348E5E86 /* MintPerformance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MintPerformance.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/MintPerformance.h"; sourceTree = "<group>"; };
-		FD2F65DFA5733DC3649226EC8A5540FD /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIDictionaryBuilder.h; path = GoogleAnalytics/Library/GAIDictionaryBuilder.h; sourceTree = "<group>"; };
-		FD6A8C094668C2E17E6CCCE893222F27 /* MintConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MintConstants.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/MintConstants.h"; sourceTree = "<group>"; };
+		F71178BE7EE77FC3A1DB18A720B54BE1 /* GAIFields.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GAIFields.h; path = Headers/Public/GAIFields.h; sourceTree = "<group>"; };
+		F8496F30F1A42261084404045AE89142 /* MintMessageException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MintMessageException.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/MintMessageException.h"; sourceTree = "<group>"; };
+		FC5316DF4E392E94C06A4CD04842E43B /* MintBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MintBase.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/MintBase.h"; sourceTree = "<group>"; };
+		FFB14721885EDDF92CE07AB52FED24DC /* ExtraData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ExtraData.h; path = "SplunkMint-iOS.framework/Versions/A/Headers/ExtraData.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +141,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		16E3057AF2314EABBD9F6E848DB983B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F2E9C2A6188C7B8206941116D6836D8 /* libGTMStackTrace.a */,
+				E4D46A1B3E19EC65881888D960D82CE0 /* libGTM_AddressBook.a */,
+				B58D505C27A75E00459FB0E50046523C /* libGTM_DebugUtils.a */,
+				87647D5979F2F2F3DB046764AC5144D5 /* libGTM_GTMURLBuilder.a */,
+				E314760318912F7757EF584E9482D4D4 /* libGTM_KVO.a */,
+				95E796CD08866CC0F56087D181BE267D /* libGTM_NSDictionary+URLArguments.a */,
+				B3960DBA4A035FC3D2AE563496EC7E74 /* libGTM_NSScannerJSON.a */,
+				9CA6A5F59662A2059ACBFFCDB75C2BB7 /* libGTM_NSStringHTML.a */,
+				49B0AA8932B4F41AD975287704659AD4 /* libGTM_NSStringXML.a */,
+				0DDEDEBD8C172A2F6687190EDAB222BC /* libGTM_Regex.a */,
+				E205F368957C9AA2A3A5F81D7C159813 /* libGTM_RoundedRectPath.a */,
+				B75A976900DBED3F57BDFD2A2A68465F /* libGTM_StringEncoding.a */,
+				9452B17042D286D9AB36A8D1C9913579 /* libGTM_SystemVersion.a */,
+				A9E97E0B8D4FA3AC936329F10393C420 /* libGTM_UIFont+LineHeight.a */,
+				F5CDEF7AB86914EEA6B0E06F75707EEA /* libGTM_core.a */,
+				690EB12671354D7E237DF9BE1254B508 /* libGTM_iPhone.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		280CF6867623869BEFDB08185339F559 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -126,12 +172,30 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		3FCB30BE953A87D430B5D78397A0E8E3 /* GoogleAnalytics-iOS-SDK */ = {
+		30DC26D45E1BD5A09605C0F4B134F4A7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				77693F2EAD3EE0A173586A19EC2F130E /* Core */,
+				F337B45CB8AC6D80A2FF688FE1242930 /* libGTMSessionFetcher_core.a */,
+				4B86C06DBA5E27661CBFFDFCA5615624 /* libGTMSessionFetcher_full.a */,
 			);
-			path = "GoogleAnalytics-iOS-SDK";
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		42CC0E9500D54D4CF5A2E795818093BE /* Google */ = {
+			isa = PBXGroup;
+			children = (
+				58EB0387F86407FEDDCE959CEF4C77FD /* Analytics */,
+				7BACF3F16B3540DDB6DB8023D75447CE /* Core */,
+			);
+			path = Google;
+			sourceTree = "<group>";
+		};
+		511E04297C42413AE5F9218DC2489D9F /* GoogleSymbolUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				8FEC8A400AC8929098671CB20A30C24E /* Frameworks */,
+			);
+			path = GoogleSymbolUtilities;
 			sourceTree = "<group>";
 		};
 		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
@@ -142,33 +206,53 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		5F18603D848905D4621173E853E28DA1 /* Pods */ = {
+		58EB0387F86407FEDDCE959CEF4C77FD /* Analytics */ = {
 			isa = PBXGroup;
 			children = (
-				3FCB30BE953A87D430B5D78397A0E8E3 /* GoogleAnalytics-iOS-SDK */,
-				E5BE8DF881C6F804D68E973F7444C791 /* SplunkMint-iOS */,
+				76637EE43CE22D1BD7D688E6E3F6A459 /* Analytics.h */,
+				176444878259263F0B65455C501C9011 /* GGLContext+Analytics.h */,
+				7B47C2B90C8D2DCF4DF0A618B5269DE5 /* Frameworks */,
+			);
+			name = Analytics;
+			sourceTree = "<group>";
+		};
+		5C55872A4B0878140B361F15C5E83CB9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				42CC0E9500D54D4CF5A2E795818093BE /* Google */,
+				8E24D8601DC9675564BE625281D1C212 /* GoogleAnalytics */,
+				E83805ED8F76DA1F6CAE2CBD9D28F339 /* GoogleNetworkingUtilities */,
+				511E04297C42413AE5F9218DC2489D9F /* GoogleSymbolUtilities */,
+				8005F5FE56CC2702CBE190AA192C1641 /* GoogleUtilities */,
+				87123EDB7942670AACE6F967C2F2896D /* SplunkMint-iOS */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		77693F2EAD3EE0A173586A19EC2F130E /* Core */ = {
+		7A66AE6A60B51E9292BA00629F371A79 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				80F0A4086A714CCE4469219E5F0FCBF3 /* GAI.h */,
-				FD2F65DFA5733DC3649226EC8A5540FD /* GAIDictionaryBuilder.h */,
-				487C9517F7551F72B2C473A3CD889296 /* GAIEcommerceFields.h */,
-				7B067220C95FE96EB1F7ED67DEEA58B2 /* GAIEcommerceProduct.h */,
-				31F484A85A1281F3769DE6F60B7F5FEF /* GAIEcommerceProductAction.h */,
-				0480839738820F53DEF94D70505F7BD7 /* GAIEcommercePromotion.h */,
-				1E6AFA82DB6019EAB13370F90E5700E1 /* GAIFields.h */,
-				800079897CB52FCC2BB5D8683BA1D463 /* GAILogger.h */,
-				55BC16F675EBD8AB435F8CCFA5DAB66A /* GAITrackedViewController.h */,
-				2DAAE5EC685874E24B94859A881FB0C4 /* GAITracker.h */,
-				F6C452EFC1250349B89BF5DD84DCF474 /* TAGContainer.h */,
-				0934008DA3D2E35BE035C08AB4DF0799 /* TAGContainerOpener.h */,
-				8B549DA06D3F9D5EF63AD399A67B0533 /* TAGDataLayer.h */,
-				173DF779927E1D599B1D6F20EA139DBF /* TAGLogger.h */,
-				E1331F8064266937E82898DC2985C96E /* TAGManager.h */,
+				A69639D09791248A4F455B07530E3492 /* libGGLCore.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B47C2B90C8D2DCF4DF0A618B5269DE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E58CBABBFA694F80F08DEFF965E757D9 /* libGGLAnalytics.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7BACF3F16B3540DDB6DB8023D75447CE /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				880C98A53CAA0710052B7348C3F3C652 /* Core.h */,
+				D5081AFD18A9F77CEC082B1F2EFB7318 /* GGLConfiguration.h */,
+				1F19EF022F95F6A509689F123F510E0C /* GGLContext.h */,
+				E3BC7350A519366E75FEB59589586F5A /* GGLErrorCode.h */,
+				7A66AE6A60B51E9292BA00629F371A79 /* Frameworks */,
 			);
 			name = Core;
 			sourceTree = "<group>";
@@ -178,10 +262,127 @@
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				5F18603D848905D4621173E853E28DA1 /* Pods */,
+				5C55872A4B0878140B361F15C5E83CB9 /* Pods */,
 				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
 				280CF6867623869BEFDB08185339F559 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		8005F5FE56CC2702CBE190AA192C1641 /* GoogleUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				16E3057AF2314EABBD9F6E848DB983B5 /* Frameworks */,
+			);
+			path = GoogleUtilities;
+			sourceTree = "<group>";
+		};
+		87123EDB7942670AACE6F967C2F2896D /* SplunkMint-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				24FB3F35865FB0A3A4471701D8E61893 /* BugSenseEventFactory.h */,
+				04D929A6A091A90242C5E06FE3346718 /* ContentTypeDelegate.h */,
+				AFA8985B9127FB24368C8847BD9AE3E8 /* CrashOnLastRun.h */,
+				EDD8C06A337AB259E55225068B198076 /* DataErrorResponse.h */,
+				639A7BABD39A9586D6C115B5B8EBB0A2 /* DataFixture.h */,
+				6CF9EE60488760DE3B2046561C09E331 /* DeviceInfoDelegate.h */,
+				2F6827EF3FC0809FD46C553B473DB202 /* EnumStringHelper.h */,
+				A5AC94D8FA5991D0CFBDF84D2049537D /* EventDataFixture.h */,
+				8C9F037C280106212DC00638A32CD3BD /* ExceptionDataFixture.h */,
+				D02AEA20BE381989D20B807FD68377E2 /* ExceptionManagerDelegate.h */,
+				FFB14721885EDDF92CE07AB52FED24DC /* ExtraData.h */,
+				89524693F6678D87D7A82D240C6E867D /* FileClientDelegate.h */,
+				547DE9A2DFC6A8F3741C42DE48B5D9F6 /* JsonRequestType.h */,
+				EFE95854FD251C91279C0FFD6826E9FE /* LimitedBreadcrumbList.h */,
+				415ED105DF8CB7D3FD15D512A83CB270 /* LimitedExtraDataList.h */,
+				717F0FAAAA54D0CA663BBB645FAFC407 /* LoggedRequestEventArgs.h */,
+				2C5D3645A5FD5BAC3716035F00E37C6C /* Mint.h */,
+				8BF62035ED1A69D120CA44BFAB72616D /* MintAppEnvironment.h */,
+				FC5316DF4E392E94C06A4CD04842E43B /* MintBase.h */,
+				F1E01643AAB959A160ADA882016BFE42 /* MintClient.h */,
+				137AF49E833A41A1050FCFEE780160CB /* MintConstants.h */,
+				C60E219398323F8A9CDD1D2AF2ECA6FE /* MintEnums.h */,
+				BF96CCF1B1ED08D1BFC12578D5E4FBA4 /* MintErrorResponse.h */,
+				D912FA2E266E086891D251190B47E00B /* MintException.h */,
+				901BFE855DCD514A89A1B91AD9BD6FAF /* MintExceptionRequest.h */,
+				1A25D4BC3B0B2F54C300F9B316E4C286 /* MintInternalRequest.h */,
+				047FAA32DA78121DE276524681293C44 /* MintLogResult.h */,
+				72963C3C13823AC3276D6B078829F10A /* MintLogger.h */,
+				F8496F30F1A42261084404045AE89142 /* MintMessageException.h */,
+				6298CD3CD9FE06D740F07D7F89537485 /* MintNotificationDelegate.h */,
+				5792030AC0F9A65EB632AF85854D071C /* MintPerformance.h */,
+				3103525C1264F5D954474BB3AD9D4AFB /* MintProperties.h */,
+				7B4FEE109B0DDEFF6D9C83C159D5A81D /* MintRequestContentType.h */,
+				56F71565540990F48E49D74253AF73E7 /* MintResponseResult.h */,
+				807F568BE87590E4EBB820132D2A87BE /* MintResult.h */,
+				1141E935291A262EB82D93246BFAFFC5 /* MintTransaction.h */,
+				8BF503BC806A17BCA63738B38A8F8A1E /* MintUIWebView.h */,
+				5665FE1048019A4B781E28B74038FE1B /* MintWKWebView.h */,
+				06D325443F5CFE8A04526D42C192CBFF /* NSArray+SPLJSONModel.h */,
+				470244277B3872A1DC5E15BE0FD3A62B /* NSDate+DateExtensions.h */,
+				837A190EF3AE027D6D663F74FB4C9F3A /* NSString+Extensions.h */,
+				282E306FF31AC8FB902899D9AD8B2B9A /* NetworkDataFixture.h */,
+				0FF5D29ED8E34906790871C2D01E8C8F /* RemoteSettingsData.h */,
+				0977FBB87E0E66C7843DB7FA12500978 /* RequestJsonSerializerDelegate.h */,
+				2B7968FFF13F925B18D1646B6045501E /* RequestWorkerDelegate.h */,
+				2CF6AB3B9D6358B2E1104C741F278380 /* RequestWorkerFacadeDelegate.h */,
+				312DA5A0C6106D9B71AE01C8EFAE1E5C /* SPLJSONKeyMapper.h */,
+				4397031B62465A09AD5FAA66D9CA33C6 /* SPLJSONModel.h */,
+				6609673C57E31CA4BDE62084AE6DFEC1 /* SPLJSONModelArray.h */,
+				9DAE54E79DD8E1277E37B5D71D86BACB /* SPLJSONModelClassProperty.h */,
+				EC3A77BC14AAAB7AF2B46E41E857CF8C /* SPLJSONModelError.h */,
+				CCE99070A8ECA0AC011D437D544AA472 /* SPLJSONModelLib.h */,
+				35AB079D149345B5101031C4A7BB41CB /* SPLJSONValueTransformer.h */,
+				BF28674FA8258C3096817B07095C0C1D /* SPLTransaction.h */,
+				3ECCBE7130B827F282C10784B1DF622F /* ScreenDataFixture.h */,
+				DBBD51C6AC8C7855F5F28D22EACE2695 /* ScreenProperties.h */,
+				640962B16577D26C16980A6E719DB1B6 /* SerializeResult.h */,
+				DCE5EF0DC070A8F7510B2DBEA33EBDBB /* ServiceClientDelegate.h */,
+				3B413DC0E38D60A4CE04EA8617328D76 /* SplunkMint-iOS.h */,
+				2B1F593CD15E44AA9E2A69F1665A054C /* TrStart.h */,
+				AABBB1D649BC5BA453293D778EC5F56D /* TrStop.h */,
+				CC68478A32EC9E1DF52A0D9026FD5E46 /* TransactionResult.h */,
+				05B99E8321258E96F3CE2C0067EE7D0D /* TransactionStartResult.h */,
+				0F6285FE102892A1237B33A877C6CB3F /* TransactionStopResult.h */,
+				EA8002CA09209B531B45CA4A3D03AC92 /* TypeBlocks.h */,
+				34FD549C3FE816421E8E8A0097C144B3 /* UnhandledCrashExtra.h */,
+				0B627C2016BB98B0292D2C23EC1C3C89 /* UnhandledCrashReportArgs.h */,
+				F0FE9C70964661E4EF2499A0577EAFC5 /* XamarinHelper.h */,
+			);
+			path = "SplunkMint-iOS";
+			sourceTree = "<group>";
+		};
+		8E24D8601DC9675564BE625281D1C212 /* GoogleAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				DA6B965BF3AE32866BB06B396D57312B /* GAI.h */,
+				CF9D8FB957E3C539188D60715E454371 /* GAIDictionaryBuilder.h */,
+				EA918F3A2D321AC7A508F78BC8F20A59 /* GAIEcommerceFields.h */,
+				7F8D02C671929D9F78713EDFDCBEFEE1 /* GAIEcommerceProduct.h */,
+				039B9849B4FCA8D36B740B4E1B4A9D6E /* GAIEcommerceProductAction.h */,
+				E8EFA150328100648AE694D915A6F296 /* GAIEcommercePromotion.h */,
+				F71178BE7EE77FC3A1DB18A720B54BE1 /* GAIFields.h */,
+				DDF65ADDFFC7718CEEB04F0091605A97 /* GAILogger.h */,
+				E96D7CD2A7209F5965E730010FFDD65F /* GAITrackedViewController.h */,
+				BC067AC998E99A96C07CCCA31A3E04B5 /* GAITracker.h */,
+				AE4C0684748A5BF70A7E8EB8031110D0 /* Frameworks */,
+			);
+			path = GoogleAnalytics;
+			sourceTree = "<group>";
+		};
+		8FEC8A400AC8929098671CB20A30C24E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4033CBCF59FE3C56D000FAB13DBDA3DD /* libGSDK_Overload.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE4C0684748A5BF70A7E8EB8031110D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8C25387FE92013E3EA9B97F9549BEA0 /* libGoogleAnalytics.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -214,79 +415,12 @@
 			path = "Target Support Files/Pods-ICACrashReporter";
 			sourceTree = "<group>";
 		};
-		E5BE8DF881C6F804D68E973F7444C791 /* SplunkMint-iOS */ = {
+		E83805ED8F76DA1F6CAE2CBD9D28F339 /* GoogleNetworkingUtilities */ = {
 			isa = PBXGroup;
 			children = (
-				3DCCA251C84FDF420A09C960706AB190 /* BugSenseEventFactory.h */,
-				4A3371EF6E6733A3D2A9567BA06BB456 /* ContentTypeDelegate.h */,
-				1C368BCE7D0BFC7A26B547560FA03EA7 /* CrashOnLastRun.h */,
-				194D41C495FD0B17D18C3072F291C470 /* DataErrorResponse.h */,
-				22B13077A906E491D2CA0A559BA1C94E /* DataFixture.h */,
-				B705FE9260C416E23B23E27A51214D6B /* DeviceInfoDelegate.h */,
-				ED302223FC214BAEB1B291CD22397BE9 /* EnumStringHelper.h */,
-				436531BA9C3E4BC8787A2C59C0E52D56 /* EventDataFixture.h */,
-				F210F665318E6826C2BB7D91175CD1C4 /* ExceptionDataFixture.h */,
-				6CF6EBC0C686855769AA5D0AF8D7F3DF /* ExceptionManagerDelegate.h */,
-				E64CBA1081472825D96D98E282EBFA83 /* ExtraData.h */,
-				93B435E4EDC86B598F6A7A780448BDD5 /* FileClientDelegate.h */,
-				074FDF58874999C049908E4F58673EBB /* JsonRequestType.h */,
-				AAF8CBB8B2FB62EAA52D85F32ACFB26D /* LimitedBreadcrumbList.h */,
-				88D2BBE981065335C34BF8F6FA4E201F /* LimitedExtraDataList.h */,
-				54935B9405140E523AEA0BD5B8A0C135 /* LoggedRequestEventArgs.h */,
-				4A0491C38D656F8B418F638708EF0479 /* Mint.h */,
-				F16437BC8903C0B850F3BB7A47E50B5A /* MintAppEnvironment.h */,
-				9137FF6677AE02A19C4009495077D619 /* MintBase.h */,
-				15906C1402746BAD7E1D370A6656E981 /* MintClient.h */,
-				FD6A8C094668C2E17E6CCCE893222F27 /* MintConstants.h */,
-				5B375B1D43A2488112DB5EC296AE295F /* MintEnums.h */,
-				A501246B895EBCCB41F082BC1B3AF065 /* MintErrorResponse.h */,
-				9A475A48647091C551F114ED41EDB4A5 /* MintException.h */,
-				99588B2BE4D2B95E9F55684BFB2F5211 /* MintExceptionRequest.h */,
-				857E32052F2E2D645EEDA790C5F25E2C /* MintInternalRequest.h */,
-				4721CECAEB543D972B36E89510E1B4B9 /* MintLogResult.h */,
-				635245448AEC86A034F0C1D952E54620 /* MintLogger.h */,
-				D75D1CDA6BEAE88FB7C291EA5CA0954C /* MintMessageException.h */,
-				4D2B92BDB8CE4530D72CBB849E901D6B /* MintNotificationDelegate.h */,
-				F75EC4108FC6A63041D24B80348E5E86 /* MintPerformance.h */,
-				374D125F0B65B72482AE2A9F5285095F /* MintProperties.h */,
-				60ADB2FBB260789D53065DEA016BBE19 /* MintRequestContentType.h */,
-				C2FE16DE6657171E4C0BE796AD5B9D99 /* MintResponseResult.h */,
-				83D997F223FEDFB0FE98207A9CC08A8A /* MintResult.h */,
-				1CE953225738B2021A508AA0DE3B6E82 /* MintTransaction.h */,
-				1B6EAB8F616852C6314D87C3907ED17D /* MintUIWebView.h */,
-				A9EE66623EE098AC1C07021927265212 /* MintWKWebView.h */,
-				11A4D2FFEB55627E98AB5F2ED7C9B553 /* NSArray+SPLJSONModel.h */,
-				32580896AFA30EC3268679A454A12654 /* NSDate+DateExtensions.h */,
-				B742040A9BF37084D6CEF12DCD8628FB /* NSString+Extensions.h */,
-				628E4C7275F4C30EE9BD46050D0F09C5 /* NetworkDataFixture.h */,
-				ED3D404EBC0793472337C338E6316478 /* RemoteSettingsData.h */,
-				DCA8FE8E843B331C09DC40565F9ACB28 /* RequestJsonSerializerDelegate.h */,
-				788F718286562E53C25AB63C3FBCB566 /* RequestWorkerDelegate.h */,
-				D8355C17C031258AABEBAF709DE0C498 /* RequestWorkerFacadeDelegate.h */,
-				A44E481C70C0BA0B5A45EAA7677A084F /* SPLJSONKeyMapper.h */,
-				AB59FACA846FF97299D8FC1AB3745190 /* SPLJSONModel.h */,
-				5F71BC004CF7308BF30F4995AC9D10F9 /* SPLJSONModelArray.h */,
-				1EEAE90AF75B9A9E63D43310E811D1A4 /* SPLJSONModelClassProperty.h */,
-				8EF3A020593F391F2518FE6286A8DCD0 /* SPLJSONModelError.h */,
-				62AC535F967D4086A6111AE8B17B14C6 /* SPLJSONModelLib.h */,
-				D0C68C735EB99157B770D0AA68FFFBE6 /* SPLJSONValueTransformer.h */,
-				7D184C37D1FFA59F74BE720A2F77E2D2 /* SPLTransaction.h */,
-				6AE202B2E7137154F356D2E95BE12004 /* ScreenDataFixture.h */,
-				448B08AACC39D6893AF7251E4577DBE3 /* ScreenProperties.h */,
-				AD55B7FB602A8C2A5234AF48F1460B03 /* SerializeResult.h */,
-				0D000F5CF843C5CD2778FA287979AC60 /* ServiceClientDelegate.h */,
-				86662FE16E92F8E3B692B600B35ADA8F /* SplunkMint-iOS.h */,
-				0B0EECB69B4731A8AB8A764F37615916 /* TrStart.h */,
-				4348B38322A586940A32B485AFEF50B5 /* TrStop.h */,
-				E60921C96908C033C9EC47D10B5346A3 /* TransactionResult.h */,
-				C81C04BC7CDE8000ADBF59CB6483C7A4 /* TransactionStartResult.h */,
-				AAD42C89B5DFE36D1FB6A98656790B95 /* TransactionStopResult.h */,
-				F73B14AF8E5F723337E60D9DDC7DD2AB /* TypeBlocks.h */,
-				4B1C67BFC9EFE9725B59013D85F1B7E7 /* UnhandledCrashExtra.h */,
-				9350C735EB8CF590325B78C6E9952F9F /* UnhandledCrashReportArgs.h */,
-				8326C8BA6BE6DBE05E4E23E7DDAC9E31 /* XamarinHelper.h */,
+				30DC26D45E1BD5A09605C0F4B134F4A7 /* Frameworks */,
 			);
-			path = "SplunkMint-iOS";
+			path = GoogleNetworkingUtilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

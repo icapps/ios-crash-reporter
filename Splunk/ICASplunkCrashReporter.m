@@ -7,7 +7,7 @@
 //
 
 #import "ICASplunkCrashReporter.h"
-#import "Mint.h"
+#import <SplunkMint-iOS/SplunkMint-iOS.h>
 
 @interface ICASplunkCrashReporter ()
 
