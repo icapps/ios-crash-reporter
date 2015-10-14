@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = 'ICACrashReporter'
-  spec.version      = '1.0.9'
+  spec.version      = '1.0.10'
   spec.license      = {
       :type => 'Commercial',
       :text => <<-LICENSE
@@ -12,21 +12,21 @@ Pod::Spec.new do |spec|
   spec.summary      = 'iCapps Crash Reporting assistant'
   spec.source       = { :git => 'https://bitbucket.org/icapps/pod_icacrashreporter.git', :tag => spec.version }
   spec.platform = :ios, "7.0"
-  
+
   spec.subspec 'Core' do |core|
   core.source_files = "ICACrashReporter*.{h,m}", "Console/*.{h,m}", "Multi/*.{h,m}"
   end
-  
+
   spec.subspec 'Splunk' do |splunk|
   splunk.source_files = "Splunk/*.{h,m}"
   splunk.dependency 'ICACrashReporter/Core'
-  splunk.dependency 'SplunkMint', '~> 4.3'
+  splunk.dependency 'SplunkMint', '~> 4.4'
   end
-  
+
   spec.subspec 'GoogleAnalytics' do |googleanalytics|
   googleanalytics.source_files = "GoogleAnalytics/*.{h,m}"
   googleanalytics.dependency 'ICACrashReporter/Core'
   googleanalytics.dependency 'Google/Analytics', '~> 1.0'
   end
-  
+
 end

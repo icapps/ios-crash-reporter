@@ -7,7 +7,7 @@
 //
 
 #import "ICASplunkCrashReporter.h"
-#import "Mint.h"
+#import <SplunkMint/Mint.h>
 
 @interface ICASplunkCrashReporter ()
 
@@ -21,7 +21,7 @@
     if (self = [super init]) {
         _key = key;
         [self startSession:key];
-        
+
     }
     return self;
 }
