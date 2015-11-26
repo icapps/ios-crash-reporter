@@ -150,6 +150,7 @@
 				BABABA251A9B80A80013BE5D /* Frameworks */,
 				BABABA261A9B80A80013BE5D /* Resources */,
 				285C000C15B1FAAB861869ED /* Copy Pods Resources */,
+				B7CAF7AC3866B7ACA04AA776 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -216,6 +217,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ICACrashReporter/Pods-ICACrashReporter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7CAF7AC3866B7ACA04AA776 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ICACrashReporter/Pods-ICACrashReporter-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F43EA70BC26EC1DD7043C758 /* Check Pods Manifest.lock */ = {

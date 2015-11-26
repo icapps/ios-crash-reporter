@@ -32,6 +32,14 @@
 			<key>FooterText</key>
 			<string>Copyright 2015 Google Inc.</string>
 			<key>Title</key>
+			<string>GoogleInterchangeUtilities</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
+			<string>Copyright 2015 Google Inc.</string>
+			<key>Title</key>
 			<string>GoogleNetworkingUtilities</string>
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
@@ -56,7 +64,7 @@
 			<key>FooterText</key>
 			<string>See https://mint.splunk.com/termsofuse</string>
 			<key>Title</key>
-			<string>SplunkMint-iOS</string>
+			<string>SplunkMint</string>
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
 		</dict>
