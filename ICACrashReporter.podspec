@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = 'ICACrashReporter'
-  spec.version      = '1.0.10'
+  spec.version      = '1.0.11'
   spec.license      = {
       :type => 'Commercial',
       :text => <<-LICENSE
@@ -20,7 +20,7 @@ Pod::Spec.new do |spec|
   spec.subspec 'Splunk' do |splunk|
   splunk.source_files = "Splunk/*.{h,m}"
   splunk.dependency 'ICACrashReporter/Core'
-  splunk.dependency 'SplunkMint', '~> 4.4'
+  splunk.dependency 'SplunkMint', '~> 4.4.1'
   end
 
   spec.subspec 'GoogleAnalytics' do |googleanalytics|
