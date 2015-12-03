@@ -58,7 +58,7 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
-				6003F593195388D20070C39A /* Example for ICACrashReporter */,
+				6003F593195388D20070C39A /* ICACrashReporter */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				198A020585DE748329D41AC1 /* Pods */,
@@ -82,7 +82,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6003F593195388D20070C39A /* Example for ICACrashReporter */ = {
+		6003F593195388D20070C39A /* ICACrashReporter */ = {
 			isa = PBXGroup;
 			children = (
 				629CF2C61C1078CF000A179B /* CoreObject.h */,
@@ -93,7 +93,6 @@
 				629CF2CA1C107D0B000A179B /* SplunkObject.m */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
-			name = "Example for ICACrashReporter";
 			path = ICACrashReporter;
 			sourceTree = "<group>";
 		};

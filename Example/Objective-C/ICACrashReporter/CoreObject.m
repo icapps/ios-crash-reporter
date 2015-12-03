@@ -32,12 +32,12 @@
     [ICACrashReporter initAndStartWithInstance:multiReporter];
     
     // Run some reporting tools.
-    [ICACrashReporter logBreadcrumb:@"test %@ %f %@", @"x", 23.3, @"TEST"];
+    [ICACrashReporter logBreadcrumb:[NSString stringWithFormat:@"KAWA %@", @"BUNGA"]];
     [ICACrashReporter logServiceFailure:404 serviceUrl:@"http://icapps.com" httpMethod:@"GET"];
-    [ICACrashReporter setUserIdentifier:@"user A"];
-    [ICACrashReporter logEvent:@"new event"];
-    [ICACrashReporter logExtraData:@"key" value:@"value"];
-    [ICACrashReporter logException:[NSException exceptionWithName:@"new exception" reason:@"crashed" userInfo:nil]];
+    [ICACrashReporter setUserIdentifier:@"123"];
+    [ICACrashReporter logEvent:@"BOOM!"];
+    [ICACrashReporter logExtraData:@"a" value:@"b"];
+    [ICACrashReporter logException:[NSException exceptionWithName:@"BOOM" reason:@"Inconsistent design" userInfo:nil]];
     
     // Try the transaction controller.
     ICACrashReporterTransactionController *controller = [ICACrashReporter transactionController];

@@ -24,16 +24,11 @@ static id<ICACrashReporterProvider> _instance = nil;
     [_instance setUserIdentifier:userId];
 }
 
-+ (void)logBreadcrumb:(NSString *)message, ... {
-    va_list args;
-    va_start(args, message);
-    NSString *content = [[NSString alloc] initWithFormat:message arguments:args];
-    va_end(args);
-    
++ (void)logBreadcrumb:(NSString *)message {
+    #warning This is a serious performance issue. Should be changed to a singleton.
     NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
     [formatter setDateFormat:@"HH:mm:ss"];
-    
-    [_instance logBreadcrumb:[NSString stringWithFormat:@"(%@) %@",[formatter stringFromDate:[NSDate date]], content]];
+    [_instance logBreadcrumb:[NSString stringWithFormat:@"(%@) %@",[formatter stringFromDate:[NSDate date]], message]];
 }
 
 + (void)logEvent:(NSString *)eventInfo {
