@@ -7,27 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		058CFBB156D87EC11F597CEB52C56144 /* ICACrashReporterTransactionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 038D1889A8354BB3BB17CB6B1C2508F7 /* ICACrashReporterTransactionController.m */; };
-		12B6DC1A5922D1DA6454CE85BFF58E5A /* ICAConsoleCrashReporter.h in Headers */ = {isa = PBXBuildFile; fileRef = F65DE56B6AF1AD3BCDDFDB7092D42844 /* ICAConsoleCrashReporter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1F9C73E3A3B1C48D48929DB94B422923 /* ICACrashReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 53BDF6AADC4693D5EA12D447267B462A /* ICACrashReporter.m */; };
-		2CF233B6EE0031D3B840C52DC941FB32 /* ICACrashReporter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0E84864D5B5DACE8A46C0E539E61D3 /* ICACrashReporter-dummy.m */; };
-		2D2DC1515AC9837B9028F4CBC00A2408 /* ICASplunkCrashReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2475695FF77176C94579E763D11DB6 /* ICASplunkCrashReporter.m */; };
-		324182482A4E38B0DD5E645B53124884 /* ICASplunkCrashReporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E03926627582F9061FCE0F11D390E33 /* ICASplunkCrashReporter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3BE463E524586A346E709717F1D6C3C5 /* ICAMultiCrashReporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 58919846250263A55D2BCDDE1A815633 /* ICAMultiCrashReporter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4BCF818E5DF0ADB670B74919B7854226 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E50DB1D50A9800E8C55DD9F290BE1866 /* SystemConfiguration.framework */; };
+		077093242BAE21D73DE1A11C80252240 /* ICAGoogleAnalyticsCrashReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 64672571A741F268F6F41AE7A8418EF5 /* ICAGoogleAnalyticsCrashReporter.m */; };
+		082965C54B9DC96B0BC91C2024CA8973 /* ICAConsoleCrashReporter.h in Headers */ = {isa = PBXBuildFile; fileRef = B50410A1AC6A917F7A15A03E6C465E98 /* ICAConsoleCrashReporter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		084A3254EB5733AF5175C9A91C52011D /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FE30E37AC14A7B007EA7089255C7DCB /* WebKit.framework */; };
+		09C3E197BA6C8C1F009EA6A7AE16027B /* GAIEcommerceProduct.h in Headers */ = {isa = PBXBuildFile; fileRef = 00A4B1A2896876B888303D8FE283B452 /* GAIEcommerceProduct.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0AAA5CD040CADD7F7F24DA41E5202843 /* GoogleAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = D6AFCA9221B67E324CDBEF94EED1E990 /* GoogleAnalytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19BB1627593099C82B2F8AEEE835F9B8 /* ICACrashReporter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 826196096893DCB1ADC25F4660900FE7 /* ICACrashReporter-dummy.m */; };
+		19F4D5572E69C39F2A9451329B301BCF /* ICASplunkCrashReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = E3B21C9C4C366B710385161ADDD4F124 /* ICASplunkCrashReporter.m */; };
+		1B1622879819B1F63771B18D6DCB513A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ED3C3B37B51935832336D3BDFB74B6E /* CoreData.framework */; };
+		1E39CCB1086158AFE5BE7B21AB470BF1 /* ICACrashReporter.h in Headers */ = {isa = PBXBuildFile; fileRef = A958746C523404B49511167AADFC8292 /* ICACrashReporter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		237AD48808A2F3F3E0A3CB90C7946FA2 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA70607867EBB975CD918B02B498DD07 /* CoreTelephony.framework */; };
+		3B40F62B8245ADAECED0BD0C5510B5BA /* ICAConsoleCrashReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E0FB74B6DAD7A1EA22AFEF34536EFA /* ICAConsoleCrashReporter.m */; };
 		53E481791C17968790B75A92EA4DAAB4 /* Pods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BCC458FDD5F692BBB2BFC64BB5701FC /* Pods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5E932018CB6517947A6FAE975BBE3357 /* Splunk.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D7CA9301421E43F6D93C647D13BD465 /* Splunk.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6DB0241D14043E793E7F84DE7B9E8A2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0850B5E3492E113B43141B9C19F24C7B /* Foundation.framework */; };
-		9BDAAAD6D38C2D2612E3481748495E7A /* ICACrashReporterTransactionController.h in Headers */ = {isa = PBXBuildFile; fileRef = 05C2B6E2F6209B07DA61441B7DFA92EC /* ICACrashReporterTransactionController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9E0BE5ED472BB77ECE255575D6F8074B /* ICACrashReporter.h in Headers */ = {isa = PBXBuildFile; fileRef = A08FD72C956AC74930EE535C1B518412 /* ICACrashReporter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B40928C993F92340F5CA0EA25031A3A7 /* Core.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FF2DBD6941AC05570BCC6381C01F4AC /* Core.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B941FF7115828A6CB475D70F3D0F0A25 /* ICACrashReporter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E129CB0CEA147FA065C6CD4B05D78D51 /* ICACrashReporter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BD5EB50CABA66621ED590273423C5F0F /* ICAConsoleCrashReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = A32F3DD81877A3F2284A8906B61D97D6 /* ICAConsoleCrashReporter.m */; };
+		58AC889D31935D064F0B2C0DB2B76A3B /* Splunk.h in Headers */ = {isa = PBXBuildFile; fileRef = A33D1822CD84D4E8B6CFAD2B935FB9FD /* Splunk.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D42304DF65BD302A00D4844E8694171 /* GAILogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 76FB0D480C9EAB82BB788D187AEF5453 /* GAILogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		670B97A858BEE3345D83DE48C8303045 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC79356099B84A24B3824BBE4BA46EE0 /* SystemConfiguration.framework */; };
+		6DB0241D14043E793E7F84DE7B9E8A2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D4835F99CF503EDB0ED7A0DD391D83E /* Foundation.framework */; };
+		74B9F08B2E678D0C75F48E0CD4C67ED1 /* GAITracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 96B2FFB9ED9ACC7F7DAECCBA6ECA8A25 /* GAITracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AEBAEC202B533017A626D8BCAA2BFBB /* ICAGoogleAnalyticsCrashReporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7A38390BB8948F292B8B6ABECD2229 /* ICAGoogleAnalyticsCrashReporter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BE663D76E06B8109415E1A712AAD750 /* GAI.h in Headers */ = {isa = PBXBuildFile; fileRef = 83B593F72F19F8997E24143E31E9099B /* GAI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8828C2CDD92CD055FF5A3B4C304034E2 /* ICAMultiCrashReporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 57BBCE39C0EE447CC6C6786A8E8DFC82 /* ICAMultiCrashReporter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94099F91A0FA20E252C4E0582A262467 /* GAIEcommercePromotion.h in Headers */ = {isa = PBXBuildFile; fileRef = E576AE20D25463583C4E1E28D49C41DA /* GAIEcommercePromotion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A318E0A814D749A594B7683CE0257BE8 /* ICACrashReporter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E0BA7B87736762F8225809154CF26F /* ICACrashReporter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A46BB9BFBEAEFD0218AB210A94FF8A20 /* ICASplunkCrashReporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DFA7C3A656FE81245210377AE00990D /* ICASplunkCrashReporter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAB03AA505B015110EEB2B5DDD19F617 /* GAITrackedViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 514E388A881BD7D89D5ECA1D21672728 /* GAITrackedViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABAD89B6F7621F8B7F6A0B67C6A25502 /* ICACrashReporterTransactionController.h in Headers */ = {isa = PBXBuildFile; fileRef = B65E42F2808CA1482CCB937097C3BADF /* ICACrashReporterTransactionController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5676DD484662C5692C191E5CC3CD3EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D4835F99CF503EDB0ED7A0DD391D83E /* Foundation.framework */; };
+		B73057D59F91FA4F56FFBC95B8DF3CED /* ICACrashReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 493D3CBEDE8F1763C8E5EB94A3D15F04 /* ICACrashReporter.m */; };
 		C1DC12DD14B6301D8043299F5EDC41A6 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 894E5DA93A9F359521A89826BE6DA777 /* Pods-dummy.m */; };
-		E03F97309F5E8EDFA50C1ADA9C9CC2C8 /* ICAMultiCrashReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = B18566AFA572297D43C1A02F671A4DA7 /* ICAMultiCrashReporter.m */; };
-		E23B12343C430AEB6B8639D3126F9147 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0850B5E3492E113B43141B9C19F24C7B /* Foundation.framework */; };
-		F8FD3CBBC55FAD6FC8A5E13F43FB017D /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5A894ED76D978898264218299D6D70 /* WebKit.framework */; };
-		FC81B5A0B97663287457DA98D3CAC488 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFD29DDF9B83998D2F21C843A14DA212 /* CoreTelephony.framework */; };
+		C50B3A50DFFD5459CE6B79A23B8040E5 /* GAIEcommerceFields.h in Headers */ = {isa = PBXBuildFile; fileRef = B683D9BBD2755BA1FCFB9F52FB2EAFC2 /* GAIEcommerceFields.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CAAD4AC426BF43B57405FB5190717C90 /* GAIEcommerceProductAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 47DD224A4A07700CF1547B7383BFBED9 /* GAIEcommerceProductAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB1605B453A26ED5DCE7CFB457812FAC /* ICAMultiCrashReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5F336BDC0A1B17F7624ACA6E086BC0 /* ICAMultiCrashReporter.m */; };
+		D4F0E20570C5E9F5EEEDE64AC3475758 /* GAIDictionaryBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = CBE7E4DB330A1793D52DDA349EE733F4 /* GAIDictionaryBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EABD2307E2CEDC917DD79B6EEC40A426 /* Core.h in Headers */ = {isa = PBXBuildFile; fileRef = 3271535E5400374A2063A4FAA0DBC6D2 /* Core.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED2B449A433B776502355E09C847989B /* ICACrashReporterTransactionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A0B1AED607AF7A825037618F7C4A66 /* ICACrashReporterTransactionController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,51 +48,77 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B9D5778AF218A8B46B936C27F813DEF1;
+			remoteGlobalIDString = 95AAF3926A3405F5FC2BD4AAFB08AE7E;
 			remoteInfo = ICACrashReporter;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		038D1889A8354BB3BB17CB6B1C2508F7 /* ICACrashReporterTransactionController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ICACrashReporterTransactionController.m; sourceTree = "<group>"; };
-		05C2B6E2F6209B07DA61441B7DFA92EC /* ICACrashReporterTransactionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ICACrashReporterTransactionController.h; sourceTree = "<group>"; };
-		0850B5E3492E113B43141B9C19F24C7B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		0D7CA9301421E43F6D93C647D13BD465 /* Splunk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Splunk.h; sourceTree = "<group>"; };
-		0E0E84864D5B5DACE8A46C0E539E61D3 /* ICACrashReporter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ICACrashReporter-dummy.m"; sourceTree = "<group>"; };
-		1E9D3C47CB4F0BC9E7C13D339441052B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00A4B1A2896876B888303D8FE283B452 /* GAIEcommerceProduct.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProduct.h; sourceTree = "<group>"; };
+		0D5F336BDC0A1B17F7624ACA6E086BC0 /* ICAMultiCrashReporter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ICAMultiCrashReporter.m; sourceTree = "<group>"; };
+		19530431531194FA987166FA6E35FC11 /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGoogleAnalyticsServices.a; path = Pod/Libraries/GoogleAnalytics/libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
 		2BCC458FDD5F692BBB2BFC64BB5701FC /* Pods-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-umbrella.h"; sourceTree = "<group>"; };
-		53BDF6AADC4693D5EA12D447267B462A /* ICACrashReporter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ICACrashReporter.m; sourceTree = "<group>"; };
-		58919846250263A55D2BCDDE1A815633 /* ICAMultiCrashReporter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ICAMultiCrashReporter.h; sourceTree = "<group>"; };
-		5E03926627582F9061FCE0F11D390E33 /* ICASplunkCrashReporter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ICASplunkCrashReporter.h; sourceTree = "<group>"; };
+		3271535E5400374A2063A4FAA0DBC6D2 /* Core.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Core.h; sourceTree = "<group>"; };
+		47DD224A4A07700CF1547B7383BFBED9 /* GAIEcommerceProductAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProductAction.h; sourceTree = "<group>"; };
+		493D3CBEDE8F1763C8E5EB94A3D15F04 /* ICACrashReporter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ICACrashReporter.m; sourceTree = "<group>"; };
+		514E388A881BD7D89D5ECA1D21672728 /* GAITrackedViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GAITrackedViewController.h; sourceTree = "<group>"; };
+		52A0B1AED607AF7A825037618F7C4A66 /* ICACrashReporterTransactionController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ICACrashReporterTransactionController.m; sourceTree = "<group>"; };
+		57BBCE39C0EE447CC6C6786A8E8DFC82 /* ICAMultiCrashReporter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ICAMultiCrashReporter.h; sourceTree = "<group>"; };
 		5E534497464E74743026A0656CFF5BFD /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5FF2DBD6941AC05570BCC6381C01F4AC /* Core.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Core.h; sourceTree = "<group>"; };
+		64672571A741F268F6F41AE7A8418EF5 /* ICAGoogleAnalyticsCrashReporter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ICAGoogleAnalyticsCrashReporter.m; sourceTree = "<group>"; };
+		6E7A38390BB8948F292B8B6ABECD2229 /* ICAGoogleAnalyticsCrashReporter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ICAGoogleAnalyticsCrashReporter.h; sourceTree = "<group>"; };
+		6ED3C3B37B51935832336D3BDFB74B6E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
+		76FB0D480C9EAB82BB788D187AEF5453 /* GAILogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GAILogger.h; sourceTree = "<group>"; };
+		77E0FB74B6DAD7A1EA22AFEF34536EFA /* ICAConsoleCrashReporter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ICAConsoleCrashReporter.m; sourceTree = "<group>"; };
 		79A9DEDC89FE8336BF5FEDAAF75BF7FC /* Pods.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Pods.modulemap; sourceTree = "<group>"; };
+		7DFA7C3A656FE81245210377AE00990D /* ICASplunkCrashReporter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ICASplunkCrashReporter.h; sourceTree = "<group>"; };
+		826196096893DCB1ADC25F4660900FE7 /* ICACrashReporter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ICACrashReporter-dummy.m"; sourceTree = "<group>"; };
+		83B593F72F19F8997E24143E31E9099B /* GAI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GAI.h; sourceTree = "<group>"; };
+		86BCCC34AB0226189374E19D578BFFA3 /* ICACrashReporter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ICACrashReporter.modulemap; sourceTree = "<group>"; };
 		87B213035BAC5F75386F62D3C75D2342 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
 		894E5DA93A9F359521A89826BE6DA777 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		8D4835F99CF503EDB0ED7A0DD391D83E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8FE30E37AC14A7B007EA7089255C7DCB /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
+		96B2FFB9ED9ACC7F7DAECCBA6ECA8A25 /* GAITracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GAITracker.h; sourceTree = "<group>"; };
 		977577C045EDA9D9D1F46E2598D19FC7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
-		9ADBE295D1AEC948B2635E826D8DBCBF /* ICACrashReporter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ICACrashReporter-prefix.pch"; sourceTree = "<group>"; };
-		9F21F402FC294C4583DBF614C5FDE4DC /* ICACrashReporter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ICACrashReporter.xcconfig; sourceTree = "<group>"; };
-		A08FD72C956AC74930EE535C1B518412 /* ICACrashReporter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ICACrashReporter.h; sourceTree = "<group>"; };
-		A32F3DD81877A3F2284A8906B61D97D6 /* ICAConsoleCrashReporter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ICAConsoleCrashReporter.m; sourceTree = "<group>"; };
-		AA5A894ED76D978898264218299D6D70 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
-		B18566AFA572297D43C1A02F671A4DA7 /* ICAMultiCrashReporter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ICAMultiCrashReporter.m; sourceTree = "<group>"; };
+		A33D1822CD84D4E8B6CFAD2B935FB9FD /* Splunk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Splunk.h; sourceTree = "<group>"; };
+		A958746C523404B49511167AADFC8292 /* ICACrashReporter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ICACrashReporter.h; sourceTree = "<group>"; };
+		B50410A1AC6A917F7A15A03E6C465E98 /* ICAConsoleCrashReporter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ICAConsoleCrashReporter.h; sourceTree = "<group>"; };
+		B65E42F2808CA1482CCB937097C3BADF /* ICACrashReporterTransactionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ICACrashReporterTransactionController.h; sourceTree = "<group>"; };
+		B683D9BBD2755BA1FCFB9F52FB2EAFC2 /* GAIEcommerceFields.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceFields.h; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BE093F1E46A02BE78BC2DFC3A08D7C41 /* ICACrashReporter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ICACrashReporter-prefix.pch"; sourceTree = "<group>"; };
 		CBC0F7C552B739C909B650A0F42F7F38 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		CBE7E4DB330A1793D52DDA349EE733F4 /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GAIDictionaryBuilder.h; sourceTree = "<group>"; };
+		D02122ADBE082C050E92FB1995DF52A7 /* SplunkMint.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SplunkMint.framework; path = Pod/Frameworks/SplunkMint.framework; sourceTree = "<group>"; };
 		D0405803033A2A777B8E4DFA0C1800ED /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D4EFA158D364483D77D3A363CDFB93E1 /* ICACrashReporter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ICACrashReporter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA2475695FF77176C94579E763D11DB6 /* ICASplunkCrashReporter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ICASplunkCrashReporter.m; sourceTree = "<group>"; };
+		D6AFCA9221B67E324CDBEF94EED1E990 /* GoogleAnalytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GoogleAnalytics.h; sourceTree = "<group>"; };
 		DA312349A49333542E6F4B36B329960E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
-		E129CB0CEA147FA065C6CD4B05D78D51 /* ICACrashReporter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ICACrashReporter-umbrella.h"; sourceTree = "<group>"; };
-		E50DB1D50A9800E8C55DD9F290BE1866 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		DA70607867EBB975CD918B02B498DD07 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		DC79356099B84A24B3824BBE4BA46EE0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		E3B21C9C4C366B710385161ADDD4F124 /* ICASplunkCrashReporter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ICASplunkCrashReporter.m; sourceTree = "<group>"; };
+		E576AE20D25463583C4E1E28D49C41DA /* GAIEcommercePromotion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GAIEcommercePromotion.h; sourceTree = "<group>"; };
+		E6E0BA7B87736762F8225809154CF26F /* ICACrashReporter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ICACrashReporter-umbrella.h"; sourceTree = "<group>"; };
+		E75DEEF930CB67A3F0A14B8CF70686E0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7F21354943D9F42A70697D5A5EF72E9 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
 		E8446514FBAD26C0E18F24A5715AEF67 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EC827C74BE55C851268C1FDC7AFA72DD /* SplunkMint.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SplunkMint.framework; path = Pod/Frameworks/SplunkMint.framework; sourceTree = "<group>"; };
-		EFD29DDF9B83998D2F21C843A14DA212 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
-		F65DE56B6AF1AD3BCDDFDB7092D42844 /* ICAConsoleCrashReporter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ICAConsoleCrashReporter.h; sourceTree = "<group>"; };
-		FF354AD2D83205F8D05C6C706C78E42D /* ICACrashReporter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ICACrashReporter.modulemap; sourceTree = "<group>"; };
+		F47786AA4D9F718275C31B7BD587E85F /* ICACrashReporter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ICACrashReporter.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		75338AE73425AA2705D26D82420FD460 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B1622879819B1F63771B18D6DCB513A /* CoreData.framework in Frameworks */,
+				237AD48808A2F3F3E0A3CB90C7946FA2 /* CoreTelephony.framework in Frameworks */,
+				B5676DD484662C5692C191E5CC3CD3EF /* Foundation.framework in Frameworks */,
+				670B97A858BEE3345D83DE48C8303045 /* SystemConfiguration.framework in Frameworks */,
+				084A3254EB5733AF5175C9A91C52011D /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AA518434EE6A12011F0134B0DC59A596 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -88,107 +127,114 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F4437466E1338D28C78548C98B0EB358 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FC81B5A0B97663287457DA98D3CAC488 /* CoreTelephony.framework in Frameworks */,
-				E23B12343C430AEB6B8639D3126F9147 /* Foundation.framework in Frameworks */,
-				4BCF818E5DF0ADB670B74919B7854226 /* SystemConfiguration.framework in Frameworks */,
-				F8FD3CBBC55FAD6FC8A5E13F43FB017D /* WebKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		044377E1479E7056AEA0E6D8F4025076 /* Support Files */ = {
+		0AC1D0088A61C8CFEEE82B085F2459AF /* GoogleAnalytics */ = {
 			isa = PBXGroup;
 			children = (
-				FF354AD2D83205F8D05C6C706C78E42D /* ICACrashReporter.modulemap */,
-				9F21F402FC294C4583DBF614C5FDE4DC /* ICACrashReporter.xcconfig */,
-				0E0E84864D5B5DACE8A46C0E539E61D3 /* ICACrashReporter-dummy.m */,
-				9ADBE295D1AEC948B2635E826D8DBCBF /* ICACrashReporter-prefix.pch */,
-				E129CB0CEA147FA065C6CD4B05D78D51 /* ICACrashReporter-umbrella.h */,
-				1E9D3C47CB4F0BC9E7C13D339441052B /* Info.plist */,
+				4B34EE213BF33416E64AFA8989B67FAD /* Frameworks */,
+				44B1194486B6301C41A51EBD7677BBD5 /* Pod */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ICACrashReporter";
+			name = GoogleAnalytics;
 			sourceTree = "<group>";
 		};
-		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+		20B56609144CE204DFA8221F742B2D76 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				20FDC68E026AD7946B338DA4183FDA97 /* iOS */,
+				5DE3B0A71F12EAA52E4F9442B5EAC97A /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		20FDC68E026AD7946B338DA4183FDA97 /* iOS */ = {
+		217C0766DDEB0B52D9ADB2B2ABA5CABF /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				EFD29DDF9B83998D2F21C843A14DA212 /* CoreTelephony.framework */,
-				0850B5E3492E113B43141B9C19F24C7B /* Foundation.framework */,
-				E50DB1D50A9800E8C55DD9F290BE1866 /* SystemConfiguration.framework */,
-				AA5A894ED76D978898264218299D6D70 /* WebKit.framework */,
+				B41B7B9C2D1E3BE39DF7264B2D824C23 /* ICACrashReporter */,
 			);
-			name = iOS;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		2359EBA73F0055ACBBFD6C1D4A3EA1D6 /* Console */ = {
+		2960A43AF76BAA9CF6F0FE9A8D906349 /* GoogleAnalytics */ = {
 			isa = PBXGroup;
 			children = (
-				F65DE56B6AF1AD3BCDDFDB7092D42844 /* ICAConsoleCrashReporter.h */,
-				A32F3DD81877A3F2284A8906B61D97D6 /* ICAConsoleCrashReporter.m */,
+				C2C45A40394CAB100BF7E7E2656B6DE9 /* Headers */,
 			);
-			path = Console;
+			path = GoogleAnalytics;
 			sourceTree = "<group>";
 		};
-		238B63320854AA39FA0529E0E467A3ED /* Splunk */ = {
+		379D58E38AA9F3A22D40477EC6285293 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				5E03926627582F9061FCE0F11D390E33 /* ICASplunkCrashReporter.h */,
-				DA2475695FF77176C94579E763D11DB6 /* ICASplunkCrashReporter.m */,
-			);
-			path = Splunk;
-			sourceTree = "<group>";
-		};
-		3D9C38BA7A8EA553AE41741547C96B46 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				5FF2DBD6941AC05570BCC6381C01F4AC /* Core.h */,
-				2359EBA73F0055ACBBFD6C1D4A3EA1D6 /* Console */,
-				FF80506D04BCE8E73E65DE9C9DF8828D /* Core */,
-				C4389D7022C14C09F17F69E7518662C8 /* Multi */,
+				3271535E5400374A2063A4FAA0DBC6D2 /* Core.h */,
+				C37611C9093C0094CA484E264CBA5E1D /* Console */,
+				5B9A5268DC88451B6ACB2A35A875D3E7 /* Core */,
+				F75B7C6E18F02D9CD088FBE800BEA9BC /* Multi */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		41BBB1A3640DBD44BF45F9C0BBA49D1F /* Pod */ = {
+		42B92FAB7FEFC87C14D8E7256BF19D58 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				8A87A21E4F6FE74F585E2F8A69AE53EE /* Classes */,
+				A33D1822CD84D4E8B6CFAD2B935FB9FD /* Splunk.h */,
+				848D428A325E75DBC258E04B0EDF90D1 /* Splunk */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		44B1194486B6301C41A51EBD7677BBD5 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D9BDE19FEF6FF5CFC4CE532413A5902B /* Classes */,
+				B1E6E0FCD4A89701DDBF2F24F69BEF71 /* Libraries */,
 			);
 			path = Pod;
 			sourceTree = "<group>";
 		};
-		4580A3E93B257D7D4FC75C7DFC151D43 /* ICACrashReporter */ = {
+		4B34EE213BF33416E64AFA8989B67FAD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A890A439901579D9FAE2E0FDFB179E15 /* Core */,
-				8B75BFD37B1F1AF4009463731AEEF8AD /* Splunk */,
-				044377E1479E7056AEA0E6D8F4025076 /* Support Files */,
-			);
-			name = ICACrashReporter;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		47FF14EE68D56BB4A147ED4D8B3F1C9A /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				EC827C74BE55C851268C1FDC7AFA72DD /* SplunkMint.framework */,
+				19530431531194FA987166FA6E35FC11 /* libGoogleAnalyticsServices.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B9A5268DC88451B6ACB2A35A875D3E7 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A958746C523404B49511167AADFC8292 /* ICACrashReporter.h */,
+				493D3CBEDE8F1763C8E5EB94A3D15F04 /* ICACrashReporter.m */,
+				B65E42F2808CA1482CCB937097C3BADF /* ICACrashReporterTransactionController.h */,
+				52A0B1AED607AF7A825037618F7C4A66 /* ICACrashReporterTransactionController.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		5DE3B0A71F12EAA52E4F9442B5EAC97A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6ED3C3B37B51935832336D3BDFB74B6E /* CoreData.framework */,
+				DA70607867EBB975CD918B02B498DD07 /* CoreTelephony.framework */,
+				8D4835F99CF503EDB0ED7A0DD391D83E /* Foundation.framework */,
+				DC79356099B84A24B3824BBE4BA46EE0 /* SystemConfiguration.framework */,
+				8FE30E37AC14A7B007EA7089255C7DCB /* WebKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		60CDDF54E062CF212B9CB9B17BA78DFA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				86BCCC34AB0226189374E19D578BFFA3 /* ICACrashReporter.modulemap */,
+				F47786AA4D9F718275C31B7BD587E85F /* ICACrashReporter.xcconfig */,
+				826196096893DCB1ADC25F4660900FE7 /* ICACrashReporter-dummy.m */,
+				BE093F1E46A02BE78BC2DFC3A08D7C41 /* ICACrashReporter-prefix.pch */,
+				E6E0BA7B87736762F8225809154CF26F /* ICACrashReporter-umbrella.h */,
+				E75DEEF930CB67A3F0A14B8CF70686E0 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ICACrashReporter";
 			sourceTree = "<group>";
 		};
 		75D98FF52E597A11900E131B6C4E1ADA /* Pods */ = {
@@ -213,29 +259,29 @@
 			isa = PBXGroup;
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				FA86FB4C381F0165E1F0D584D70563D1 /* Development Pods */,
-				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				217C0766DDEB0B52D9ADB2B2ABA5CABF /* Development Pods */,
+				20B56609144CE204DFA8221F742B2D76 /* Frameworks */,
 				A83A4EA0405B1A571F389FEBA68E1B35 /* Products */,
 				B7B80995527643776607AFFA75B91E24 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8A87A21E4F6FE74F585E2F8A69AE53EE /* Classes */ = {
+		848D428A325E75DBC258E04B0EDF90D1 /* Splunk */ = {
 			isa = PBXGroup;
 			children = (
-				0D7CA9301421E43F6D93C647D13BD465 /* Splunk.h */,
-				238B63320854AA39FA0529E0E467A3ED /* Splunk */,
+				7DFA7C3A656FE81245210377AE00990D /* ICASplunkCrashReporter.h */,
+				E3B21C9C4C366B710385161ADDD4F124 /* ICASplunkCrashReporter.m */,
 			);
-			path = Classes;
+			path = Splunk;
 			sourceTree = "<group>";
 		};
-		8B75BFD37B1F1AF4009463731AEEF8AD /* Splunk */ = {
+		953065BB7CC2D7A1373E817628F65D28 /* GoogleAnalytics */ = {
 			isa = PBXGroup;
 			children = (
-				47FF14EE68D56BB4A147ED4D8B3F1C9A /* Frameworks */,
-				41BBB1A3640DBD44BF45F9C0BBA49D1F /* Pod */,
+				6E7A38390BB8948F292B8B6ABECD2229 /* ICAGoogleAnalyticsCrashReporter.h */,
+				64672571A741F268F6F41AE7A8418EF5 /* ICAGoogleAnalyticsCrashReporter.m */,
 			);
-			name = Splunk;
+			path = GoogleAnalytics;
 			sourceTree = "<group>";
 		};
 		A83A4EA0405B1A571F389FEBA68E1B35 /* Products */ = {
@@ -247,12 +293,32 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A890A439901579D9FAE2E0FDFB179E15 /* Core */ = {
+		B1E6E0FCD4A89701DDBF2F24F69BEF71 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				CBDC865E9AC7BA024C6B7D917463D695 /* Pod */,
+				2960A43AF76BAA9CF6F0FE9A8D906349 /* GoogleAnalytics */,
 			);
-			name = Core;
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		B41B7B9C2D1E3BE39DF7264B2D824C23 /* ICACrashReporter */ = {
+			isa = PBXGroup;
+			children = (
+				FA4F28D209B7D8EB5CF69F8547BDAA46 /* Core */,
+				0AC1D0088A61C8CFEEE82B085F2459AF /* GoogleAnalytics */,
+				B8D81D89D7798E40CE3B80D90FA9E071 /* Splunk */,
+				60CDDF54E062CF212B9CB9B17BA78DFA /* Support Files */,
+			);
+			name = ICACrashReporter;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B4B862155F236FE91EB8D239E8055016 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D02122ADBE082C050E92FB1995DF52A7 /* SplunkMint.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		B7B80995527643776607AFFA75B91E24 /* Targets Support Files */ = {
@@ -263,65 +329,116 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		C4389D7022C14C09F17F69E7518662C8 /* Multi */ = {
+		B8D81D89D7798E40CE3B80D90FA9E071 /* Splunk */ = {
 			isa = PBXGroup;
 			children = (
-				58919846250263A55D2BCDDE1A815633 /* ICAMultiCrashReporter.h */,
-				B18566AFA572297D43C1A02F671A4DA7 /* ICAMultiCrashReporter.m */,
+				B4B862155F236FE91EB8D239E8055016 /* Frameworks */,
+				E34002860738F5926260E23B57EFE6A4 /* Pod */,
 			);
-			path = Multi;
+			name = Splunk;
 			sourceTree = "<group>";
 		};
-		CBDC865E9AC7BA024C6B7D917463D695 /* Pod */ = {
+		C2C45A40394CAB100BF7E7E2656B6DE9 /* Headers */ = {
 			isa = PBXGroup;
 			children = (
-				3D9C38BA7A8EA553AE41741547C96B46 /* Classes */,
+				83B593F72F19F8997E24143E31E9099B /* GAI.h */,
+				CBE7E4DB330A1793D52DDA349EE733F4 /* GAIDictionaryBuilder.h */,
+				B683D9BBD2755BA1FCFB9F52FB2EAFC2 /* GAIEcommerceFields.h */,
+				00A4B1A2896876B888303D8FE283B452 /* GAIEcommerceProduct.h */,
+				47DD224A4A07700CF1547B7383BFBED9 /* GAIEcommerceProductAction.h */,
+				E576AE20D25463583C4E1E28D49C41DA /* GAIEcommercePromotion.h */,
+				76FB0D480C9EAB82BB788D187AEF5453 /* GAILogger.h */,
+				514E388A881BD7D89D5ECA1D21672728 /* GAITrackedViewController.h */,
+				96B2FFB9ED9ACC7F7DAECCBA6ECA8A25 /* GAITracker.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		C37611C9093C0094CA484E264CBA5E1D /* Console */ = {
+			isa = PBXGroup;
+			children = (
+				B50410A1AC6A917F7A15A03E6C465E98 /* ICAConsoleCrashReporter.h */,
+				77E0FB74B6DAD7A1EA22AFEF34536EFA /* ICAConsoleCrashReporter.m */,
+			);
+			path = Console;
+			sourceTree = "<group>";
+		};
+		D9BDE19FEF6FF5CFC4CE532413A5902B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D6AFCA9221B67E324CDBEF94EED1E990 /* GoogleAnalytics.h */,
+				953065BB7CC2D7A1373E817628F65D28 /* GoogleAnalytics */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E002281889F13EC3180B93FE302A1A6F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				379D58E38AA9F3A22D40477EC6285293 /* Classes */,
 			);
 			path = Pod;
 			sourceTree = "<group>";
 		};
-		FA86FB4C381F0165E1F0D584D70563D1 /* Development Pods */ = {
+		E34002860738F5926260E23B57EFE6A4 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				4580A3E93B257D7D4FC75C7DFC151D43 /* ICACrashReporter */,
+				42B92FAB7FEFC87C14D8E7256BF19D58 /* Classes */,
 			);
-			name = "Development Pods";
+			path = Pod;
 			sourceTree = "<group>";
 		};
-		FF80506D04BCE8E73E65DE9C9DF8828D /* Core */ = {
+		F75B7C6E18F02D9CD088FBE800BEA9BC /* Multi */ = {
 			isa = PBXGroup;
 			children = (
-				A08FD72C956AC74930EE535C1B518412 /* ICACrashReporter.h */,
-				53BDF6AADC4693D5EA12D447267B462A /* ICACrashReporter.m */,
-				05C2B6E2F6209B07DA61441B7DFA92EC /* ICACrashReporterTransactionController.h */,
-				038D1889A8354BB3BB17CB6B1C2508F7 /* ICACrashReporterTransactionController.m */,
+				57BBCE39C0EE447CC6C6786A8E8DFC82 /* ICAMultiCrashReporter.h */,
+				0D5F336BDC0A1B17F7624ACA6E086BC0 /* ICAMultiCrashReporter.m */,
 			);
-			path = Core;
+			path = Multi;
+			sourceTree = "<group>";
+		};
+		FA4F28D209B7D8EB5CF69F8547BDAA46 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E002281889F13EC3180B93FE302A1A6F /* Pod */,
+			);
+			name = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2DEA464062F52B24E446136153B8ADF8 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B40928C993F92340F5CA0EA25031A3A7 /* Core.h in Headers */,
-				12B6DC1A5922D1DA6454CE85BFF58E5A /* ICAConsoleCrashReporter.h in Headers */,
-				B941FF7115828A6CB475D70F3D0F0A25 /* ICACrashReporter-umbrella.h in Headers */,
-				9E0BE5ED472BB77ECE255575D6F8074B /* ICACrashReporter.h in Headers */,
-				9BDAAAD6D38C2D2612E3481748495E7A /* ICACrashReporterTransactionController.h in Headers */,
-				3BE463E524586A346E709717F1D6C3C5 /* ICAMultiCrashReporter.h in Headers */,
-				324182482A4E38B0DD5E645B53124884 /* ICASplunkCrashReporter.h in Headers */,
-				5E932018CB6517947A6FAE975BBE3357 /* Splunk.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6DD972CCA10715AA25F22EE407A7AE15 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				53E481791C17968790B75A92EA4DAAB4 /* Pods-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF9C23A75BBF87D7B7EDC9B4C04AEA87 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EABD2307E2CEDC917DD79B6EEC40A426 /* Core.h in Headers */,
+				7BE663D76E06B8109415E1A712AAD750 /* GAI.h in Headers */,
+				D4F0E20570C5E9F5EEEDE64AC3475758 /* GAIDictionaryBuilder.h in Headers */,
+				C50B3A50DFFD5459CE6B79A23B8040E5 /* GAIEcommerceFields.h in Headers */,
+				09C3E197BA6C8C1F009EA6A7AE16027B /* GAIEcommerceProduct.h in Headers */,
+				CAAD4AC426BF43B57405FB5190717C90 /* GAIEcommerceProductAction.h in Headers */,
+				94099F91A0FA20E252C4E0582A262467 /* GAIEcommercePromotion.h in Headers */,
+				5D42304DF65BD302A00D4844E8694171 /* GAILogger.h in Headers */,
+				AAB03AA505B015110EEB2B5DDD19F617 /* GAITrackedViewController.h in Headers */,
+				74B9F08B2E678D0C75F48E0CD4C67ED1 /* GAITracker.h in Headers */,
+				0AAA5CD040CADD7F7F24DA41E5202843 /* GoogleAnalytics.h in Headers */,
+				082965C54B9DC96B0BC91C2024CA8973 /* ICAConsoleCrashReporter.h in Headers */,
+				A318E0A814D749A594B7683CE0257BE8 /* ICACrashReporter-umbrella.h in Headers */,
+				1E39CCB1086158AFE5BE7B21AB470BF1 /* ICACrashReporter.h in Headers */,
+				ABAD89B6F7621F8B7F6A0B67C6A25502 /* ICACrashReporterTransactionController.h in Headers */,
+				7AEBAEC202B533017A626D8BCAA2BFBB /* ICAGoogleAnalyticsCrashReporter.h in Headers */,
+				8828C2CDD92CD055FF5A3B4C304034E2 /* ICAMultiCrashReporter.h in Headers */,
+				A46BB9BFBEAEFD0218AB210A94FF8A20 /* ICASplunkCrashReporter.h in Headers */,
+				58AC889D31935D064F0B2C0DB2B76A3B /* Splunk.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,13 +463,13 @@
 			productReference = 5E534497464E74743026A0656CFF5BFD /* Pods.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B9D5778AF218A8B46B936C27F813DEF1 /* ICACrashReporter */ = {
+		95AAF3926A3405F5FC2BD4AAFB08AE7E /* ICACrashReporter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C46716CC0B8C74702D0F51C08FE0CFFE /* Build configuration list for PBXNativeTarget "ICACrashReporter" */;
+			buildConfigurationList = 6D8BA6D0A60E24B553EC5E7E42A18174 /* Build configuration list for PBXNativeTarget "ICACrashReporter" */;
 			buildPhases = (
-				AE79225912684D82872C8D0EA098EB3E /* Sources */,
-				F4437466E1338D28C78548C98B0EB358 /* Frameworks */,
-				2DEA464062F52B24E446136153B8ADF8 /* Headers */,
+				3DD0753DEEE969ADB86EE5EEF02C9133 /* Sources */,
+				75338AE73425AA2705D26D82420FD460 /* Frameworks */,
+				CF9C23A75BBF87D7B7EDC9B4C04AEA87 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -384,31 +501,32 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B9D5778AF218A8B46B936C27F813DEF1 /* ICACrashReporter */,
+				95AAF3926A3405F5FC2BD4AAFB08AE7E /* ICACrashReporter */,
 				46250A3650007C6A68EC2F095DEC1869 /* Pods */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3DD0753DEEE969ADB86EE5EEF02C9133 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B40F62B8245ADAECED0BD0C5510B5BA /* ICAConsoleCrashReporter.m in Sources */,
+				19BB1627593099C82B2F8AEEE835F9B8 /* ICACrashReporter-dummy.m in Sources */,
+				B73057D59F91FA4F56FFBC95B8DF3CED /* ICACrashReporter.m in Sources */,
+				ED2B449A433B776502355E09C847989B /* ICACrashReporterTransactionController.m in Sources */,
+				077093242BAE21D73DE1A11C80252240 /* ICAGoogleAnalyticsCrashReporter.m in Sources */,
+				CB1605B453A26ED5DCE7CFB457812FAC /* ICAMultiCrashReporter.m in Sources */,
+				19F4D5572E69C39F2A9451329B301BCF /* ICASplunkCrashReporter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3F49ACCD15C05515439064FB3648C683 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C1DC12DD14B6301D8043299F5EDC41A6 /* Pods-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AE79225912684D82872C8D0EA098EB3E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BD5EB50CABA66621ED590273423C5F0F /* ICAConsoleCrashReporter.m in Sources */,
-				2CF233B6EE0031D3B840C52DC941FB32 /* ICACrashReporter-dummy.m in Sources */,
-				1F9C73E3A3B1C48D48929DB94B422923 /* ICACrashReporter.m in Sources */,
-				058CFBB156D87EC11F597CEB52C56144 /* ICACrashReporterTransactionController.m in Sources */,
-				E03F97309F5E8EDFA50C1ADA9C9CC2C8 /* ICAMultiCrashReporter.m in Sources */,
-				2D2DC1515AC9837B9028F4CBC00A2408 /* ICASplunkCrashReporter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,15 +536,15 @@
 		9552E949CD61F4419BC6E7E0F95350B0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ICACrashReporter;
-			target = B9D5778AF218A8B46B936C27F813DEF1 /* ICACrashReporter */;
+			target = 95AAF3926A3405F5FC2BD4AAFB08AE7E /* ICACrashReporter */;
 			targetProxy = EA1318C91DE35CD9ABEE4CD5502CCADA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		263F45D93D11C36B9D8F3B557106AEE3 /* Debug */ = {
+		10B1ECC8507869E4B515B8E75C619FA7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F21F402FC294C4583DBF614C5FDE4DC /* ICACrashReporter.xcconfig */;
+			baseConfigurationReference = F47786AA4D9F718275C31B7BD587E85F /* ICACrashReporter.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -441,7 +559,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/ICACrashReporter/ICACrashReporter.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = ICACrashReporter;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -449,7 +567,7 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		693B8EB380AEE44D25142C89E3EC6A52 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -480,6 +598,33 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		745273DBE77E3C94A285225CFBB70A25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F47786AA4D9F718275C31B7BD587E85F /* ICACrashReporter.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ICACrashReporter/ICACrashReporter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ICACrashReporter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ICACrashReporter/ICACrashReporter.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ICACrashReporter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		A43532BEC686A855EF8D51750B8BEBC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -550,33 +695,6 @@
 			};
 			name = Debug;
 		};
-		A7BF1EAD714CCE63D805877A04120907 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F21F402FC294C4583DBF614C5FDE4DC /* ICACrashReporter.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ICACrashReporter/ICACrashReporter-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ICACrashReporter/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ICACrashReporter/ICACrashReporter.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = ICACrashReporter;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -632,11 +750,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C46716CC0B8C74702D0F51C08FE0CFFE /* Build configuration list for PBXNativeTarget "ICACrashReporter" */ = {
+		6D8BA6D0A60E24B553EC5E7E42A18174 /* Build configuration list for PBXNativeTarget "ICACrashReporter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				263F45D93D11C36B9D8F3B557106AEE3 /* Debug */,
-				A7BF1EAD714CCE63D805877A04120907 /* Release */,
+				745273DBE77E3C94A285225CFBB70A25 /* Debug */,
+				10B1ECC8507869E4B515B8E75C619FA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

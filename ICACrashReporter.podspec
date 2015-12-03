@@ -48,8 +48,8 @@ Pod::Spec.new do |s|
     ss.dependency 'ICACrashReporter/Core'
     ss.vendored_frameworks = 'Pod/Frameworks/SplunkMint.framework'
     ss.frameworks = [
-      'CoreTelephony', 
-      'SystemConfiguration', 
+      'CoreTelephony',
+      'SystemConfiguration',
       'WebKit'
     ]
     ss.libraries = 'z'
@@ -62,10 +62,20 @@ Pod::Spec.new do |s|
   s.subspec 'GoogleAnalytics' do |ss|
     ss.source_files = [
       'Pod/Classes/GoogleAnalytics.h',
-      'Pod/Classes/GoogleAnalytics/*.{h,m}'
+      'Pod/Classes/GoogleAnalytics/*.{h,m}',
+      'Pod/Libraries/GoogleAnalytics/Headers/*.h'
     ]
 
     ss.dependency 'ICACrashReporter/Core'
-    ss.dependency 'Google/Analytics', '~> 1.0'
+    ss.vendored_libraries = 'Pod/Libraries/GoogleAnalytics/libGoogleAnalyticsServices.a'
+    ss.frameworks = [
+      'CoreData',
+      'SystemConfiguration',
+      'WebKit'
+    ]
+    ss.libraries = [
+      'z',
+      'sqlite3'
+    ]
   end
 end

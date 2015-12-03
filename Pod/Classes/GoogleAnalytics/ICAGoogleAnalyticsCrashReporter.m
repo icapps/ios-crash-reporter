@@ -6,8 +6,11 @@
 //  Copyright (c) 2015 iCapps. All rights reserved.
 //
 
+#import "GAI.h"
+#import "GAITracker.h"
+#import "GAIDictionaryBuilder.h"
+
 #import "ICAGoogleAnalyticsCrashReporter.h"
-#import <Google/Analytics.h>
 
 @interface ICAGoogleAnalyticsCrashReporter()
 

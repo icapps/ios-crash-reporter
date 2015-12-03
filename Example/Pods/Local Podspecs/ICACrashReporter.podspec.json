@@ -59,16 +59,24 @@
       "name": "GoogleAnalytics",
       "source_files": [
         "Pod/Classes/GoogleAnalytics.h",
-        "Pod/Classes/GoogleAnalytics/*.{h,m}"
+        "Pod/Classes/GoogleAnalytics/*.{h,m}",
+        "Pod/Libraries/GoogleAnalytics/Headers/*.h"
       ],
       "dependencies": {
         "ICACrashReporter/Core": [
 
-        ],
-        "Google/Analytics": [
-          "~> 1.0"
         ]
-      }
+      },
+      "vendored_libraries": "Pod/Libraries/GoogleAnalytics/libGoogleAnalyticsServices.a",
+      "frameworks": [
+        "CoreData",
+        "SystemConfiguration",
+        "WebKit"
+      ],
+      "libraries": [
+        "z",
+        "sqlite3"
+      ]
     }
   ]
 }
