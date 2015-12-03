@@ -1,118 +1,150 @@
-# iCapps Crash Reporter #
+# ICACrashReporter
 
-This pod integrates with your project to enable crash reporting.
+This is the iCapps Crash Reporter tool that can be integrated through a gem.
 
-## Installation ##
-* Add the iCapps cocoa pods repository: https://bitbucket.org/icapps/podspecs
-* Add the pod to your Podfile:
-```
-pod 'ICACrashReporter'
-```
-* Run pod install
+## Setup
 
-*If not using pods, make sure to integrate the [Splunk framework](http://docs.splunk.com/Documentation/MintSDKs/latest/SplunkMINTSDKs/AddSplunkMINTtoyourprojectforiOS) as well.*
-
-If you only need console logging you can use the this instead:
-```
-pod 'ICACrashReporter/Core'
-```
-
-## Usage ##
-
-Include the header file
+Add the following code to your `Podfile` in order to include the Splunk + Google Analytics integrations:
 
 ```
-#!objc
-#import <ICACrashReporter.h>
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://bitbucket.org/icapps/podspecs'
+
+pod 'ICACrashReporter', '~> 1.2'
 ```
 
-### Functions: ###
+Run `pod install` in order to install the pod.
 
-ICACrashReporter has to be started with a reporting module. Modules are available for **Console output**, **Default Crash Reporting (currently Splunk)**, **Splunk** and **Google Analytics**.
-There is also the option of combining multiple modules using the ICAMultiCrashReporter class.
+If you don't want to use Splunk or Google Analytics (but only the logging module), than you can integrate it seperatly from the `Podfile`. Only add the Core pod like this:
 
-Note: It is recommended to use ICADefaultCrashReporter instead of ICASplunkCrashReporter, this makes it possible to switch to another crash reporting tool later on with minimal code changes. ICADefaultCrashReporter currently passes everything directly to ICASplunkCrashReporter.
-
-**Start a new session:**
 ```
-#!objc
-//Console:
-#import <ICAConsoleCrashReporter.h>
+pod 'ICACrashReporter/Core', '~> 1.2'
+```
+
+If you only want to use Splunk and no Google Analytics or vice versa, than this is the way to do this:
+
+```
+pod 'ICACrashReporter/Splunk',          '~> 1.2'
+pod 'ICACrashReporter/GoogleAnalytics', '~> 1.2'
+```
+
+## Usage
+
+Include the correct header file depending on the pod (Core, Splunk or Google Analytics) you installed.
+
+``` objc
+#import <ICACrashReporter/Core.h>
+#import <ICACrashReporter/Splunk.h>
+#import <ICACrashReporter/GoogleAnalytics.h>
+```
+
+## Documentation
+
+### Session handling
+
+Only log the crashes to your Xcode console.
+
+``` objc
+#import <ICACrashReporter/Core.h>
+
 [ICACrashReporter initAndStartWithInstance:[ICAConsoleCrashReporter new]];
+```
 
-//Default:
-#import "ICADefaultCrashReporter.h"
-[ICACrashReporter initAndStartWithInstance:[[ICADefaultCrashReporter alloc] initWithKey:@"SPLUNKKEY"]];
+Only log the crashes to Splunk.
 
-//Splunk:
-#import <ICASplunkCrashReporter.h>
+``` objc
+#import <ICACrashReporter/Splunk.h>
+
 [ICACrashReporter initAndStartWithInstance:[[ICASplunkCrashReporter alloc] initWithKey:@"SPLUNKKEY"]];
-
-//Google Analytics:
-#import <ICAGoogleAnalyticsCrashReporter.h>
-[ICACrashReporter initAndStartWithInstance:[[ICAGoogleAnalyticsCrashReporter alloc] initWithKey:@"SPLUNKKEY"]];
-
-//Combining multiple modules:
-#import <ICAMultiCrashReporter.h>
-#import <ICAConsoleCrashReporter.h>
-#import <ICASplunkCrashReporter.h>
-#import <ICAGoogleAnalyticsCrashReporter.h>
-ICAMultiCrashReporter *multiReporter = [[ICAMultiCrashReporter alloc] initWithReporters:@[
-                [[ICASplunkCrashReporter alloc] initWithKey:@"SPLUNKKEY"],
-                [ICAConsoleCrashReporter new],
-                [[ICAGoogleAnalyticsCrashReporter alloc] initWithKey:@"GAKEY"]
-        ]];
-[ICACrashReporter initAndStartWithInstance:multiReporter];
 ```
 
-**Set the user identifier:**
-```
-#!objc
-[ICACrashReporter setUserIdentifier:@"USERID"];
-```
-**Breadcrumb logging:**
-```
-#!objc
-[ICACrashReporter logBreadcrumb:@"User entered %@", view.name];
+Only log to Google Analytics.
+
+``` objc
+#import <ICACrashReporter/GoogleAnalytics.h>
+
+[ICACrashReporter initAndStartWithInstance:[[ICAGoogleAnalyticsCrashReporter alloc] initWithKey:@"YOUR ANALYTICS KEY"]];
 ```
 
-**Service failure logging:**
+You can also combine multiple log mechanisms.
+
+``` objc
+#import <ICACrashReporter/Splunk.h>
+#import <ICACrashReporter/GoogleAnalytics.h>
+
+ICAMultiCrashReporter *reporter = [[ICAMultiCrashReporter alloc] initWithReporters:@[
+  [[ICASplunkCrashReporter alloc] initWithKey:@"SPLUNKKEY"],
+  [ICAConsoleCrashReporter new],
+  [[ICAGoogleAnalyticsCrashReporter alloc] initWithKey:@"GAKEY"]
+]];
+[ICACrashReporter initAndStartWithInstance:reporter];
 ```
-#!objc
+
+### User logging
+
+Set the user identifier.
+
+``` objc
+[ICACrashReporter setUserIdentifier:@"THE USER ID"];
+```
+
+### Breadcrumb logging
+
+Log a breadcrumb.
+
+``` objc
+[ICACrashReporter logBreadcrumb:@"THE CRUMB %@", someScreen];
+```
+
+### Service logging
+
+Enable loggin when a service call fails.
+
+``` objc
 [ICACrashReporter logServiceFailureWithURLResponse:response httpMethod:@"GET"];
 ```
-Directly pass an NSHTTPURLResponse object. This will log an event in the following format:
-<HTTPMETHOD>: <ERRORCODE>: <SERVICEURL> 
-(for example: GET: 404: http://test.com/function)
 
-**Log event:**
+_Pass an NSHTTPURLResponse as the first parameter._
+
+Here is what you get when a call to an url doesn't exists:
+
 ```
-#!objc
-[ICACrashReporter logEvent:@"Event has happened"];
+GET: 404: http://some.url
 ```
 
-**Log handled exception:**
+### Event logging
+
+Enable event logging.
+
+``` objc
+[ICACrashReporter logEvent:@"YOUR EVENT"];
 ```
-#!objc
+
+### Exception logging
+
+Log handled exceptions that you throw.
+
+``` objc
 [ICACrashReporter logException:exception];
 ```
-Takes an NSException object as argument
 
-**Logging additional information:**
-```
-#!objc
-[ICACrashReporter logExtraData:@"KEY" value:@"VALUE"];
+_Pass an NSException as the parameter._
+
+### Additional logging
+
+Log some aditional information.
+
+``` objc
+[ICACrashReporter logExtraData:@"A KEY" value:@"SOME VALUE"];
 ```
 
-**Transactions**
-```
-#!objc
-//Create a new transaction
+### Transactions
+
+Transaction handling.
+
+``` objc
 ICACrashReporterTransactionController *controller = [ICACrashReporter transactionController];
-//Starting the transaction
 [controller startTransaction];
-//Stopping the transaction
 [controller stopTransaction];
-//Cancelling the transaction
 [controller cancelTransaction];
 ```

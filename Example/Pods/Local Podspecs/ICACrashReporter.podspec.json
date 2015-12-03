@@ -1,0 +1,67 @@
+{
+  "name": "ICACrashReporter",
+  "version": "1.1.0",
+  "summary": "The iCapps Crash Reporture component for iOS applications.",
+  "license": {
+    "type": "Commercial",
+    "text": "Copyright (C) 2015 iCapps"
+  },
+  "homepage": "https://bitbucket.org/icapps/pod_icacrashreporter",
+  "authors": {
+    "Jelle Vandebeeck": "development@icapps.com"
+  },
+  "source": {
+    "git": "https://bitbucket.org/icapps/pod_icacrashreporter.git",
+    "tag": "1.1.0"
+  },
+  "social_media_url": "https://twitter.com/icapps",
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "default_subspecs": [
+    "Splunk",
+    "GoogleAnalytics"
+  ],
+  "subspecs": [
+    {
+      "name": "Core",
+      "source_files": [
+        "Pod/Classes/Core.h",
+        "Pod/Classes/Core/*.{h,m}",
+        "Pod/Classes/Console/*.{h,m}",
+        "Pod/Classes/Multi/*.{h,m}"
+      ]
+    },
+    {
+      "name": "Splunk",
+      "source_files": [
+        "Pod/Classes/Splunk.h",
+        "Pod/Classes/Splunk/*.{h,m}"
+      ],
+      "dependencies": {
+        "ICACrashReporter/Core": [
+
+        ],
+        "SplunkMint": [
+          "~> 4.4"
+        ]
+      }
+    },
+    {
+      "name": "GoogleAnalytics",
+      "source_files": [
+        "Pod/Classes/GoogleAnalytics.h",
+        "Pod/Classes/GoogleAnalytics/*.{h,m}"
+      ],
+      "dependencies": {
+        "ICACrashReporter/Core": [
+
+        ],
+        "Google/Analytics": [
+          "~> 1.0"
+        ]
+      }
+    }
+  ]
+}
