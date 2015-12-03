@@ -337,7 +337,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 629CF2C21C107562000A179B /* Pods.debug.xcconfig */;
 			buildSettings = {
-				ENABLE_BITCODE = YES;
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = "ICACrashReporter/ICACrashReporter-Info.plist";
@@ -352,7 +352,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 629CF2C31C107562000A179B /* Pods.release.xcconfig */;
 			buildSettings = {
-				ENABLE_BITCODE = YES;
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = "ICACrashReporter/ICACrashReporter-Info.plist";
