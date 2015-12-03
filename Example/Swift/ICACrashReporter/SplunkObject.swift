@@ -34,7 +34,7 @@ class SplunkObject {
         ICACrashReporter.logException(NSException(name: "BOOM", reason: "Inconsistent design", userInfo: nil))
         
         // Try the transaction controller.
-        let controller = ICACrashReporterTransactionController()
+        let controller = ICACrashReporter.transactionController()
         controller.startTransaction()
         controller.stopTransaction()
         controller.cancelTransaction()

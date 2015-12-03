@@ -64,9 +64,9 @@
 			children = (
 				045301431C10DF9500D66DFA /* AppDelegate.swift */,
 				045301581C10E02900D66DFA /* CoreObject.swift */,
-				045301571C10DFF400D66DFA /* Supporting files */,
 				0453015E1C10E5F900D66DFA /* GoogleAnalyticsObject.swift */,
 				045301601C10E62800D66DFA /* SplunkObject.swift */,
+				045301571C10DFF400D66DFA /* Supporting files */,
 			);
 			path = ICACrashReporter;
 			sourceTree = "<group>";

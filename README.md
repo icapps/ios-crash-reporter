@@ -32,10 +32,18 @@ pod 'ICACrashReporter/GoogleAnalytics', '~> 1.2'
 
 Include the correct header file depending on the pod (Core, Splunk or Google Analytics) you installed.
 
+#### Objective-C
+
 ``` objc
 #import <ICACrashReporter/Core.h>
 #import <ICACrashReporter/Splunk.h>
 #import <ICACrashReporter/GoogleAnalytics.h>
+```
+
+#### Swift
+
+``` swift
+import ICACrashReporter
 ```
 
 ## Documentation
@@ -44,21 +52,43 @@ Include the correct header file depending on the pod (Core, Splunk or Google Ana
 
 Only log the crashes to your Xcode console.
 
+#### Objective-C
+
 ``` objc
 #import <ICACrashReporter/Core.h>
 
 [ICACrashReporter initAndStartWithInstance:[ICAConsoleCrashReporter new]];
 ```
 
+#### Swift
+
+``` swift
+import ICACrashReporter
+
+ICACrashReporter.initAndStartWithInstance(ICAConsoleCrashReporteri())
+```
+
 Only log the crashes to Splunk.
+
+#### Objective-C
 
 ``` objc
 #import <ICACrashReporter/Splunk.h>
 
-[ICACrashReporter initAndStartWithInstance:[[ICASplunkCrashReporter alloc] initWithKey:@"SPLUNKKEY"]];
+[ICACrashReporter initAndStartWithInstance:[[ICASplunkCrashReporter alloc] initWithKey:@"YOUR SPLUNK KEY"]];
+```
+
+#### Swift
+
+``` swift
+import ICACrashReporter
+
+ICACrashReporter.initAndStartWithInstance(ICASplunkCrashReporter(key: "YOUR SPLUNK KEY"))
 ```
 
 Only log to Google Analytics.
+
+#### Objective-C
 
 ``` objc
 #import <ICACrashReporter/GoogleAnalytics.h>
@@ -66,42 +96,89 @@ Only log to Google Analytics.
 [ICACrashReporter initAndStartWithInstance:[[ICAGoogleAnalyticsCrashReporter alloc] initWithKey:@"YOUR ANALYTICS KEY"]];
 ```
 
+#### Swift
+
+``` swift
+import ICACrashReporter
+
+ICACrashReporter.initAndStartWithInstance(ICAGoogleAnalyticsCrashReporter(key: "YOUR ANALYTICS KEY"))
+```
+
 You can also combine multiple log mechanisms.
+
+#### Objective-C
 
 ``` objc
 #import <ICACrashReporter/Splunk.h>
 #import <ICACrashReporter/GoogleAnalytics.h>
 
 ICAMultiCrashReporter *reporter = [[ICAMultiCrashReporter alloc] initWithReporters:@[
-  [[ICASplunkCrashReporter alloc] initWithKey:@"SPLUNKKEY"],
+  [[ICASplunkCrashReporter alloc] initWithKey:@"YOUR SPLUNK KEY"],
   [ICAConsoleCrashReporter new],
-  [[ICAGoogleAnalyticsCrashReporter alloc] initWithKey:@"GAKEY"]
+  [[ICAGoogleAnalyticsCrashReporter alloc] initWithKey:@"YOUR ANALYTICS KEY"]
 ]];
 [ICACrashReporter initAndStartWithInstance:reporter];
+```
+
+#### Swift
+
+``` swift
+import ICACrashReporter
+
+let reporter = ICAMultiCrashReporter(reporters: [
+  ICASplunkCrashReporter(key: "YOUR SPLUNK KEY"),
+  ICAConsoleCrashReporter(),
+  ICAGoogleAnalyticsCrashReporter(key: "YOUR ANALYTICS KEY")
+])
+ICACrashReporter.initAndStartWithInstance(reporter)
 ```
 
 ### User logging
 
 Set the user identifier.
 
+#### Objective-C
+
 ``` objc
 [ICACrashReporter setUserIdentifier:@"THE USER ID"];
+```
+
+#### Swift
+
+``` swift
+ICACrashReporter.setUserIdentifier("THE USER ID")
 ```
 
 ### Breadcrumb logging
 
 Log a breadcrumb.
 
+#### Objective-C
+
 ``` objc
-[ICACrashReporter logBreadcrumb:@"THE CRUMB %@", someScreen];
+[ICACrashReporter logBreadcrumb:[NSString stringWithFormat:@"THE CRUMB %@", someScreen]];
+```
+
+#### Swift
+
+``` swift
+ICACrashReporter.logBreadcrumb("THE CRUMB \(someScreen)")
 ```
 
 ### Service logging
 
-Enable loggin when a service call fails.
+Enable logging when a service call fails.
+
+#### Objective-C
 
 ``` objc
 [ICACrashReporter logServiceFailureWithURLResponse:response httpMethod:@"GET"];
+```
+
+#### Swift
+
+``` swift
+ICACrashReporter.logServiceFailureWithURLResponse(response, httpMethod: "GET")
 ```
 
 _Pass an NSHTTPURLResponse as the first parameter._
@@ -116,16 +193,32 @@ GET: 404: http://some.url
 
 Enable event logging.
 
+#### Objective-C
+
 ``` objc
 [ICACrashReporter logEvent:@"YOUR EVENT"];
+```
+
+#### Swift
+
+``` swift
+ICACrashReporter.logEvent("YOUR EVENT")
 ```
 
 ### Exception logging
 
 Log handled exceptions that you throw.
 
+#### Objective-C
+
 ``` objc
 [ICACrashReporter logException:exception];
+```
+
+#### Swift
+
+``` swift
+ICACrashReporter.logException(exception)
 ```
 
 _Pass an NSException as the parameter._
@@ -134,17 +227,36 @@ _Pass an NSException as the parameter._
 
 Log some aditional information.
 
+#### Objective-C
+
 ``` objc
 [ICACrashReporter logExtraData:@"A KEY" value:@"SOME VALUE"];
+```
+
+#### Swift
+
+``` swift
+ICACrashReporter.logExtraData("A KEY", value: "SOME VALUE")
 ```
 
 ### Transactions
 
 Transaction handling.
 
+#### Objective-C
+
 ``` objc
 ICACrashReporterTransactionController *controller = [ICACrashReporter transactionController];
 [controller startTransaction];
 [controller stopTransaction];
 [controller cancelTransaction];
+```
+
+#### Swift
+
+``` swift
+let controller = ICACrashReporter.transactionController()
+controller.startTransaction()
+controller.stopTransaction()
+controller.cancelTransaction()
 ```
