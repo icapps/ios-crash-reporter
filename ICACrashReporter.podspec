@@ -53,7 +53,7 @@ Pod::Spec.new do |s|
       'WebKit'
     ]
     ss.libraries = 'z'
-    ss.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC -all_load' }
+    ss.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC -all_load -undefined dynamic_lookup' }
   end
 
   ###

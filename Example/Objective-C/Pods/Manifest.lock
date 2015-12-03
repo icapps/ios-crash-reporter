@@ -1,0 +1,21 @@
+PODS:
+  - ICACrashReporter (1.2.0):
+    - ICACrashReporter/GoogleAnalytics (= 1.2.0)
+    - ICACrashReporter/Splunk (= 1.2.0)
+  - ICACrashReporter/Core (1.2.0)
+  - ICACrashReporter/GoogleAnalytics (1.2.0):
+    - ICACrashReporter/Core
+  - ICACrashReporter/Splunk (1.2.0):
+    - ICACrashReporter/Core
+
+DEPENDENCIES:
+  - ICACrashReporter (from `../../`)
+
+EXTERNAL SOURCES:
+  ICACrashReporter:
+    :path: "../../"
+
+SPEC CHECKSUMS:
+  ICACrashReporter: f0a68f5892025301a91bb9180a3fa9d7fb2446c1
+
+COCOAPODS: 0.39.0
