@@ -1,6 +1,6 @@
 {
   "name": "ICACrashReporter",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "summary": "The iCapps Crash Reporture component for iOS applications.",
   "license": {
     "type": "Commercial",
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://bitbucket.org/icapps/pod_icacrashreporter.git",
-    "tag": "1.1.0"
+    "tag": "1.2.0"
   },
   "social_media_url": "https://twitter.com/icapps",
   "platforms": {
@@ -42,10 +42,17 @@
       "dependencies": {
         "ICACrashReporter/Core": [
 
-        ],
-        "SplunkMint": [
-          "~> 4.4"
         ]
+      },
+      "vendored_frameworks": "Pod/Frameworks/SplunkMint.framework",
+      "frameworks": [
+        "CoreTelephony",
+        "SystemConfiguration",
+        "WebKit"
+      ],
+      "libraries": "z",
+      "xcconfig": {
+        "OTHER_LDFLAGS": "-ObjC -all_load"
       }
     },
     {

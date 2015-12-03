@@ -46,7 +46,14 @@ Pod::Spec.new do |s|
     ]
 
     ss.dependency 'ICACrashReporter/Core'
-    ss.dependency 'SplunkMint', '~> 4.4'
+    ss.vendored_frameworks = 'Pod/Frameworks/SplunkMint.framework'
+    ss.frameworks = [
+      'CoreTelephony', 
+      'SystemConfiguration', 
+      'WebKit'
+    ]
+    ss.libraries = 'z'
+    ss.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC -all_load' }
   end
 
   ###

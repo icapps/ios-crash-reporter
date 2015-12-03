@@ -1,7 +1,5 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
-# Currently not working because Splunk and GoogleAnalytics
-# don't support frameworks. And therefor swift doesn't work.
-# use_frameworks!
+use_frameworks!
 
 pod 'ICACrashReporter', :path => '../'

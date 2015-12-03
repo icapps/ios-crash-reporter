@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0453A8FC0DD23DA1263721B3 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19D66C74D16E3168EC248112 /* Pods.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -15,13 +16,12 @@
 		629CF2CB1C107D0B000A179B /* SplunkObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 629CF2CA1C107D0B000A179B /* SplunkObject.m */; };
 		629CF2CD1C1097FD000A179B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 629CF2CC1C1097FD000A179B /* Default-568h@2x.png */; };
 		629CF2D01C109893000A179B /* GoogleAnalyticsObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 629CF2CF1C109893000A179B /* GoogleAnalyticsObject.m */; };
-		D6950E55817B70803176EC6D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FCF4686E2A4D5E23749D952 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0151D73DE93C2AEB3530DDFB /* Pods_ICACrashReporter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ICACrashReporter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C9ABA566E92DEE464794F34 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		4FCF4686E2A4D5E23749D952 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		19D66C74D16E3168EC248112 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		509A800681D944A961386CB6 /* Pods_ICACrashReporter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ICACrashReporter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* ICACrashReporter_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ICACrashReporter_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -51,7 +51,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				D6950E55817B70803176EC6D /* libPods.a in Frameworks */,
+				0453A8FC0DD23DA1263721B3 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +86,7 @@
 				6003F5AF195388D20070C39A /* XCTest.framework */,
 				0151D73DE93C2AEB3530DDFB /* Pods_ICACrashReporter_Example.framework */,
 				509A800681D944A961386CB6 /* Pods_ICACrashReporter_Tests.framework */,
-				4FCF4686E2A4D5E23749D952 /* libPods.a */,
+				19D66C74D16E3168EC248112 /* Pods.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -341,6 +341,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = "ICACrashReporter/ICACrashReporter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -356,6 +357,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = "ICACrashReporter/ICACrashReporter-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'A9525AD7E00D17B2216728EA'
+               BlueprintIdentifier = '762E3C640C5B51DDE2DB9198'
                BlueprintName = 'ICACrashReporter'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libICACrashReporter.a'>
+               BuildableName = 'ICACrashReporter.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

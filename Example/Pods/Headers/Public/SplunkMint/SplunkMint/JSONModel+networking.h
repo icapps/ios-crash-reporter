@@ -1,1 +1,0 @@
-../../../../SplunkMint/SplunkMint.framework/Versions/A/Headers/JSONModel+networking.h
