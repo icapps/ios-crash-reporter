@@ -63,7 +63,7 @@ Only log the crashes to your Xcode console.
 ``` objc
 #import <ICACrashReporter/Core.h>
 
-[ICACrashReporter initAndStartWithInstance:[ICAConsoleCrashReporter new]];
+[ICACrashReporter sharedInstance].provider = [ICAConsoleCrashReporter new];
 ```
 
 #### Swift
@@ -71,7 +71,7 @@ Only log the crashes to your Xcode console.
 ``` swift
 import ICACrashReporter
 
-ICACrashReporter.initAndStartWithInstance(ICAConsoleCrashReporteri())
+ICACrashReporter.sharedInstance().provider = ICAConsoleCrashReporter()
 ```
 
 Only log the crashes to Splunk.
@@ -81,7 +81,7 @@ Only log the crashes to Splunk.
 ``` objc
 #import <ICACrashReporter/Splunk.h>
 
-[ICACrashReporter initAndStartWithInstance:[[ICASplunkCrashReporter alloc] initWithKey:@"YOUR SPLUNK KEY"]];
+[ICACrashReporter sharedInstance].provider = [[ICASplunkCrashReporter alloc] initWithKey:@"YOUR SPLUNK KEY"];
 ```
 
 #### Swift
@@ -89,7 +89,7 @@ Only log the crashes to Splunk.
 ``` swift
 import ICACrashReporter
 
-ICACrashReporter.initAndStartWithInstance(ICASplunkCrashReporter(key: "YOUR SPLUNK KEY"))
+ICACrashReporter.sharedInstance().provider = ICASplunkCrashReporter(key: "YOUR SPLUNK KEY")
 ```
 
 Only log to Google Analytics.
@@ -99,7 +99,7 @@ Only log to Google Analytics.
 ``` objc
 #import <ICACrashReporter/GoogleAnalytics.h>
 
-[ICACrashReporter initAndStartWithInstance:[[ICAGoogleAnalyticsCrashReporter alloc] initWithKey:@"YOUR ANALYTICS KEY"]];
+[ICACrashReporter sharedInstance].provider = [[ICAGoogleAnalyticsCrashReporter alloc] initWithKey:@"YOUR ANALYTICS KEY"];
 ```
 
 #### Swift
@@ -107,7 +107,7 @@ Only log to Google Analytics.
 ``` swift
 import ICACrashReporter
 
-ICACrashReporter.initAndStartWithInstance(ICAGoogleAnalyticsCrashReporter(key: "YOUR ANALYTICS KEY"))
+ICACrashReporter.sharedInstance().provider = ICAGoogleAnalyticsCrashReporter(key: "YOUR ANALYTICS KEY")
 ```
 
 You can also combine multiple log mechanisms.
@@ -118,12 +118,12 @@ You can also combine multiple log mechanisms.
 #import <ICACrashReporter/Splunk.h>
 #import <ICACrashReporter/GoogleAnalytics.h>
 
-ICAMultiCrashReporter *reporter = [[ICAMultiCrashReporter alloc] initWithReporters:@[
+ICAMultiCrashReporter *provider = [[ICAMultiCrashReporter alloc] initWithReporters:@[
   [[ICASplunkCrashReporter alloc] initWithKey:@"YOUR SPLUNK KEY"],
   [ICAConsoleCrashReporter new],
   [[ICAGoogleAnalyticsCrashReporter alloc] initWithKey:@"YOUR ANALYTICS KEY"]
 ]];
-[ICACrashReporter initAndStartWithInstance:reporter];
+[ICACrashReporter sharedInstance].provider = provider;
 ```
 
 #### Swift
@@ -131,12 +131,12 @@ ICAMultiCrashReporter *reporter = [[ICAMultiCrashReporter alloc] initWithReporte
 ``` swift
 import ICACrashReporter
 
-let reporter = ICAMultiCrashReporter(reporters: [
+let provider = ICAMultiCrashReporter(reporters: [
   ICASplunkCrashReporter(key: "YOUR SPLUNK KEY"),
   ICAConsoleCrashReporter(),
   ICAGoogleAnalyticsCrashReporter(key: "YOUR ANALYTICS KEY")
 ])
-ICACrashReporter.initAndStartWithInstance(reporter)
+ICACrashReporter.sharedInstance().provider = provider
 ```
 
 ### User logging
@@ -146,13 +146,13 @@ Set the user identifier.
 #### Objective-C
 
 ``` objc
-[ICACrashReporter setUserIdentifier:@"THE USER ID"];
+[ICACrashReporter sharedInstance].userIdentifier = @"THE USER ID";
 ```
 
 #### Swift
 
 ``` swift
-ICACrashReporter.setUserIdentifier("THE USER ID")
+ICACrashReporter.sharedInstance().userIdentifier = "THE USER ID"
 ```
 
 ### Breadcrumb logging
@@ -162,13 +162,13 @@ Log a breadcrumb.
 #### Objective-C
 
 ``` objc
-[ICACrashReporter logBreadcrumb:[NSString stringWithFormat:@"THE CRUMB %@", someScreen]];
+[[ICACrashReporter sharedInstance] logBreadcrumb:[NSString stringWithFormat:@"THE CRUMB %@", someScreen]];
 ```
 
 #### Swift
 
 ``` swift
-ICACrashReporter.logBreadcrumb("THE CRUMB \(someScreen)")
+ICACrashReporter.sharedInstance().logBreadcrumb("THE CRUMB \(someScreen)")
 ```
 
 ### Service logging
@@ -178,13 +178,13 @@ Enable logging when a service call fails.
 #### Objective-C
 
 ``` objc
-[ICACrashReporter logServiceFailureWithURLResponse:response httpMethod:@"GET"];
+[[ICACrashReporter sharedInstance] logServiceFailureWithURLResponse:response httpMethod:@"GET"];
 ```
 
 #### Swift
 
 ``` swift
-ICACrashReporter.logServiceFailureWithURLResponse(response, httpMethod: "GET")
+ICACrashReporter.sharedInstance().logServiceFailureWithURLResponse(response, httpMethod: "GET")
 ```
 
 _Pass an NSHTTPURLResponse as the first parameter._
@@ -202,13 +202,13 @@ Enable event logging.
 #### Objective-C
 
 ``` objc
-[ICACrashReporter logEvent:@"YOUR EVENT"];
+[[ICACrashReporter sharedInstance] logEvent:@"YOUR EVENT"];
 ```
 
 #### Swift
 
 ``` swift
-ICACrashReporter.logEvent("YOUR EVENT")
+ICACrashReporter.sharedInstance().logEvent("YOUR EVENT")
 ```
 
 ### Exception logging
@@ -218,13 +218,13 @@ Log handled exceptions that you throw.
 #### Objective-C
 
 ``` objc
-[ICACrashReporter logException:exception];
+[[ICACrashReporter sharedInstance] logException:exception];
 ```
 
 #### Swift
 
 ``` swift
-ICACrashReporter.logException(exception)
+ICACrashReporter.sharedInstance().logException(exception)
 ```
 
 _Pass an NSException as the parameter._
@@ -236,13 +236,13 @@ Log some aditional information.
 #### Objective-C
 
 ``` objc
-[ICACrashReporter logExtraData:@"A KEY" value:@"SOME VALUE"];
+[[ICACrashReporter sharedInstance] logKey:@"A KEY" value:@"SOME VALUE"];
 ```
 
 #### Swift
 
 ``` swift
-ICACrashReporter.logExtraData("A KEY", value: "SOME VALUE")
+ICACrashReporter.sharedInstance().logKey("A KEY", value: "SOME VALUE")
 ```
 
 ### Transactions
@@ -252,7 +252,7 @@ Transaction handling.
 #### Objective-C
 
 ``` objc
-ICACrashReporterTransactionController *controller = [ICACrashReporter transactionController];
+ICACrashReporterTransactionController *controller = [[ICACrashReporter sharedInstance] instantiateTransactionController];
 [controller startTransaction];
 [controller stopTransaction];
 [controller cancelTransaction];
@@ -261,8 +261,8 @@ ICACrashReporterTransactionController *controller = [ICACrashReporter transactio
 #### Swift
 
 ``` swift
-let controller = ICACrashReporter.transactionController()
-controller.startTransaction()
-controller.stopTransaction()
-controller.cancelTransaction()
+let controller = ICACrashReporter.sharedInstance().instantiateTransactionController()
+controller.start()
+controller.stop()
+controller.cancel()
 ```
