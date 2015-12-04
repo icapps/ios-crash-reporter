@@ -2,6 +2,7 @@
 
 #import "Core.h"
 #import "ICACrashReporter.h"
+#import "ICACrashReporterProvider.h"
 #import "ICACrashReporterTransactionController.h"
 #import "ICAConsoleCrashReporter.h"
 #import "ICAMultiCrashReporter.h"

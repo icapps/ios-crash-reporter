@@ -25,26 +25,29 @@
 
 - (void)setupCrashReporter {
     // Setup the reporters.
-    NSArray *reporters = @[
-                           [ICAConsoleCrashReporter new],
-                           [ICASplunkCrashReporter new],
-                           ];
-    ICAMultiCrashReporter *multiReporter = [[ICAMultiCrashReporter alloc] initWithReporters:reporters];
-    [ICACrashReporter initAndStartWithInstance:multiReporter];
+    NSArray<ICACrashReporterProvider> *reporters = (NSArray<ICACrashReporterProvider> *) @[
+                                                                                           [ICAConsoleCrashReporter new],
+                                                                                           [ICASplunkCrashReporter new]
+                                                                                           ];
+    ICAMultiCrashReporter *provider = [[ICAMultiCrashReporter alloc] initWithReporters:reporters];
+    [ICACrashReporter sharedInstance].provider = provider;
     
     // Run some reporting tools.
-    [ICACrashReporter logBreadcrumb:[NSString stringWithFormat:@"KAWA %@", @"BUNGA"]];
-    [ICACrashReporter logServiceFailure:404 serviceUrl:@"http://icapps.com" httpMethod:@"GET"];
-    [ICACrashReporter setUserIdentifier:@"user A"];
-    [ICACrashReporter logEvent:@"new event"];
-    [ICACrashReporter logExtraData:@"key" value:@"value"];
-    [ICACrashReporter logException:[NSException exceptionWithName:@"new exception" reason:@"crashed" userInfo:nil]];
+    [[ICACrashReporter sharedInstance] logBreadcrumb:[NSString stringWithFormat:@"KAWA %@", @"BUNGA"]];
+    [[ICACrashReporter sharedInstance] logServiceFailureWithStatusCode:404 serviceURL:@"http://icapps.com" HTTPMethod:@"GET"];
+    [ICACrashReporter sharedInstance].userIdentifier = @"User ID";
+    [[ICACrashReporter sharedInstance] logEvent:@"An event"];
+    [[ICACrashReporter sharedInstance] logKey:@"A" value:@"B"];
     
-    // Try the transaction controller.
-    ICACrashReporterTransactionController *controller = [ICACrashReporter transactionController];
-    [controller startTransaction];
-    [controller stopTransaction];
-    [controller cancelTransaction];
+    // Log an exception.
+    NSException *exception = [[NSException alloc] initWithName:@"BOOM" reason:@"Inconsistent design" userInfo:nil];
+    [[ICACrashReporter sharedInstance] logException:exception];
+    
+    // Use the transaction controller.
+    ICACrashReporterTransactionController *controller = [[ICACrashReporter sharedInstance] instantiateTransactionController];
+    [controller start];
+    [controller stop];
+    [controller cancel];
 }
 
 @end
