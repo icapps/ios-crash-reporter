@@ -10,6 +10,9 @@ import Foundation
 import ICACrashReporter
 
 class CoreObject {
+    
+    // MARK: - Init
+    
     init() {
         setupCrashReporter()
     }
@@ -21,21 +24,24 @@ class CoreObject {
         let reporters = [
             ICAConsoleCrashReporter()
         ]
-        let multiReporter = ICAMultiCrashReporter(reporters: reporters)
-        ICACrashReporter.initAndStartWithInstance(multiReporter)
+        let provider = ICAMultiCrashReporter(reporters: reporters)
+        ICACrashReporter.sharedInstance().provider = provider
         
         // Run some reporting tools.
-        ICACrashReporter.logServiceFailure(404, serviceUrl: "http://icapps.com", httpMethod: "GET")
-        ICACrashReporter.logBreadcrumb("KAWA BUNGA")
-        ICACrashReporter.setUserIdentifier("123")
-        ICACrashReporter.logEvent("BOOM!")
-        ICACrashReporter.logExtraData("a", value: "b")
-        ICACrashReporter.logException(NSException(name: "BOOM", reason: "Inconsistent design", userInfo: nil))
+        ICACrashReporter.sharedInstance().logServiceFailureWithStatusCode(404, serviceURL: "http://icapps.com", HTTPMethod: "GET")
+        ICACrashReporter.sharedInstance().logBreadcrumb("KAWA BUNGA")
+        ICACrashReporter.sharedInstance().userIdentifier = "123"
+        ICACrashReporter.sharedInstance().logEvent("BOOM!")
+        ICACrashReporter.sharedInstance().logKey("a", value: "b")
         
-        // Try the transaction controller.
-        let controller = ICACrashReporter.transactionController()
-        controller.startTransaction()
-        controller.stopTransaction()
-        controller.cancelTransaction()
+        // Log an exception.
+        let exception = NSException(name: "BOOM", reason: "Inconsistent design", userInfo: nil)
+        ICACrashReporter.sharedInstance().logException(exception)
+        
+        // Use the transaction controller.
+        let controller = ICACrashReporter.sharedInstance().instantiateTransactionController()
+        controller.start()
+        controller.stop()
+        controller.cancel()
     }
 }

@@ -7,40 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		077093242BAE21D73DE1A11C80252240 /* ICAGoogleAnalyticsCrashReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBD9B0A46DA612715D41061D3599D80 /* ICAGoogleAnalyticsCrashReporter.m */; };
-		082965C54B9DC96B0BC91C2024CA8973 /* ICAConsoleCrashReporter.h in Headers */ = {isa = PBXBuildFile; fileRef = E97CF6449C5828A97F661DCA40BE8C97 /* ICAConsoleCrashReporter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		084A3254EB5733AF5175C9A91C52011D /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FE30E37AC14A7B007EA7089255C7DCB /* WebKit.framework */; };
-		09C3E197BA6C8C1F009EA6A7AE16027B /* GAIEcommerceProduct.h in Headers */ = {isa = PBXBuildFile; fileRef = 88E828872D59EB29E6DB704331E867D6 /* GAIEcommerceProduct.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0AAA5CD040CADD7F7F24DA41E5202843 /* GoogleAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = B0851F0E83DB9F2311D0778942E109AF /* GoogleAnalytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		19BB1627593099C82B2F8AEEE835F9B8 /* ICACrashReporter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E90CF6466899792C11BE76EFAC1F8B /* ICACrashReporter-dummy.m */; };
-		19F4D5572E69C39F2A9451329B301BCF /* ICASplunkCrashReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7ED762F1EA7865A7377F32BB36E288 /* ICASplunkCrashReporter.m */; };
-		1B1622879819B1F63771B18D6DCB513A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ED3C3B37B51935832336D3BDFB74B6E /* CoreData.framework */; };
-		1E39CCB1086158AFE5BE7B21AB470BF1 /* ICACrashReporter.h in Headers */ = {isa = PBXBuildFile; fileRef = D543E299499D6845BDF72FF06D426AAE /* ICACrashReporter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		237AD48808A2F3F3E0A3CB90C7946FA2 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA70607867EBB975CD918B02B498DD07 /* CoreTelephony.framework */; };
-		3B40F62B8245ADAECED0BD0C5510B5BA /* ICAConsoleCrashReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CC52F4FBD2E8CA75C039409FE4A11C9 /* ICAConsoleCrashReporter.m */; };
+		0DF770F8FB8887A1900106B458EB2CA3 /* GAI.h in Headers */ = {isa = PBXBuildFile; fileRef = 8092D86F9B9E075BBE6EC963C5FEE72B /* GAI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F8C99A3F5996B50506D2E8F9D6941B4 /* ICAGoogleAnalyticsCrashReporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C9CF2D4B746F909149520823B4AA838 /* ICAGoogleAnalyticsCrashReporter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2235F285BDFCA7994A3FE03707861C1A /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FE30E37AC14A7B007EA7089255C7DCB /* WebKit.framework */; };
+		2356D82A5FA1F16F0EB4CBDC13084BCF /* ICACrashReporter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74E90CF6466899792C11BE76EFAC1F8B /* ICACrashReporter-dummy.m */; };
+		3A914B1001953AB15BACD6B6C365D92A /* GAILogger.h in Headers */ = {isa = PBXBuildFile; fileRef = C03BADC46EBFCF5760F5CC0E3ED704BD /* GAILogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46AB7CC590BFEDE20414C6F2B6653F19 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA70607867EBB975CD918B02B498DD07 /* CoreTelephony.framework */; };
+		46BB79D6C58AA4346213FE941AF55BB3 /* Core.h in Headers */ = {isa = PBXBuildFile; fileRef = A3B8622A93422F763BCE1E18249144F0 /* Core.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51DB0B045F64EC8C52F3E7D8B80E2410 /* GAIEcommerceProduct.h in Headers */ = {isa = PBXBuildFile; fileRef = 88E828872D59EB29E6DB704331E867D6 /* GAIEcommerceProduct.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		53E481791C17968790B75A92EA4DAAB4 /* Pods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BCC458FDD5F692BBB2BFC64BB5701FC /* Pods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		58AC889D31935D064F0B2C0DB2B76A3B /* Splunk.h in Headers */ = {isa = PBXBuildFile; fileRef = BEF76A2DDEE8B8B83517A875A55443C7 /* Splunk.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5D42304DF65BD302A00D4844E8694171 /* GAILogger.h in Headers */ = {isa = PBXBuildFile; fileRef = C03BADC46EBFCF5760F5CC0E3ED704BD /* GAILogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		670B97A858BEE3345D83DE48C8303045 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC79356099B84A24B3824BBE4BA46EE0 /* SystemConfiguration.framework */; };
+		59778DBEF6A6BE9FE4DB41524F7FFC3F /* ICACrashReporterTransactionController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6206FB5C02A4111FF9003CA334A40070 /* ICACrashReporterTransactionController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BAACDDC4D54F0EF0230F562DF88A38A /* ICAMultiCrashReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9228102A79A7D3D1A5B831B30E5C2174 /* ICAMultiCrashReporter.m */; };
+		5C0F5C3872B91FD24332753B6AE8391C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC79356099B84A24B3824BBE4BA46EE0 /* SystemConfiguration.framework */; };
+		5E13B0D0D4EC61DFFD172258C251C5AD /* GAITrackedViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 93300732089B8FB292114BFD33EE30EB /* GAITrackedViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		639904B0E75D3E6FEE70AD2AFB02E472 /* ICACrashReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9D2BC46BE333760AA79F7228BC3FBB /* ICACrashReporter.m */; };
+		64BB48C28CF654DEBD4792BEE29A334B /* ICACrashReporterProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = F40F15ABF50E284D60D1770B7F84EE42 /* ICACrashReporterProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6DB0241D14043E793E7F84DE7B9E8A2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D4835F99CF503EDB0ED7A0DD391D83E /* Foundation.framework */; };
-		74B9F08B2E678D0C75F48E0CD4C67ED1 /* GAITracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A6E29874A119F7C6FC946F2EEA73D62 /* GAITracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7AEBAEC202B533017A626D8BCAA2BFBB /* ICAGoogleAnalyticsCrashReporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C9CF2D4B746F909149520823B4AA838 /* ICAGoogleAnalyticsCrashReporter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7BE663D76E06B8109415E1A712AAD750 /* GAI.h in Headers */ = {isa = PBXBuildFile; fileRef = 8092D86F9B9E075BBE6EC963C5FEE72B /* GAI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8828C2CDD92CD055FF5A3B4C304034E2 /* ICAMultiCrashReporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 98FF8204DA51236EDE93DD7DB8FFABD1 /* ICAMultiCrashReporter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		94099F91A0FA20E252C4E0582A262467 /* GAIEcommercePromotion.h in Headers */ = {isa = PBXBuildFile; fileRef = A6EF2892BC5E671504B28DCA9D2798BF /* GAIEcommercePromotion.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A318E0A814D749A594B7683CE0257BE8 /* ICACrashReporter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1059F5B2E5016C1AB16468B54453443F /* ICACrashReporter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A46BB9BFBEAEFD0218AB210A94FF8A20 /* ICASplunkCrashReporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 84A33AE3E68D2969CDF1A1B84AE804AF /* ICASplunkCrashReporter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AAB03AA505B015110EEB2B5DDD19F617 /* GAITrackedViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 93300732089B8FB292114BFD33EE30EB /* GAITrackedViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ABAD89B6F7621F8B7F6A0B67C6A25502 /* ICACrashReporterTransactionController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D891FAD802037CE66502094A1835743 /* ICACrashReporterTransactionController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B5676DD484662C5692C191E5CC3CD3EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D4835F99CF503EDB0ED7A0DD391D83E /* Foundation.framework */; };
-		B73057D59F91FA4F56FFBC95B8DF3CED /* ICACrashReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8D0DB45E7E611E6ADB81E1EFC315FB /* ICACrashReporter.m */; };
+		7149BB92999DE8EC422E5DD50587A010 /* ICACrashReporterTransactionController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB102648C098AC94F5EFC32FFFBD02F2 /* ICACrashReporterTransactionController.m */; };
+		7D19BB7370DAE60069437D25F5D09972 /* ICACrashReporter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1059F5B2E5016C1AB16468B54453443F /* ICACrashReporter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86479F9F98CDE612CC995FF8AC5D5A5D /* GAIEcommercePromotion.h in Headers */ = {isa = PBXBuildFile; fileRef = A6EF2892BC5E671504B28DCA9D2798BF /* GAIEcommercePromotion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D7E9CBA655A01293A1F3715E81231D5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ED3C3B37B51935832336D3BDFB74B6E /* CoreData.framework */; };
+		8EC1C2118E16BA590420FFA7157AB33D /* ICAMultiCrashReporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D7C5BA6E3031037B6AE885393ABAC6A /* ICAMultiCrashReporter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		901DB0ADB71A365E67265B5FB6509013 /* ICACrashReporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 182545F8BD4B3C4F6885DF9C280B422C /* ICACrashReporter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97B2644BDD77F98B3C8E17E73FDD69D5 /* GAIEcommerceProductAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A7C35BF4DACAED5C5847F398E57A500 /* GAIEcommerceProductAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C0C82BCA8070C5E69FEE6BCD5A5F916 /* GAITracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A6E29874A119F7C6FC946F2EEA73D62 /* GAITracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B65E938B3DE23C8B72F88960D9332EDB /* GoogleAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = B0851F0E83DB9F2311D0778942E109AF /* GoogleAnalytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6CAB11304531DC5DD87BD6891465969 /* ICAGoogleAnalyticsCrashReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBD9B0A46DA612715D41061D3599D80 /* ICAGoogleAnalyticsCrashReporter.m */; };
 		C1DC12DD14B6301D8043299F5EDC41A6 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 894E5DA93A9F359521A89826BE6DA777 /* Pods-dummy.m */; };
-		C50B3A50DFFD5459CE6B79A23B8040E5 /* GAIEcommerceFields.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AEF91EFB1220D7F1F3100DAB3C3DCCB /* GAIEcommerceFields.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CAAD4AC426BF43B57405FB5190717C90 /* GAIEcommerceProductAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A7C35BF4DACAED5C5847F398E57A500 /* GAIEcommerceProductAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CB1605B453A26ED5DCE7CFB457812FAC /* ICAMultiCrashReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC13BDDCD65C1A969B1DEA7ABE0805E /* ICAMultiCrashReporter.m */; };
-		D4F0E20570C5E9F5EEEDE64AC3475758 /* GAIDictionaryBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = E41FD1737E4574D97BA850B2E83D2470 /* GAIDictionaryBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EABD2307E2CEDC917DD79B6EEC40A426 /* Core.h in Headers */ = {isa = PBXBuildFile; fileRef = 95F1984FE80249D0C38B83A6059EC4DC /* Core.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ED2B449A433B776502355E09C847989B /* ICACrashReporterTransactionController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA16EC88FA3A7F29BEECA1E097F8C1D /* ICACrashReporterTransactionController.m */; };
+		C8F5A840750D340B463AD1ABA0181C2B /* ICAConsoleCrashReporter.h in Headers */ = {isa = PBXBuildFile; fileRef = DBDA30DDEB2EB45C7CB097CAE6994FD9 /* ICAConsoleCrashReporter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D17B9686880C0A4C8142ECB9A8BC9B0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D4835F99CF503EDB0ED7A0DD391D83E /* Foundation.framework */; };
+		D300C8D877439ACE79C16D656149661C /* GAIEcommerceFields.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AEF91EFB1220D7F1F3100DAB3C3DCCB /* GAIEcommerceFields.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E00B4207CDD3AC09E1877A5F5C86BF06 /* ICASplunkCrashReporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 84A33AE3E68D2969CDF1A1B84AE804AF /* ICASplunkCrashReporter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2BD2D0CFB5BB4E8EEA37CD1803DE0D6 /* ICASplunkCrashReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7ED762F1EA7865A7377F32BB36E288 /* ICASplunkCrashReporter.m */; };
+		EFE97BDE4E4BC844CCE4CD35E7FB8806 /* Splunk.h in Headers */ = {isa = PBXBuildFile; fileRef = BEF76A2DDEE8B8B83517A875A55443C7 /* Splunk.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2B74A1CB8F519DE638EEFE9CDBF26A9 /* GAIDictionaryBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = E41FD1737E4574D97BA850B2E83D2470 /* GAIDictionaryBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAA91EAA6391AE322A4C352F8ABF15C4 /* ICAConsoleCrashReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FAF9777C6325AC3FFD8A023BDF357F1 /* ICAConsoleCrashReporter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +49,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 95AAF3926A3405F5FC2BD4AAFB08AE7E;
+			remoteGlobalIDString = D975054BBE85E28087A91AF5699FF64C;
 			remoteInfo = ICACrashReporter;
 		};
 /* End PBXContainerItemProxy section */
@@ -56,16 +57,17 @@
 /* Begin PBXFileReference section */
 		0E54A664F40847C356860BC4C4AB77FC /* SplunkMint.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SplunkMint.framework; path = Pod/Frameworks/SplunkMint.framework; sourceTree = "<group>"; };
 		1059F5B2E5016C1AB16468B54453443F /* ICACrashReporter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ICACrashReporter-umbrella.h"; sourceTree = "<group>"; };
-		1CC52F4FBD2E8CA75C039409FE4A11C9 /* ICAConsoleCrashReporter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ICAConsoleCrashReporter.m; sourceTree = "<group>"; };
+		182545F8BD4B3C4F6885DF9C280B422C /* ICACrashReporter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ICACrashReporter.h; sourceTree = "<group>"; };
 		1FBD9B0A46DA612715D41061D3599D80 /* ICAGoogleAnalyticsCrashReporter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ICAGoogleAnalyticsCrashReporter.m; sourceTree = "<group>"; };
 		2158EAB21DCD185976E368E1D02BCED4 /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGoogleAnalyticsServices.a; path = Pod/Libraries/GoogleAnalytics/libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
+		2B9D2BC46BE333760AA79F7228BC3FBB /* ICACrashReporter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ICACrashReporter.m; sourceTree = "<group>"; };
 		2BCC458FDD5F692BBB2BFC64BB5701FC /* Pods-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-umbrella.h"; sourceTree = "<group>"; };
 		3AEF91EFB1220D7F1F3100DAB3C3DCCB /* GAIEcommerceFields.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceFields.h; sourceTree = "<group>"; };
-		3D891FAD802037CE66502094A1835743 /* ICACrashReporterTransactionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ICACrashReporterTransactionController.h; sourceTree = "<group>"; };
 		3F5DCB9E6629DD446AF2FEA4199AA6E1 /* ICACrashReporter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ICACrashReporter.modulemap; sourceTree = "<group>"; };
-		3FC13BDDCD65C1A969B1DEA7ABE0805E /* ICAMultiCrashReporter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ICAMultiCrashReporter.m; sourceTree = "<group>"; };
 		5A6E29874A119F7C6FC946F2EEA73D62 /* GAITracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GAITracker.h; sourceTree = "<group>"; };
 		5E534497464E74743026A0656CFF5BFD /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FAF9777C6325AC3FFD8A023BDF357F1 /* ICAConsoleCrashReporter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ICAConsoleCrashReporter.m; sourceTree = "<group>"; };
+		6206FB5C02A4111FF9003CA334A40070 /* ICACrashReporterTransactionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ICACrashReporterTransactionController.h; sourceTree = "<group>"; };
 		6A7C35BF4DACAED5C5847F398E57A500 /* GAIEcommerceProductAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProductAction.h; sourceTree = "<group>"; };
 		6BDC1E6FD0DDD5842BE72F1CB995A0AE /* ICACrashReporter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ICACrashReporter-prefix.pch"; sourceTree = "<group>"; };
 		6ED3C3B37B51935832336D3BDFB74B6E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
@@ -78,11 +80,12 @@
 		88E828872D59EB29E6DB704331E867D6 /* GAIEcommerceProduct.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProduct.h; sourceTree = "<group>"; };
 		894E5DA93A9F359521A89826BE6DA777 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
 		8D4835F99CF503EDB0ED7A0DD391D83E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8D7C5BA6E3031037B6AE885393ABAC6A /* ICAMultiCrashReporter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ICAMultiCrashReporter.h; sourceTree = "<group>"; };
 		8FE30E37AC14A7B007EA7089255C7DCB /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
+		9228102A79A7D3D1A5B831B30E5C2174 /* ICAMultiCrashReporter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ICAMultiCrashReporter.m; sourceTree = "<group>"; };
 		93300732089B8FB292114BFD33EE30EB /* GAITrackedViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GAITrackedViewController.h; sourceTree = "<group>"; };
-		95F1984FE80249D0C38B83A6059EC4DC /* Core.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Core.h; sourceTree = "<group>"; };
 		977577C045EDA9D9D1F46E2598D19FC7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
-		98FF8204DA51236EDE93DD7DB8FFABD1 /* ICAMultiCrashReporter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ICAMultiCrashReporter.h; sourceTree = "<group>"; };
+		A3B8622A93422F763BCE1E18249144F0 /* Core.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Core.h; sourceTree = "<group>"; };
 		A6EF2892BC5E671504B28DCA9D2798BF /* GAIEcommercePromotion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GAIEcommercePromotion.h; sourceTree = "<group>"; };
 		B0851F0E83DB9F2311D0778942E109AF /* GoogleAnalytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GoogleAnalytics.h; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -90,40 +93,39 @@
 		C03BADC46EBFCF5760F5CC0E3ED704BD /* GAILogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GAILogger.h; sourceTree = "<group>"; };
 		C0E5604933004F4510ED04208F4C6F13 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C24046BF0DA6D7076880F3A3A8847EAA /* ICACrashReporter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ICACrashReporter.xcconfig; sourceTree = "<group>"; };
+		CB102648C098AC94F5EFC32FFFBD02F2 /* ICACrashReporterTransactionController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ICACrashReporterTransactionController.m; sourceTree = "<group>"; };
 		CBC0F7C552B739C909B650A0F42F7F38 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
 		CD7ED762F1EA7865A7377F32BB36E288 /* ICASplunkCrashReporter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ICASplunkCrashReporter.m; sourceTree = "<group>"; };
 		D0405803033A2A777B8E4DFA0C1800ED /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D4EFA158D364483D77D3A363CDFB93E1 /* ICACrashReporter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ICACrashReporter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D543E299499D6845BDF72FF06D426AAE /* ICACrashReporter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ICACrashReporter.h; sourceTree = "<group>"; };
 		DA312349A49333542E6F4B36B329960E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
 		DA70607867EBB975CD918B02B498DD07 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		DBDA30DDEB2EB45C7CB097CAE6994FD9 /* ICAConsoleCrashReporter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ICAConsoleCrashReporter.h; sourceTree = "<group>"; };
 		DC79356099B84A24B3824BBE4BA46EE0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		E41FD1737E4574D97BA850B2E83D2470 /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GAIDictionaryBuilder.h; sourceTree = "<group>"; };
 		E7F21354943D9F42A70697D5A5EF72E9 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
 		E8446514FBAD26C0E18F24A5715AEF67 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E97CF6449C5828A97F661DCA40BE8C97 /* ICAConsoleCrashReporter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ICAConsoleCrashReporter.h; sourceTree = "<group>"; };
-		FD8D0DB45E7E611E6ADB81E1EFC315FB /* ICACrashReporter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ICACrashReporter.m; sourceTree = "<group>"; };
-		FEA16EC88FA3A7F29BEECA1E097F8C1D /* ICACrashReporterTransactionController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ICACrashReporterTransactionController.m; sourceTree = "<group>"; };
+		F40F15ABF50E284D60D1770B7F84EE42 /* ICACrashReporterProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ICACrashReporterProvider.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		75338AE73425AA2705D26D82420FD460 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1B1622879819B1F63771B18D6DCB513A /* CoreData.framework in Frameworks */,
-				237AD48808A2F3F3E0A3CB90C7946FA2 /* CoreTelephony.framework in Frameworks */,
-				B5676DD484662C5692C191E5CC3CD3EF /* Foundation.framework in Frameworks */,
-				670B97A858BEE3345D83DE48C8303045 /* SystemConfiguration.framework in Frameworks */,
-				084A3254EB5733AF5175C9A91C52011D /* WebKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		AA518434EE6A12011F0134B0DC59A596 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6DB0241D14043E793E7F84DE7B9E8A2A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2CD3F095607FF2191FF353A42F06A80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D7E9CBA655A01293A1F3715E81231D5 /* CoreData.framework in Frameworks */,
+				46AB7CC590BFEDE20414C6F2B6653F19 /* CoreTelephony.framework in Frameworks */,
+				D17B9686880C0A4C8142ECB9A8BC9B0E /* Foundation.framework in Frameworks */,
+				5C0F5C3872B91FD24332753B6AE8391C /* SystemConfiguration.framework in Frameworks */,
+				2235F285BDFCA7994A3FE03707861C1A /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,13 +149,24 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		2B6C7FA0749016C5CBA6F0C9EA78EAB7 /* Multi */ = {
+		2EB6325CA2560AF648D0F71BB7F11D56 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				98FF8204DA51236EDE93DD7DB8FFABD1 /* ICAMultiCrashReporter.h */,
-				3FC13BDDCD65C1A969B1DEA7ABE0805E /* ICAMultiCrashReporter.m */,
+				A3B8622A93422F763BCE1E18249144F0 /* Core.h */,
+				39197E406EAB8B3FCBFA29309261E728 /* Console */,
+				790C9EF5A4B9A4F1B8A4D7AC755B6ED0 /* Core */,
+				FD5DA0B5303D95E94257D42E825E4215 /* Multi */,
 			);
-			path = Multi;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		39197E406EAB8B3FCBFA29309261E728 /* Console */ = {
+			isa = PBXGroup;
+			children = (
+				DBDA30DDEB2EB45C7CB097CAE6994FD9 /* ICAConsoleCrashReporter.h */,
+				5FAF9777C6325AC3FFD8A023BDF357F1 /* ICAConsoleCrashReporter.m */,
+			);
+			path = Console;
 			sourceTree = "<group>";
 		};
 		4EC4BA16273ED5C4E837C7BA5692760E /* Support Files */ = {
@@ -215,17 +228,6 @@
 			path = GoogleAnalytics;
 			sourceTree = "<group>";
 		};
-		685EF48A063748954AF904F2FD322AC9 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				D543E299499D6845BDF72FF06D426AAE /* ICACrashReporter.h */,
-				FD8D0DB45E7E611E6ADB81E1EFC315FB /* ICACrashReporter.m */,
-				3D891FAD802037CE66502094A1835743 /* ICACrashReporterTransactionController.h */,
-				FEA16EC88FA3A7F29BEECA1E097F8C1D /* ICACrashReporterTransactionController.m */,
-			);
-			path = Core;
-			sourceTree = "<group>";
-		};
 		75D98FF52E597A11900E131B6C4E1ADA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -242,6 +244,18 @@
 			);
 			name = Pods;
 			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		790C9EF5A4B9A4F1B8A4D7AC755B6ED0 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				182545F8BD4B3C4F6885DF9C280B422C /* ICACrashReporter.h */,
+				2B9D2BC46BE333760AA79F7228BC3FBB /* ICACrashReporter.m */,
+				F40F15ABF50E284D60D1770B7F84EE42 /* ICACrashReporterProvider.h */,
+				6206FB5C02A4111FF9003CA334A40070 /* ICACrashReporterTransactionController.h */,
+				CB102648C098AC94F5EFC32FFFBD02F2 /* ICACrashReporterTransactionController.m */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -267,7 +281,7 @@
 		8B6FF75B441414EB84657B3B78189B8E /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				FF4560309D66E82C6C4E71DED0249E0C /* Classes */,
+				2EB6325CA2560AF648D0F71BB7F11D56 /* Classes */,
 			);
 			path = Pod;
 			sourceTree = "<group>";
@@ -376,15 +390,6 @@
 			path = Splunk;
 			sourceTree = "<group>";
 		};
-		EE9AC42209729FF5A01463DF69A37DE5 /* Console */ = {
-			isa = PBXGroup;
-			children = (
-				E97CF6449C5828A97F661DCA40BE8C97 /* ICAConsoleCrashReporter.h */,
-				1CC52F4FBD2E8CA75C039409FE4A11C9 /* ICAConsoleCrashReporter.m */,
-			);
-			path = Console;
-			sourceTree = "<group>";
-		};
 		F616643D07A9CCDAB891F33982BF40A5 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -394,15 +399,13 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		FF4560309D66E82C6C4E71DED0249E0C /* Classes */ = {
+		FD5DA0B5303D95E94257D42E825E4215 /* Multi */ = {
 			isa = PBXGroup;
 			children = (
-				95F1984FE80249D0C38B83A6059EC4DC /* Core.h */,
-				EE9AC42209729FF5A01463DF69A37DE5 /* Console */,
-				685EF48A063748954AF904F2FD322AC9 /* Core */,
-				2B6C7FA0749016C5CBA6F0C9EA78EAB7 /* Multi */,
+				8D7C5BA6E3031037B6AE885393ABAC6A /* ICAMultiCrashReporter.h */,
+				9228102A79A7D3D1A5B831B30E5C2174 /* ICAMultiCrashReporter.m */,
 			);
-			path = Classes;
+			path = Multi;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -416,29 +419,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CF9C23A75BBF87D7B7EDC9B4C04AEA87 /* Headers */ = {
+		FEF43E27E201581788E5B9EECB893E8B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EABD2307E2CEDC917DD79B6EEC40A426 /* Core.h in Headers */,
-				7BE663D76E06B8109415E1A712AAD750 /* GAI.h in Headers */,
-				D4F0E20570C5E9F5EEEDE64AC3475758 /* GAIDictionaryBuilder.h in Headers */,
-				C50B3A50DFFD5459CE6B79A23B8040E5 /* GAIEcommerceFields.h in Headers */,
-				09C3E197BA6C8C1F009EA6A7AE16027B /* GAIEcommerceProduct.h in Headers */,
-				CAAD4AC426BF43B57405FB5190717C90 /* GAIEcommerceProductAction.h in Headers */,
-				94099F91A0FA20E252C4E0582A262467 /* GAIEcommercePromotion.h in Headers */,
-				5D42304DF65BD302A00D4844E8694171 /* GAILogger.h in Headers */,
-				AAB03AA505B015110EEB2B5DDD19F617 /* GAITrackedViewController.h in Headers */,
-				74B9F08B2E678D0C75F48E0CD4C67ED1 /* GAITracker.h in Headers */,
-				0AAA5CD040CADD7F7F24DA41E5202843 /* GoogleAnalytics.h in Headers */,
-				082965C54B9DC96B0BC91C2024CA8973 /* ICAConsoleCrashReporter.h in Headers */,
-				A318E0A814D749A594B7683CE0257BE8 /* ICACrashReporter-umbrella.h in Headers */,
-				1E39CCB1086158AFE5BE7B21AB470BF1 /* ICACrashReporter.h in Headers */,
-				ABAD89B6F7621F8B7F6A0B67C6A25502 /* ICACrashReporterTransactionController.h in Headers */,
-				7AEBAEC202B533017A626D8BCAA2BFBB /* ICAGoogleAnalyticsCrashReporter.h in Headers */,
-				8828C2CDD92CD055FF5A3B4C304034E2 /* ICAMultiCrashReporter.h in Headers */,
-				A46BB9BFBEAEFD0218AB210A94FF8A20 /* ICASplunkCrashReporter.h in Headers */,
-				58AC889D31935D064F0B2C0DB2B76A3B /* Splunk.h in Headers */,
+				46BB79D6C58AA4346213FE941AF55BB3 /* Core.h in Headers */,
+				0DF770F8FB8887A1900106B458EB2CA3 /* GAI.h in Headers */,
+				F2B74A1CB8F519DE638EEFE9CDBF26A9 /* GAIDictionaryBuilder.h in Headers */,
+				D300C8D877439ACE79C16D656149661C /* GAIEcommerceFields.h in Headers */,
+				51DB0B045F64EC8C52F3E7D8B80E2410 /* GAIEcommerceProduct.h in Headers */,
+				97B2644BDD77F98B3C8E17E73FDD69D5 /* GAIEcommerceProductAction.h in Headers */,
+				86479F9F98CDE612CC995FF8AC5D5A5D /* GAIEcommercePromotion.h in Headers */,
+				3A914B1001953AB15BACD6B6C365D92A /* GAILogger.h in Headers */,
+				5E13B0D0D4EC61DFFD172258C251C5AD /* GAITrackedViewController.h in Headers */,
+				9C0C82BCA8070C5E69FEE6BCD5A5F916 /* GAITracker.h in Headers */,
+				B65E938B3DE23C8B72F88960D9332EDB /* GoogleAnalytics.h in Headers */,
+				C8F5A840750D340B463AD1ABA0181C2B /* ICAConsoleCrashReporter.h in Headers */,
+				7D19BB7370DAE60069437D25F5D09972 /* ICACrashReporter-umbrella.h in Headers */,
+				901DB0ADB71A365E67265B5FB6509013 /* ICACrashReporter.h in Headers */,
+				64BB48C28CF654DEBD4792BEE29A334B /* ICACrashReporterProvider.h in Headers */,
+				59778DBEF6A6BE9FE4DB41524F7FFC3F /* ICACrashReporterTransactionController.h in Headers */,
+				1F8C99A3F5996B50506D2E8F9D6941B4 /* ICAGoogleAnalyticsCrashReporter.h in Headers */,
+				8EC1C2118E16BA590420FFA7157AB33D /* ICAMultiCrashReporter.h in Headers */,
+				E00B4207CDD3AC09E1877A5F5C86BF06 /* ICASplunkCrashReporter.h in Headers */,
+				EFE97BDE4E4BC844CCE4CD35E7FB8806 /* Splunk.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,13 +467,13 @@
 			productReference = 5E534497464E74743026A0656CFF5BFD /* Pods.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		95AAF3926A3405F5FC2BD4AAFB08AE7E /* ICACrashReporter */ = {
+		D975054BBE85E28087A91AF5699FF64C /* ICACrashReporter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6D8BA6D0A60E24B553EC5E7E42A18174 /* Build configuration list for PBXNativeTarget "ICACrashReporter" */;
+			buildConfigurationList = 4B7D746702D2B1274FB82FE62DCC3341 /* Build configuration list for PBXNativeTarget "ICACrashReporter" */;
 			buildPhases = (
-				3DD0753DEEE969ADB86EE5EEF02C9133 /* Sources */,
-				75338AE73425AA2705D26D82420FD460 /* Frameworks */,
-				CF9C23A75BBF87D7B7EDC9B4C04AEA87 /* Headers */,
+				9C79710C0507DDB53D666EB48739CA3F /* Sources */,
+				D2CD3F095607FF2191FF353A42F06A80 /* Frameworks */,
+				FEF43E27E201581788E5B9EECB893E8B /* Headers */,
 			);
 			buildRules = (
 			);
@@ -501,32 +505,32 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				95AAF3926A3405F5FC2BD4AAFB08AE7E /* ICACrashReporter */,
+				D975054BBE85E28087A91AF5699FF64C /* ICACrashReporter */,
 				46250A3650007C6A68EC2F095DEC1869 /* Pods */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3DD0753DEEE969ADB86EE5EEF02C9133 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3B40F62B8245ADAECED0BD0C5510B5BA /* ICAConsoleCrashReporter.m in Sources */,
-				19BB1627593099C82B2F8AEEE835F9B8 /* ICACrashReporter-dummy.m in Sources */,
-				B73057D59F91FA4F56FFBC95B8DF3CED /* ICACrashReporter.m in Sources */,
-				ED2B449A433B776502355E09C847989B /* ICACrashReporterTransactionController.m in Sources */,
-				077093242BAE21D73DE1A11C80252240 /* ICAGoogleAnalyticsCrashReporter.m in Sources */,
-				CB1605B453A26ED5DCE7CFB457812FAC /* ICAMultiCrashReporter.m in Sources */,
-				19F4D5572E69C39F2A9451329B301BCF /* ICASplunkCrashReporter.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3F49ACCD15C05515439064FB3648C683 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C1DC12DD14B6301D8043299F5EDC41A6 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C79710C0507DDB53D666EB48739CA3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA91EAA6391AE322A4C352F8ABF15C4 /* ICAConsoleCrashReporter.m in Sources */,
+				2356D82A5FA1F16F0EB4CBDC13084BCF /* ICACrashReporter-dummy.m in Sources */,
+				639904B0E75D3E6FEE70AD2AFB02E472 /* ICACrashReporter.m in Sources */,
+				7149BB92999DE8EC422E5DD50587A010 /* ICACrashReporterTransactionController.m in Sources */,
+				B6CAB11304531DC5DD87BD6891465969 /* ICAGoogleAnalyticsCrashReporter.m in Sources */,
+				5BAACDDC4D54F0EF0230F562DF88A38A /* ICAMultiCrashReporter.m in Sources */,
+				E2BD2D0CFB5BB4E8EEA37CD1803DE0D6 /* ICASplunkCrashReporter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -536,39 +540,12 @@
 		9552E949CD61F4419BC6E7E0F95350B0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ICACrashReporter;
-			target = 95AAF3926A3405F5FC2BD4AAFB08AE7E /* ICACrashReporter */;
+			target = D975054BBE85E28087A91AF5699FF64C /* ICACrashReporter */;
 			targetProxy = EA1318C91DE35CD9ABEE4CD5502CCADA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0DA2AD224497F6D5BAD3F0D611D19646 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C24046BF0DA6D7076880F3A3A8847EAA /* ICACrashReporter.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ICACrashReporter/ICACrashReporter-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ICACrashReporter/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ICACrashReporter/ICACrashReporter.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = ICACrashReporter;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		7511B762113487AE2E8E817721C03C91 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DA312349A49333542E6F4B36B329960E /* Pods.release.xcconfig */;
@@ -599,7 +576,7 @@
 			};
 			name = Release;
 		};
-		93924834E7BDC3105B2455043AE1EBB3 /* Release */ = {
+		811D604A54760D459686D032C07993E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C24046BF0DA6D7076880F3A3A8847EAA /* ICACrashReporter.xcconfig */;
 			buildSettings = {
@@ -616,7 +593,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/ICACrashReporter/ICACrashReporter.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = ICACrashReporter;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -624,7 +601,7 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		C074F63C9EE7CB4D8C618390A32CEC35 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -664,6 +641,33 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
+		};
+		D814F2D455CB6D47E7F010360F42D212 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C24046BF0DA6D7076880F3A3A8847EAA /* ICACrashReporter.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ICACrashReporter/ICACrashReporter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ICACrashReporter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ICACrashReporter/ICACrashReporter.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ICACrashReporter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		E43846B588E1892F3093F3B7082B6DFB /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -750,11 +754,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6D8BA6D0A60E24B553EC5E7E42A18174 /* Build configuration list for PBXNativeTarget "ICACrashReporter" */ = {
+		4B7D746702D2B1274FB82FE62DCC3341 /* Build configuration list for PBXNativeTarget "ICACrashReporter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0DA2AD224497F6D5BAD3F0D611D19646 /* Debug */,
-				93924834E7BDC3105B2455043AE1EBB3 /* Release */,
+				811D604A54760D459686D032C07993E2 /* Debug */,
+				D814F2D455CB6D47E7F010360F42D212 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
