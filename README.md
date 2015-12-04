@@ -46,6 +46,12 @@ Include the correct header file depending on the pod (Core, Splunk or Google Ana
 import ICACrashReporter
 ```
 
+## Bitcode
+
+When you want to use Splunk crash reporting you should **disable** bitcode in your project, because otherwise the symbolication will not work. More info on this in the [Splunk docs](http://docs.splunk.com/Documentation/MintIOSSDK/latest/DevGuide/Requirementsandinstallation).
+
+_The Splunk MINT SDK for iOS now supports bitcode. However, if you also enable bitcode in your app, crash reports in MINT will not be symbolicated because when bitcode is enabled, Apple recompiles the app. The resulting binary uses a different UUID, so a corresponding dSYM bundle cannot be downloaded._
+
 ## Documentation
 
 ### Session handling
