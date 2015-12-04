@@ -6,6 +6,7 @@
 //
 
 #import "ICACrashReporter.h"
+#import "ICACrashReporterProvider.h"
 #import "ICAConsoleCrashReporter.h"
 #import "ICAMultiCrashReporter.h"
 #import "ICACrashReporterTransactionController.h"

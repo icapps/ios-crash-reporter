@@ -14,59 +14,60 @@
 
 @interface ICAGoogleAnalyticsCrashReporter()
 
-@property (nonatomic, strong) NSString *key;
 @property (nonatomic, strong) id<GAITracker> tracker;
 
 @end
 
 @implementation ICAGoogleAnalyticsCrashReporter
 
+#pragma mark - Init
+
 - (instancetype)initWithKey:(NSString *)key {
     if (self = [super init]) {
-        _key = key;
-        _tracker = [[GAI sharedInstance] trackerWithTrackingId:key];
+        self.tracker = [[GAI sharedInstance] trackerWithTrackingId:key];
     }
     return self;
 }
 
+#pragma mark - ICACrashReporterProvider
+
 - (void)logBreadcrumb:(NSString *)breadcrumb {
-    [self logGoogleAnalyticsCategory:@"breadcrumb" action:breadcrumb];
+    [self sendToGoogleAnalyticsWithCategory:@"breadcrumb" action:breadcrumb];
 }
 
-- (void)logEvent:(NSString *)eventInfo {
-    [self logGoogleAnalyticsCategory:@"event" action:eventInfo];
+- (void)logEvent:(NSString *)event {
+    [self sendToGoogleAnalyticsWithCategory:@"event" action:event];
 }
 
-- (void)logGoogleAnalyticsCategory:(NSString *)category action:(NSString *)action {
-    [self.tracker send:[[GAIDictionaryBuilder createEventWithCategory:category
-                                                               action:action
-                                                                label:@""
-                                                                value:nil] build]];
-}
-
-- (void)logExtraData:(NSString *)key value:(NSString *)value {
-    [self logGoogleAnalyticsCategory:key action:value];
+- (void)logKey:(NSString *)key value:(NSString *)value {
+    [self sendToGoogleAnalyticsWithCategory:key action:value];
 }
 
 - (void)logException:(NSException *)exception {
     [self.tracker send:[[GAIDictionaryBuilder createExceptionWithDescription:exception.debugDescription withFatal:@NO] build]];
 }
 
-- (void)setUserIdentifier:(NSString *)userId {
-    [self.tracker set:@"&uid" value:userId];
+- (void)setUserIdentifier:(NSString *)userIdentifier {
+    [self.tracker set:@"&uid" value:userIdentifier];
     [self.tracker send:[[GAIDictionaryBuilder createEventWithCategory:@"UX" action:@"User Signed In" label:nil value:nil] build]];
 }
 
-- (void)startTransaction:(NSString *)transactionId {
+- (void)startTransaction:(NSString *)transactionID {
     [[GAI sharedInstance] dispatch];
 }
 
-- (void)stopTransaction:(NSString *)transactionId {
+- (void)stopTransaction:(NSString *)transactionID {
     // Not supported
 }
 
-- (void)cancelTransaction:(NSString *)transactionId {
+- (void)cancelTransaction:(NSString *)transactionID {
     // Not supported
+}
+
+#pragma mark - Google Analytics
+
+- (void)sendToGoogleAnalyticsWithCategory:(NSString *)category action:(NSString *)action {
+    [self.tracker send:[[GAIDictionaryBuilder createEventWithCategory:category action:action label:@"" value:nil] build]];
 }
 
 @end

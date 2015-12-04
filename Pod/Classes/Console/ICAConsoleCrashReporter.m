@@ -14,11 +14,11 @@
     NSLog(@"Logging breadcrumb: %@", breadcrumb);
 }
 
-- (void)logEvent:(NSString *)eventInfo {
-    NSLog(@"Logging event: %@", eventInfo);
+- (void)logEvent:(NSString *)event {
+    NSLog(@"Logging event: %@", event);
 }
 
-- (void)logExtraData:(NSString *)key value:(NSString *)value {
+- (void)logKey:(NSString *)key value:(NSString *)value {
     NSLog(@"Logging data: %@ - %@",key,value);
 }
 
@@ -26,20 +26,20 @@
     NSLog(@"Logging exception: %@", exception.description);
 }
 
-- (void)setUserIdentifier:(NSString *)userId {
-    NSLog(@"Setting User Identifier: %@", userId);
+- (void)setUserIdentifier:(NSString *)userIdentifier {
+    NSLog(@"Setting User Identifier: %@", userIdentifier);
 }
 
-- (void)startTransaction:(NSString *)transactionId {
-    NSLog(@"Starting transaction with Id: %@", transactionId);
+- (void)startTransaction:(NSString *)transactionID {
+    NSLog(@"Starting transaction with ID: %@", transactionID);
 }
 
-- (void)stopTransaction:(NSString *)transactionId {
-    NSLog(@"Stopping transaction with Id: %@", transactionId);
+- (void)stopTransaction:(NSString *)transactionID {
+    NSLog(@"Stopping transaction with ID: %@", transactionID);
 }
 
-- (void)cancelTransaction:(NSString *)transactionId {
-    NSLog(@"Cancelling transaction with Id: %@", transactionId);
+- (void)cancelTransaction:(NSString *)transactionID {
+    NSLog(@"Cancelling transaction with ID: %@", transactionID);
 }
 
 @end

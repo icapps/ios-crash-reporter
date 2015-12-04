@@ -11,9 +11,10 @@
 
 @interface ICACrashReporterTransactionController : NSObject
 
-- (instancetype)initWithInstance:(id<ICACrashReporterProvider>)instance;
-- (void)startTransaction;
-- (void)stopTransaction;
-- (void)cancelTransaction;
+- (instancetype)initWithProvider:(id<ICACrashReporterProvider>)provider;
+
+- (void)start;
+- (void)stop;
+- (void)cancel;
 
 @end

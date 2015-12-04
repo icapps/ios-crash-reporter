@@ -10,19 +10,22 @@
 
 @interface ICAMultiCrashReporter ()
 
-@property (nonatomic, strong) NSArray *reporters;
+@property (nonatomic, strong) NSArray<ICACrashReporterProvider> *reporters;
 
 @end
 
-
 @implementation ICAMultiCrashReporter
 
-- (id)initWithReporters:(NSArray *)reporters {
+#pragma mark - Init
+
+- (id)initWithReporters:(NSArray<ICACrashReporterProvider> *)reporters {
     if (self = [super init]) {
-        _reporters = reporters;
+        self.reporters = reporters;
     }
     return self;
 }
+
+#pragma mark - ICACrashReporterProvider
 
 - (void)logBreadcrumb:(NSString *)breadcrumb {
     for (id<ICACrashReporterProvider> reporter in self.reporters) {
@@ -36,9 +39,9 @@
     }
 }
 
-- (void)logExtraData:(NSString *)key value:(NSString *)value {
+- (void)logKey:(NSString *)key value:(NSString *)value {
     for (id<ICACrashReporterProvider> reporter in self.reporters) {
-        [reporter logExtraData:key value:value];
+        [reporter logKey:key value:value];
     }
 }
 
@@ -71,4 +74,5 @@
         [reporter cancelTransaction:transactionId];
     }
 }
+
 @end

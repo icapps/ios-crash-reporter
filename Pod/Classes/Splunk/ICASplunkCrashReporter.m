@@ -6,8 +6,9 @@
 //  Copyright (c) 2015 iCapps. All rights reserved.
 //
 
-#import "ICASplunkCrashReporter.h"
 #import <SplunkMint/Mint.h>
+
+#import "ICASplunkCrashReporter.h"
 
 @interface ICASplunkCrashReporter ()
 
@@ -17,23 +18,17 @@
 
 @implementation ICASplunkCrashReporter
 
-- (id)initWithKey:(NSString *)key {
-    if (self = [super init]) {
-        _key = key;
-        [self startSession:key];
+#pragma mark - Init
 
+- (instancetype)initWithKey:(NSString *)key {
+    if (self = [super init]) {
+        self.key = key;
+        [self startSplunkSession:self.key];
     }
     return self;
 }
 
-- (void)startSession:(NSString *)key {
-    @try {
-        [[Mint sharedInstance] initAndStartSession:key];
-    }
-    @catch (NSException *exception) {
-        NSLog(@"Warning! Unable to initialize splunk with key %@.\nSplunk logging will not be active.", key);
-    }
-}
+#pragma mark - ICACrashReporterProvider
 
 - (void)logBreadcrumb:(NSString *)breadcrumb {
     [[Mint sharedInstance] leaveBreadcrumb:breadcrumb];
@@ -43,7 +38,7 @@
     [[Mint sharedInstance] logEventAsyncWithTag:eventInfo completionBlock:nil];
 }
 
-- (void)logExtraData:(NSString *)key value:(NSString *)value {
+- (void)logKey:(NSString *)key value:(NSString *)value {
     [[Mint sharedInstance] addExtraData:[[ExtraData alloc] initWithKey:key andValue:value]];
 }
 
@@ -51,21 +46,32 @@
     MintLogException(exception, nil);
 }
 
-- (void)setUserIdentifier:(NSString *)userId {
-    [[Mint sharedInstance] setUserIdentifier:userId];
-    [self startSession:self.key];
+- (void)setUserIdentifier:(NSString *)userIdentifier {
+    [[Mint sharedInstance] setUserIdentifier:userIdentifier];
+    [self startSplunkSession:self.key];
 }
 
-- (void)startTransaction:(NSString *)transactionId {
-    [[Mint sharedInstance] transactionStart:transactionId andResultBlock:nil];
+- (void)startTransaction:(NSString *)transactionID {
+    [[Mint sharedInstance] transactionStart:transactionID andResultBlock:nil];
 }
 
-- (void)stopTransaction:(NSString *)transactionId {
-    [[Mint sharedInstance] transactionStop:transactionId andResultBlock:nil];
+- (void)stopTransaction:(NSString *)transactionID {
+    [[Mint sharedInstance] transactionStop:transactionID andResultBlock:nil];
 }
 
-- (void)cancelTransaction:(NSString *)transactionId {
-    [[Mint sharedInstance] transactionCancel:transactionId reason:@"" andResultBlock:nil];
+- (void)cancelTransaction:(NSString *)transactionID {
+    [[Mint sharedInstance] transactionCancel:transactionID reason:@"" andResultBlock:nil];
+}
+
+#pragma mark - Splunk
+
+- (void)startSplunkSession:(NSString *)key {
+    @try {
+        [[Mint sharedInstance] initAndStartSession:key];
+    }
+    @catch (NSException *exception) {
+        NSLog(@"Warning! Unable to initialize splunk with key %@.\nSplunk logging will not be active.", key);
+    }
 }
 
 @end

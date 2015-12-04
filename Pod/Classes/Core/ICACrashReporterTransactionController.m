@@ -10,35 +10,39 @@
 
 @interface ICACrashReporterTransactionController ()
 
-@property (nonatomic, strong) NSString *transactionId;
-@property (nonatomic, weak) id<ICACrashReporterProvider> instance;
+@property (nonatomic, strong) NSString *transactionID;
+@property (nonatomic, weak) id<ICACrashReporterProvider> provider;
 
 @end
 
 @implementation ICACrashReporterTransactionController
 
+#pragma mark - Init
+
 - (instancetype)init {
-    @throw @"Should use initWithInstance instead";
+    @throw @"Should be initialized with a provider.";
 }
 
-- (instancetype)initWithInstance:(id<ICACrashReporterProvider>)instance {
+- (instancetype)initWithProvider:(id<ICACrashReporterProvider>)provider {
     if (self = [super init]) {
-        _instance = instance;
-        _transactionId = [[NSUUID UUID] UUIDString];
+        self.provider = provider;
+        self.transactionID = [[NSUUID UUID] UUIDString];
     }
     return self;
 }
 
-- (void)startTransaction {
-    [_instance startTransaction:self.transactionId];
+#pragma mark - Action
+
+- (void)start {
+    [self.provider startTransaction:self.transactionID];
 }
 
-- (void)stopTransaction {
-    [_instance stopTransaction:self.transactionId];
+- (void)stop {
+    [self.provider stopTransaction:self.transactionID];
 }
 
-- (void)cancelTransaction {
-    [_instance cancelTransaction:self.transactionId];
+- (void)cancel {
+    [self.provider cancelTransaction:self.transactionID];
 }
 
 @end

@@ -7,17 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+
 #import "ICACrashReporter.h"
 
 @interface ICAConsoleCrashReporter : NSObject <ICACrashReporterProvider>
-
-- (void)logBreadcrumb:(NSString *)breadcrumb;
-- (void)logEvent:(NSString *)eventInfo;
-- (void)logExtraData:(NSString *)key value:(NSString *)value;
-- (void)logException:(NSException *)exception;
-- (void)setUserIdentifier:(NSString *)userId;
-- (void)startTransaction:(NSString *)transactionId;
-- (void)stopTransaction:(NSString *)transactionId;
-- (void)cancelTransaction:(NSString *)transactionId;
-
 @end
