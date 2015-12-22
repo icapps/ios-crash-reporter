@@ -94,4 +94,51 @@
     return dateFormatter;
 }
 
+#pragma mark - Deprecated
+
++ (void)initAndStartWithInstance:(id<ICACrashReporterProvider>)instance {
+    [ICACrashReporter sharedInstance].provider = instance;
+}
+
++ (void)setUserIdentifier:(NSString *)userId {
+    [ICACrashReporter sharedInstance].userIdentifier = userId;
+}
+
++ (void)logBreadcrumb:(NSString *)message, ... {
+    va_list args;
+    va_start(args, message);
+    NSString *content = [[NSString alloc] initWithFormat:message arguments:args];
+    va_end(args);
+    
+    [[ICACrashReporter sharedInstance] logBreadcrumb:content];
+}
+
++ (void)logEvent:(NSString *)eventInfo {
+    [[ICACrashReporter sharedInstance] logEvent:eventInfo];
+}
+
++ (void)logExtraData:(NSString *)key value:(NSString *)value {
+    [[ICACrashReporter sharedInstance] logKey:key value:value];
+}
+
++ (void)logServiceFailure:(NSInteger)statusCode serviceUrl:(NSString *)serviceUrl httpMethod:(NSString *)httpMethod {
+    [[ICACrashReporter sharedInstance] logServiceFailureWithStatusCode:statusCode serviceURL:serviceUrl HTTPMethod:httpMethod];
+}
+
++ (void)logServiceFailureWithURLResponse:(NSHTTPURLResponse *)response {
+    [[ICACrashReporter sharedInstance] logServiceFailureWithResponse:response];
+}
+
++ (void)logServiceFailureWithURLResponse:(NSHTTPURLResponse *)response httpMethod:(NSString *)httpMethod {
+    [[ICACrashReporter sharedInstance] logServiceFailureWithResponse:response HTTPMethod:httpMethod];
+}
+
++ (void)logException:(NSException *)exception {
+    [[ICACrashReporter sharedInstance] logException:exception];
+}
+
++ (ICACrashReporterTransactionController *)transactionController {
+    return [[ICACrashReporter sharedInstance] instantiateTransactionController];
+}
+
 @end
