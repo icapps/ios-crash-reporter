@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/icapps/ios-crash-reporter'
   s.author           = { 'Leroy' => 'development@icapps.com' }
   s.source           = {
-    git: 'git://github.com/icapps/ios-crash-reporter.git',
+    git: 'https://github.com/icapps/ios-crash-reporter.git',
     tag: s.version.to_s
   }
   s.social_media_url = 'https://twitter.com/icapps'
