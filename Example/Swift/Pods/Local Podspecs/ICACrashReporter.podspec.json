@@ -6,12 +6,12 @@
     "type": "Commercial",
     "text": "Copyright (C) 2015 iCapps"
   },
-  "homepage": "https://bitbucket.org/icapps/pod_icacrashreporter",
+  "homepage": "https://github.com/icapps/ios-crash-reporter",
   "authors": {
-    "Jelle Vandebeeck": "development@icapps.com"
+    "Leroy": "development@icapps.com"
   },
   "source": {
-    "git": "https://bitbucket.org/icapps/pod_icacrashreporter.git",
+    "git": "https://github.com/icapps/ios-crash-reporter.git",
     "tag": "1.2.0"
   },
   "social_media_url": "https://twitter.com/icapps",
@@ -26,7 +26,6 @@
   "subspecs": [
     {
       "name": "Core",
-      "module_name": "ICACrashReporterCore",
       "source_files": [
         "Pod/Classes/Core.h",
         "Pod/Classes/Core/*.{h,m}",
@@ -36,7 +35,6 @@
     },
     {
       "name": "Splunk",
-      "module_name": "ICACrashReporterSplunk",
       "source_files": [
         "Pod/Classes/Splunk.h",
         "Pod/Classes/Splunk/*.{h,m}"
@@ -59,7 +57,6 @@
     },
     {
       "name": "GoogleAnalytics",
-      "module_name": "ICACrashReporterGoogleAnalytics",
       "source_files": [
         "Pod/Classes/GoogleAnalytics.h",
         "Pod/Classes/GoogleAnalytics/*.{h,m}",

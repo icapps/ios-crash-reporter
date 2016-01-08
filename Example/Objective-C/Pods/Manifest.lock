@@ -16,6 +16,6 @@ EXTERNAL SOURCES:
     :path: "../../"
 
 SPEC CHECKSUMS:
-  ICACrashReporter: 7f5f638134585dc7e017fd043870abffd7d59cbd
+  ICACrashReporter: 6bef23a0465d794e189840ca8eedb4c97875af43
 
 COCOAPODS: 0.39.0
