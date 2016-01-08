@@ -28,7 +28,6 @@ Pod::Spec.new do |s|
   ### Core component
   ###
   s.subspec 'Core' do |ss|
-    ss.module_name  = 'ICACrashReporterCore'
     ss.source_files = [
       'Pod/Classes/Core.h',
       'Pod/Classes/Core/*.{h,m}',
@@ -41,7 +40,6 @@ Pod::Spec.new do |s|
   ### Splunk component
   ###
   s.subspec 'Splunk' do |ss|
-    ss.module_name  = 'ICACrashReporterSplunk'
     ss.source_files = [
       'Pod/Classes/Splunk.h',
       'Pod/Classes/Splunk/*.{h,m}'
@@ -62,7 +60,6 @@ Pod::Spec.new do |s|
   ### Google Analytics component
   ###
   s.subspec 'GoogleAnalytics' do |ss|
-    ss.module_name  = 'ICACrashReporterGoogleAnalytics'
     ss.source_files = [
       'Pod/Classes/GoogleAnalytics.h',
       'Pod/Classes/GoogleAnalytics/*.{h,m}',
