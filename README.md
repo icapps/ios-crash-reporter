@@ -8,7 +8,7 @@ Add the following code to your `Podfile` in order to include the Splunk + Google
 
 ```
 source 'https://github.com/CocoaPods/Specs.git'
-source 'https://bitbucket.org/icapps/podspecs'
+source 'https://github.com/icapps/specs'
 
 pod 'ICACrashReporter', '~> 1.2'
 ```

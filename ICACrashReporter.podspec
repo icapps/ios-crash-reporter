@@ -9,10 +9,10 @@ Pod::Spec.new do |s|
     type: 'Commercial',
     text: 'Copyright (C) 2015 iCapps'
   }
-  s.homepage         = 'https://bitbucket.org/icapps/pod_icacrashreporter'
-  s.author           = { 'Jelle Vandebeeck' => 'development@icapps.com' }
+  s.homepage         = 'https://github.com/icapps/ios-crash-reporter'
+  s.author           = { 'Leroy' => 'development@icapps.com' }
   s.source           = {
-    git: 'https://bitbucket.org/icapps/pod_icacrashreporter.git',
+    git: 'git://github.com/icapps/ios-crash-reporter.git',
     tag: s.version.to_s
   }
   s.social_media_url = 'https://twitter.com/icapps'
