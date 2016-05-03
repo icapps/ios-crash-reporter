@@ -25,6 +25,8 @@
 		6DB0241D14043E793E7F84DE7B9E8A2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D4835F99CF503EDB0ED7A0DD391D83E /* Foundation.framework */; };
 		7149BB92999DE8EC422E5DD50587A010 /* ICACrashReporterTransactionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 491860BE959944F61937BC2876BCDC5D /* ICACrashReporterTransactionController.m */; };
 		7D19BB7370DAE60069437D25F5D09972 /* ICACrashReporter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61924BA7FAC8E10066C2CBAA2DCE5F67 /* ICACrashReporter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8437308A1CD8F470006A31A8 /* Crittercism.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843730891CD8F470006A31A8 /* Crittercism.framework */; };
+		843730911CD8F660006A31A8 /* ICACrittercismCrashReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 843730901CD8F660006A31A8 /* ICACrittercismCrashReporter.m */; };
 		86479F9F98CDE612CC995FF8AC5D5A5D /* GAIEcommercePromotion.h in Headers */ = {isa = PBXBuildFile; fileRef = 152FD3F1D04E6985D4BBC8912E2CEBCE /* GAIEcommercePromotion.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8D7E9CBA655A01293A1F3715E81231D5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ED3C3B37B51935832336D3BDFB74B6E /* CoreData.framework */; };
 		8EC1C2118E16BA590420FFA7157AB33D /* ICAMultiCrashReporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E3658AA2FCFF67A03230382318FDCE2 /* ICAMultiCrashReporter.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -77,6 +79,10 @@
 		6F3A7C0E35C678FF918F591E31DFEC8E /* GAILogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GAILogger.h; sourceTree = "<group>"; };
 		79A9DEDC89FE8336BF5FEDAAF75BF7FC /* Pods.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Pods.modulemap; sourceTree = "<group>"; };
 		8070EC2112087217E64AF2B8F7DAF378 /* ICASplunkCrashReporter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ICASplunkCrashReporter.h; sourceTree = "<group>"; };
+		843730891CD8F470006A31A8 /* Crittercism.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crittercism.framework; sourceTree = "<group>"; };
+		8437308E1CD8F4D6006A31A8 /* Crittercism.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Crittercism.h; sourceTree = "<group>"; };
+		8437308F1CD8F64C006A31A8 /* ICACrittercismCrashReporter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICACrittercismCrashReporter.h; sourceTree = "<group>"; };
+		843730901CD8F660006A31A8 /* ICACrittercismCrashReporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICACrittercismCrashReporter.m; sourceTree = "<group>"; };
 		84BCD2E91221DDCF5E66FFD98C2478D5 /* ICAConsoleCrashReporter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ICAConsoleCrashReporter.h; sourceTree = "<group>"; };
 		873D6E5557C92EED657FCA90333DD1F0 /* ICAMultiCrashReporter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ICAMultiCrashReporter.m; sourceTree = "<group>"; };
 		87B213035BAC5F75386F62D3C75D2342 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -125,6 +131,7 @@
 				46AB7CC590BFEDE20414C6F2B6653F19 /* CoreTelephony.framework in Frameworks */,
 				D17B9686880C0A4C8142ECB9A8BC9B0E /* Foundation.framework in Frameworks */,
 				5C0F5C3872B91FD24332753B6AE8391C /* SystemConfiguration.framework in Frameworks */,
+				8437308A1CD8F470006A31A8 /* Crittercism.framework in Frameworks */,
 				2235F285BDFCA7994A3FE03707861C1A /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -319,6 +326,49 @@
 			);
 			sourceTree = "<group>";
 		};
+		843730871CD8F459006A31A8 /* Crittercism */ = {
+			isa = PBXGroup;
+			children = (
+				8437308B1CD8F485006A31A8 /* Pod */,
+				843730881CD8F466006A31A8 /* Frameworks */,
+			);
+			name = Crittercism;
+			sourceTree = "<group>";
+		};
+		843730881CD8F466006A31A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				843730891CD8F470006A31A8 /* Crittercism.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8437308B1CD8F485006A31A8 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8437308D1CD8F496006A31A8 /* Crittercism */,
+				8437308C1CD8F48F006A31A8 /* Classes */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		8437308C1CD8F48F006A31A8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8437308E1CD8F4D6006A31A8 /* Crittercism.h */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		8437308D1CD8F496006A31A8 /* Crittercism */ = {
+			isa = PBXGroup;
+			children = (
+				8437308F1CD8F64C006A31A8 /* ICACrittercismCrashReporter.h */,
+				843730901CD8F660006A31A8 /* ICACrittercismCrashReporter.m */,
+			);
+			name = Crittercism;
+			sourceTree = "<group>";
+		};
 		85838A88280C21F24314FE7AEDF4418C /* Console */ = {
 			isa = PBXGroup;
 			children = (
@@ -399,6 +449,7 @@
 		EF05520DA60223D4A5ABA5C3D9AA54BA /* ICACrashReporter */ = {
 			isa = PBXGroup;
 			children = (
+				843730871CD8F459006A31A8 /* Crittercism */,
 				4C857D6CB7698CBC28228635B0AEAAF6 /* Core */,
 				457483FD2B3E5EBAEF435B19613E017E /* GoogleAnalytics */,
 				9A8A77163C79A5E53AF1FF1E341A89E1 /* Splunk */,
@@ -526,6 +577,7 @@
 			files = (
 				FAA91EAA6391AE322A4C352F8ABF15C4 /* ICAConsoleCrashReporter.m in Sources */,
 				2356D82A5FA1F16F0EB4CBDC13084BCF /* ICACrashReporter-dummy.m in Sources */,
+				843730911CD8F660006A31A8 /* ICACrittercismCrashReporter.m in Sources */,
 				639904B0E75D3E6FEE70AD2AFB02E472 /* ICACrashReporter.m in Sources */,
 				7149BB92999DE8EC422E5DD50587A010 /* ICACrashReporterTransactionController.m in Sources */,
 				B6CAB11304531DC5DD87BD6891465969 /* ICAGoogleAnalyticsCrashReporter.m in Sources */,

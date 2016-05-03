@@ -7,3 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "ICACrashReporterProvider.h"
+
+@interface ICACrittercismCrashReporter : NSObject <ICACrashReporterProvider>
+-(instancetype)initWithKey:(NSString *)key;
+@end

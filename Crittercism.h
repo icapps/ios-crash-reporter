@@ -6,8 +6,5 @@
 //
 //
 
-#ifndef Crittercism_h
-#define Crittercism_h
-
-
-#endif /* Crittercism_h */
+#import <ICACrashReporter/Core.h>
+#import "ICACrittercism.h"

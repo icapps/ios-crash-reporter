@@ -6,8 +6,9 @@
 //
 //
 
-#ifndef ICACrittercismCrashReporter_h
-#define ICACrittercismCrashReporter_h
+#import <Foundation/Foundation.h>
+#import "ICACrashReporterProvider.h"
 
-
-#endif /* ICACrittercismCrashReporter_h */
+@interface ICACrittercismCrashReporter : NSObject <ICACrashReporterProvider>
+-(instancetype)initWithKey:(NSString *)key;
+@end
