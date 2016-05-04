@@ -6,6 +6,8 @@
 #import "ICACrashReporterTransactionController.h"
 #import "ICAConsoleCrashReporter.h"
 #import "ICAMultiCrashReporter.h"
+#import "Crittercism.h"
+#import "ICACrittercismCrashReporter.h"
 #import "GoogleAnalytics.h"
 #import "ICAGoogleAnalyticsCrashReporter.h"
 #import "GAI.h"
@@ -17,8 +19,6 @@
 #import "GAILogger.h"
 #import "GAITrackedViewController.h"
 #import "GAITracker.h"
-#import "Splunk.h"
-#import "ICASplunkCrashReporter.h"
 
 FOUNDATION_EXPORT double ICACrashReporterVersionNumber;
 FOUNDATION_EXPORT const unsigned char ICACrashReporterVersionString[];
