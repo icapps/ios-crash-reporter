@@ -34,9 +34,10 @@
     [Crittercism leaveBreadcrumb:breadcrumb];
 }
 
-//- (void)logEvent:(NSString *)eventInfo {
-//    //    [[Mint sharedInstance] logEventAsyncWithTag:eventInfo completionBlock:nil];
-//}
+- (void)logEvent:(NSString *)eventInfo {
+//    [[Mint sharedInstance] logEventAsyncWithTag:eventInfo completionBlock:nil];
+    @throw @"Not implemented";
+}
 
 - (void)logKey:(NSString *)key value:(NSString *)value {
     [Crittercism setValue:value forKey:key];
