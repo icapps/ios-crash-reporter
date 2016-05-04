@@ -7,4 +7,4 @@
 //
 
 #import <ICACrashReporter/Core.h>
-#import "ICACrittercism.h"
+#import "ICACrittercismCrashReporter.h"
