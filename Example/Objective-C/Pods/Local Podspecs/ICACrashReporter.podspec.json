@@ -1,6 +1,6 @@
 {
   "name": "ICACrashReporter",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "summary": "The iCapps Crash Reporture component for iOS applications.",
   "license": {
     "type": "Commercial",
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://github.com/icapps/ios-crash-reporter.git",
-    "tag": "1.2.0"
+    "tag": "1.3.0"
   },
   "social_media_url": "https://twitter.com/icapps",
   "platforms": {
@@ -21,7 +21,8 @@
   "requires_arc": true,
   "default_subspecs": [
     "Splunk",
-    "GoogleAnalytics"
+    "GoogleAnalytics",
+    "Crittercism"
   ],
   "subspecs": [
     {
@@ -53,6 +54,28 @@
       "libraries": "z",
       "xcconfig": {
         "OTHER_LDFLAGS": "-ObjC -all_load -undefined dynamic_lookup"
+      }
+    },
+    {
+      "name": "Crittercism",
+      "source_files": [
+        "Pod/Classes/Crittercism.h",
+        "Pod/Classes/Crittercism/*.{h,m}"
+      ],
+      "dependencies": {
+        "ICACrashReporter/Core": [
+
+        ]
+      },
+      "vendored_frameworks": "Pod/Frameworks/Crittercism.framework",
+      "frameworks": [
+        "CoreTelephony",
+        "SystemConfiguration",
+        "WebKit"
+      ],
+      "libraries": "z",
+      "xcconfig": {
+        "OTHER_LDFLAGS": "-ObjC -all_load"
       }
     },
     {

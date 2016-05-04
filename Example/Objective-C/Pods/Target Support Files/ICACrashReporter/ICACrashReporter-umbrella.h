@@ -6,6 +6,8 @@
 #import "ICACrashReporterTransactionController.h"
 #import "ICAConsoleCrashReporter.h"
 #import "ICAMultiCrashReporter.h"
+#import "Crittercism.h"
+#import "ICACrittercismCrashReporter.h"
 #import "GoogleAnalytics.h"
 #import "ICAGoogleAnalyticsCrashReporter.h"
 #import "GAI.h"

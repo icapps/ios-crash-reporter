@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   ### Meta data
   ###
   s.name             = 'ICACrashReporter'
-  s.version          = '1.2.1'
+  s.version          = '1.3.0'
   s.summary          = 'The iCapps Crash Reporture component for iOS applications.'
   s.license       = {
     type: 'Commercial',
@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   ###
   s.platform     = :ios, '7.0'
   s.requires_arc = true
-  s.default_subspec = 'Splunk', 'GoogleAnalytics'
+  s.default_subspec = 'Splunk', 'GoogleAnalytics', 'Crittercism'
 
   ###
   ### Core component
@@ -56,6 +56,25 @@ Pod::Spec.new do |s|
     ss.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC -all_load -undefined dynamic_lookup' }
   end
 
+  ###
+  ### Crittercism component
+  ###
+  s.subspec 'Crittercism' do |ss|
+    ss.source_files = [
+      'Pod/Classes/Crittercism.h',
+      'Pod/Classes/Crittercism/*.{h,m}'
+    ]
+
+    ss.dependency 'ICACrashReporter/Core'
+    ss.vendored_frameworks = 'Pod/Frameworks/Crittercism.framework'
+    ss.frameworks = [
+      'CoreTelephony',
+      'SystemConfiguration',
+      'WebKit'
+    ]
+    ss.libraries = 'z'
+    ss.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC -all_load' }
+  end
   ###
   ### Google Analytics component
   ###
