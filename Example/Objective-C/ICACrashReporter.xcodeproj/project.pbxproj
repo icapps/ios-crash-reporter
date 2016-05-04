@@ -14,6 +14,7 @@
 		629CF2CB1C107D0B000A179B /* SplunkObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 629CF2CA1C107D0B000A179B /* SplunkObject.m */; };
 		629CF2CD1C1097FD000A179B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 629CF2CC1C1097FD000A179B /* Default-568h@2x.png */; };
 		629CF2D01C109893000A179B /* GoogleAnalyticsObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 629CF2CF1C109893000A179B /* GoogleAnalyticsObject.m */; };
+		8437309A1CD9D066006A31A8 /* CrittercismObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 843730991CD9D066006A31A8 /* CrittercismObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		629CF2CC1C1097FD000A179B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
 		629CF2CE1C109893000A179B /* GoogleAnalyticsObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleAnalyticsObject.h; sourceTree = "<group>"; };
 		629CF2CF1C109893000A179B /* GoogleAnalyticsObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleAnalyticsObject.m; sourceTree = "<group>"; };
+		843730981CD9D066006A31A8 /* CrittercismObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrittercismObject.h; sourceTree = "<group>"; };
+		843730991CD9D066006A31A8 /* CrittercismObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrittercismObject.m; sourceTree = "<group>"; };
 		AB8169C6033DCDB81CE45776 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		FA649727DF7865B0ED1CFAD8 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -91,6 +94,8 @@
 				629CF2CF1C109893000A179B /* GoogleAnalyticsObject.m */,
 				629CF2C91C107D0B000A179B /* SplunkObject.h */,
 				629CF2CA1C107D0B000A179B /* SplunkObject.m */,
+				843730981CD9D066006A31A8 /* CrittercismObject.h */,
+				843730991CD9D066006A31A8 /* CrittercismObject.m */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
 			path = ICACrashReporter;
@@ -192,6 +197,7 @@
 				629CF2CB1C107D0B000A179B /* SplunkObject.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 				629CF2D01C109893000A179B /* GoogleAnalyticsObject.m in Sources */,
+				8437309A1CD9D066006A31A8 /* CrittercismObject.m in Sources */,
 				629CF2C81C1078CF000A179B /* CoreObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
