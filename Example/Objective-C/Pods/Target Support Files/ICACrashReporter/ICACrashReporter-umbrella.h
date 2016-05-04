@@ -19,8 +19,6 @@
 #import "GAILogger.h"
 #import "GAITrackedViewController.h"
 #import "GAITracker.h"
-#import "Splunk.h"
-#import "ICASplunkCrashReporter.h"
 
 FOUNDATION_EXPORT double ICACrashReporterVersionNumber;
 FOUNDATION_EXPORT const unsigned char ICACrashReporterVersionString[];
