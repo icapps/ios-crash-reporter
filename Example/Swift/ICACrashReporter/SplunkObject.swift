@@ -1,15 +1,15 @@
 //
-//  CrittercismObject.swift
+//  SplunkObject.swift
 //  ICACrashReporter Example
 //
-//  Created by Hannes Van den Berghe on 04/05/16.
+//  Created by Hannes Van den Berghe on 09/05/16.
 //  Copyright © 2016 Jelle Vandebeeck. All rights reserved.
 //
 
 import Foundation
 import ICACrashReporter
 
-class CrittercismObject {
+class SplunkObject {
     
     // MARK: - Init
     
@@ -23,7 +23,7 @@ class CrittercismObject {
         // Setup the reporters.
         let reporters = [
             ICAConsoleCrashReporter(),
-            ICACrittercismCrashReporter()
+            ICASplunkCrashReporter()
         ]
         let provider = ICAMultiCrashReporter(reporters: reporters)
         ICACrashReporter.sharedInstance().provider = provider
@@ -46,3 +46,4 @@ class CrittercismObject {
         controller.cancel()
     }
 }
+

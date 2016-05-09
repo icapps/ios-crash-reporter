@@ -19,10 +19,6 @@
     "ios": "7.0"
   },
   "requires_arc": true,
-  "default_subspecs": [
-    "GoogleAnalytics",
-    "Crittercism"
-  ],
   "subspecs": [
     {
       "name": "Core",

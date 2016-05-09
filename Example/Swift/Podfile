@@ -2,4 +2,5 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 use_frameworks!
 
-pod 'ICACrashReporter', :path => '../../'
+pod 'ICACrashReporter/GoogleAnalytics', :path => '../../'
+pod 'ICACrashReporter/Splunk', :path => '../../'
