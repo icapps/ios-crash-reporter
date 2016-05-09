@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0453A8FC0DD23DA1263721B3 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19D66C74D16E3168EC248112 /* Pods.framework */; };
+		4A0E5E12D86167ED967715EE /* Pods_ICACrashReporter_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20FCE35F36D9B20422284765 /* Pods_ICACrashReporter_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		629CF2C81C1078CF000A179B /* CoreObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 629CF2C71C1078CF000A179B /* CoreObject.m */; };
@@ -19,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		19D66C74D16E3168EC248112 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20FCE35F36D9B20422284765 /* Pods_ICACrashReporter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ICACrashReporter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* ICACrashReporter_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ICACrashReporter_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F595195388D20070C39A /* ICACrashReporter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ICACrashReporter-Info.plist"; sourceTree = "<group>"; };
@@ -30,10 +31,10 @@
 		629CF2CC1C1097FD000A179B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
 		629CF2CE1C109893000A179B /* GoogleAnalyticsObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleAnalyticsObject.h; sourceTree = "<group>"; };
 		629CF2CF1C109893000A179B /* GoogleAnalyticsObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleAnalyticsObject.m; sourceTree = "<group>"; };
+		7E67A974CB00A57A1573C242 /* Pods-ICACrashReporter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ICACrashReporter_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ICACrashReporter_Example/Pods-ICACrashReporter_Example.release.xcconfig"; sourceTree = "<group>"; };
 		843730981CD9D066006A31A8 /* CrittercismObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrittercismObject.h; sourceTree = "<group>"; };
 		843730991CD9D066006A31A8 /* CrittercismObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrittercismObject.m; sourceTree = "<group>"; };
-		AB8169C6033DCDB81CE45776 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		FA649727DF7865B0ED1CFAD8 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		BF13E2AF0F503038DBC7C836 /* Pods-ICACrashReporter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ICACrashReporter_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ICACrashReporter_Example/Pods-ICACrashReporter_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,29 +43,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				0453A8FC0DD23DA1263721B3 /* Pods.framework in Frameworks */,
+				4A0E5E12D86167ED967715EE /* Pods_ICACrashReporter_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		198A020585DE748329D41AC1 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				FA649727DF7865B0ED1CFAD8 /* Pods.debug.xcconfig */,
-				AB8169C6033DCDB81CE45776 /* Pods.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
 				6003F593195388D20070C39A /* ICACrashReporter */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				198A020585DE748329D41AC1 /* Pods */,
+				A346354E77154632E2EA1E50 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +73,7 @@
 			children = (
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				19D66C74D16E3168EC248112 /* Pods.framework */,
+				20FCE35F36D9B20422284765 /* Pods_ICACrashReporter_Example.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -111,6 +104,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A346354E77154632E2EA1E50 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF13E2AF0F503038DBC7C836 /* Pods-ICACrashReporter_Example.debug.xcconfig */,
+				7E67A974CB00A57A1573C242 /* Pods-ICACrashReporter_Example.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -118,10 +120,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "ICACrashReporter_Example" */;
 			buildPhases = (
+				7B1419C4619F267684E80314 /* 📦 Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				138489B6A36A91F145D320D9 /* Embed Pods Frameworks */,
+				3A274759DF6D3E3EFBA5A7C7 /* 📦 Embed Pods Frameworks */,
+				93CB3B6792685B825AA01BE6 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -172,19 +176,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		138489B6A36A91F145D320D9 /* Embed Pods Frameworks */ = {
+		3A274759DF6D3E3EFBA5A7C7 /* 📦 Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "📦 Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ICACrashReporter_Example/Pods-ICACrashReporter_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B1419C4619F267684E80314 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		93CB3B6792685B825AA01BE6 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ICACrashReporter_Example/Pods-ICACrashReporter_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -280,7 +314,7 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FA649727DF7865B0ED1CFAD8 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = BF13E2AF0F503038DBC7C836 /* Pods-ICACrashReporter_Example.debug.xcconfig */;
 			buildSettings = {
 				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -296,7 +330,7 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AB8169C6033DCDB81CE45776 /* Pods.release.xcconfig */;
+			baseConfigurationReference = 7E67A974CB00A57A1573C242 /* Pods-ICACrashReporter_Example.release.xcconfig */;
 			buildSettings = {
 				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;

@@ -30,13 +30,7 @@
       ]
     },
     {
-      "name": [
-        "Splunk",
-        [
-          "Pod/Classes/Splunk.h",
-          "Pod/Classes/Splunk/*.{h,m}"
-        ]
-      ],
+      "name": "Splunk",
       "source_files": [
         "Pod/Classes/Splunk.h",
         "Pod/Classes/Splunk/*.{h,m}"
@@ -58,13 +52,7 @@
       }
     },
     {
-      "name": [
-        "Crittercism",
-        [
-          "Pod/Classes/Crittercism.h",
-          "Pod/Classes/Crittercism/*.{h,m}"
-        ]
-      ],
+      "name": "Crittercism",
       "source_files": [
         "Pod/Classes/Crittercism.h",
         "Pod/Classes/Crittercism/*.{h,m}"

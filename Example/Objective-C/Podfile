@@ -1,5 +1,7 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
 use_frameworks!
-
-pod 'ICACrashReporter/Crittercism', :path => '../../'
+target 'ICACrashReporter_Example' do
+	pod 'ICACrashReporter/Crittercism', :path => '../../'
+	pod 'ICACrashReporter/GoogleAnalytics', :path => '../../'
+end
