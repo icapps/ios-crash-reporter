@@ -11,11 +11,9 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   ICACrashReporter:
-    :path: ../../
+    :path: "../../"
 
 SPEC CHECKSUMS:
   ICACrashReporter: 6e6f7176ccce8d71b4e9c3d659ee8a198a7d5213
 
-PODFILE CHECKSUM: f39f30640b398a2c8af37f096ec841ca2c7de74b
-
-COCOAPODS: 1.0.0.rc.2
+COCOAPODS: 0.39.0
