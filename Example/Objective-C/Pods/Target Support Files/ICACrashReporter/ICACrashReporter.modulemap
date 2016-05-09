@@ -1,6 +1,0 @@
-framework module ICACrashReporter {
-  umbrella header "ICACrashReporter-umbrella.h"
-
-  export *
-  module * { export * }
-}

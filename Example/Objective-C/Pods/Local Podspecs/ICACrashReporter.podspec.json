@@ -19,10 +19,6 @@
     "ios": "7.0"
   },
   "requires_arc": true,
-  "default_subspecs": [
-    "GoogleAnalytics",
-    "Crittercism"
-  ],
   "subspecs": [
     {
       "name": "Core",
@@ -34,7 +30,13 @@
       ]
     },
     {
-      "name": "Splunk",
+      "name": [
+        "Splunk",
+        [
+          "Pod/Classes/Splunk.h",
+          "Pod/Classes/Splunk/*.{h,m}"
+        ]
+      ],
       "source_files": [
         "Pod/Classes/Splunk.h",
         "Pod/Classes/Splunk/*.{h,m}"
@@ -56,7 +58,13 @@
       }
     },
     {
-      "name": "Crittercism",
+      "name": [
+        "Crittercism",
+        [
+          "Pod/Classes/Crittercism.h",
+          "Pod/Classes/Crittercism/*.{h,m}"
+        ]
+      ],
       "source_files": [
         "Pod/Classes/Crittercism.h",
         "Pod/Classes/Crittercism/*.{h,m}"

@@ -22,7 +22,6 @@ Pod::Spec.new do |s|
   ###
   s.platform     = :ios, '7.0'
   s.requires_arc = true
-  s.default_subspec = 'GoogleAnalytics', 'Crittercism'
 
   ###
   ### Core component
@@ -40,6 +39,7 @@ Pod::Spec.new do |s|
   ### Splunk component
   ###
   s.subspec 'Splunk' do |ss|
+    ss.name = 'Splunk',
     ss.source_files = [
       'Pod/Classes/Splunk.h',
       'Pod/Classes/Splunk/*.{h,m}'
@@ -60,6 +60,7 @@ Pod::Spec.new do |s|
   ### Crittercism component
   ###
   s.subspec 'Crittercism' do |ss|
+    ss.name = 'Crittercism',
     ss.source_files = [
       'Pod/Classes/Crittercism.h',
       'Pod/Classes/Crittercism/*.{h,m}'
