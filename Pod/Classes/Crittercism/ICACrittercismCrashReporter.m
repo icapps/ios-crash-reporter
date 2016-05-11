@@ -35,7 +35,6 @@
 }
 
 - (void)logEvent:(NSString *)eventInfo {
-//    [[Mint sharedInstance] logEventAsyncWithTag:eventInfo completionBlock:nil];
     @throw @"Not implemented";
 }
 
