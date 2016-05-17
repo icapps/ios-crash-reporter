@@ -4,7 +4,7 @@ This is the iCapps Crash Reporter tool that can be integrated through a gem.
 
 ## Setup
 
-Add the following code to your `Podfile` in order to include the Splunk + Google Analytics integrations:
+Add the following code to your `Podfile` in order to include the Crittercism + Google Analytics integrations:
 
 ```
 source 'https://github.com/CocoaPods/Specs.git'
@@ -15,28 +15,30 @@ pod 'ICACrashReporter', '~> 1.2'
 
 Run `pod install` in order to install the pod.
 
-If you don't want to use Splunk or Google Analytics (but only the logging module), than you can integrate it seperatly from the `Podfile`. Only add the Core pod like this:
+If you don't want to use Splunk or Google Analytics (but only the logging module), than you can integrate it separately from the `Podfile`. Only add the Core pod like this:
 
 ```
 pod 'ICACrashReporter/Core', '~> 1.2'
 ```
 
-If you only want to use Splunk and no Google Analytics or vice versa, than this is the way to do this:
+If you only want to use Splunk, Crittercism and no Google Analytics or vice versa, than this is the way to do this:
 
 ```
-pod 'ICACrashReporter/Splunk',          '~> 1.2'
-pod 'ICACrashReporter/GoogleAnalytics', '~> 1.2'
+pod 'ICACrashReporter/Crittercism',     '~> 1.4'
+pod 'ICACrashReporter/Splunk',          '~> 1.4'
+pod 'ICACrashReporter/GoogleAnalytics', '~> 1.4'
 ```
 
 ## Usage
 
-Include the correct header file depending on the pod (Core, Splunk or Google Analytics) you installed.
+Include the correct header file depending on the pod (Core, Splunk, Crittercism or Google Analytics) you installed.
 
 #### Objective-C
 
 ``` objc
 #import <ICACrashReporter/Core.h>
 #import <ICACrashReporter/Splunk.h>
+#import <ICACrashReporter/Crittercism.h>
 #import <ICACrashReporter/GoogleAnalytics.h>
 ```
 
