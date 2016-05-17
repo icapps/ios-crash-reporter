@@ -24,6 +24,11 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   ###
+  ### Subspecs
+  ###
+  s.default_subspecs = 'Crittercism', 'GoogleAnalytics'
+
+  ###
   ### Core component
   ###
   s.subspec 'Core' do |ss|
