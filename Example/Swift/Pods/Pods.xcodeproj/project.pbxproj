@@ -10,6 +10,71 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
+		<key>0186D0230AD5046FED39A2787252A4F5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2C9807A23B854712CDE4493B70D91356</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>0223F8FA34FB3D590F6F0C7EFB90BB9F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>ACBA764FFDB8DCD9C99DFE88E5C81036</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>03DE457CF61098A12714C5F656E18417</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>13C12BF2CC049D630085E91364C863A2</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>06E001D3B6A39D133642300EB05CC635</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>216170E2C7C4ACCD484F748A3D57F35F</string>
+				<string>F84AA1ADCFEE152BD89851C637A2FEC4</string>
+				<string>4DF62C4253792211A0641B8B32F59505</string>
+				<string>F3D4E6B295824CE23896C46A4808EC68</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Classes</string>
+			<key>path</key>
+			<string>Classes</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0823456298DCDE450AAD5162C6F0B44C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>ICACrashReporter-umbrella.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>09CB507A696FF50C501A5BF2B224CDD0</key>
 		<dict>
 			<key>buildConfigurations</key>
@@ -24,74 +89,7 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>0DF770F8FB8887A1900106B458EB2CA3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8092D86F9B9E075BBE6EC963C5FEE72B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>0E54A664F40847C356860BC4C4AB77FC</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>SplunkMint.framework</string>
-			<key>path</key>
-			<string>Pod/Frameworks/SplunkMint.framework</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1059F5B2E5016C1AB16468B54453443F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>ICACrashReporter-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>182545F8BD4B3C4F6885DF9C280B422C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>ICACrashReporter.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1F8C99A3F5996B50506D2E8F9D6941B4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7C9CF2D4B746F909149520823B4AA838</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>1FBD9B0A46DA612715D41061D3599D80</key>
+		<key>0B9F460A8B2E404974341406917AE148</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -100,7 +98,87 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>ICAGoogleAnalyticsCrashReporter.m</string>
+			<string>ICACrashReporter-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0D634334A2D0C4C30F460CCB7B38B310</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>ICAConsoleCrashReporter.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1344A7B529C47C44191C85BDE25879AD</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>GAIDictionaryBuilder.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>13C12BF2CC049D630085E91364C863A2</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Crittercism.framework</string>
+			<key>path</key>
+			<string>Pod/Frameworks/Crittercism.framework</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>148F29A900C7438461DE1BD1DC222DBC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A9C4B853FAC8E170C5EB023F51572453</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>1671C328C8D78AAB0874DAB7F15E1B8E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>ICAMultiCrashReporter.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>19BE7FA4BF58F90869D6D9C8FC146C9F</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>03DE457CF61098A12714C5F656E18417</string>
+				<string>AD1DF179DF82EE50B0F91E4D994DF4F2</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Crittercism</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -117,20 +195,32 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>2158EAB21DCD185976E368E1D02BCED4</key>
+		<key>216170E2C7C4ACCD484F748A3D57F35F</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>archive.ar</string>
-			<key>name</key>
-			<string>libGoogleAnalyticsServices.a</string>
+			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>Pod/Libraries/GoogleAnalytics/libGoogleAnalyticsServices.a</string>
+			<string>Core.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>21C3101E2EC275909C42958F1EA3B430</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B458087276AA17B79A21C71FBA6B6F17</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 		<key>2235F285BDFCA7994A3FE03707861C1A</key>
 		<dict>
@@ -139,30 +229,21 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>2356D82A5FA1F16F0EB4CBDC13084BCF</key>
+		<key>247DF35906D8A45D448C3DEBEEABF482</key>
 		<dict>
 			<key>fileRef</key>
-			<string>74E90CF6466899792C11BE76EFAC1F8B</string>
+			<string>33EFAA0509F271AEEE4B1FF1075B79D5</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
-		<key>24DB68B19D934345558EA285978002CF</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>B0851F0E83DB9F2311D0778942E109AF</string>
-				<string>63A9F3E0F0A4D57F3306CCBF4539F341</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Classes</string>
-			<key>path</key>
-			<string>Classes</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2B9D2BC46BE333760AA79F7228BC3FBB</key>
+		<key>251F991921E5F2A894AE2A1EC11DC7C0</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -171,7 +252,33 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>ICACrashReporter.m</string>
+			<string>ICACrashReporterTransactionController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2699230685F68C8300F282F16F6A5C64</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>ICACrashReporter-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>272187DF1293BE1F276605C368A4697B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Crittercism.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -185,6 +292,37 @@
 			<string>sourcecode.c.h</string>
 			<key>path</key>
 			<string>Pods-umbrella.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2C74CCCB5A7A8D292BD744078B836C31</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>65518BC495B5F4433C66C56967B61A67</string>
+				<string>19BE7FA4BF58F90869D6D9C8FC146C9F</string>
+				<string>D19DD5E5B40D64485EF0F8C36FC594FB</string>
+				<string>B99B47D59D53CBB7199A1CF4966E8337</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>ICACrashReporter</string>
+			<key>path</key>
+			<string>../../..</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2C9807A23B854712CDE4493B70D91356</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>GAITracker.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -202,14 +340,12 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>2EB6325CA2560AF648D0F71BB7F11D56</key>
+		<key>3155E5591792931F98DCD56ABAF6A027</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>A3B8622A93422F763BCE1E18249144F0</string>
-				<string>39197E406EAB8B3FCBFA29309261E728</string>
-				<string>790C9EF5A4B9A4F1B8A4D7AC755B6ED0</string>
-				<string>FD5DA0B5303D95E94257D42E825E4215</string>
+				<string>B5A6E25D3DF1865272428AA4E7127EB9</string>
+				<string>594503FC5A3CCB68BAF996E58125590F</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -220,37 +356,23 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>39197E406EAB8B3FCBFA29309261E728</key>
+		<key>31C9376B46D2B2BB27598CC6A3CE2D8E</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>DBDA30DDEB2EB45C7CB097CAE6994FD9</string>
-				<string>5FAF9777C6325AC3FFD8A023BDF357F1</string>
+				<string>272187DF1293BE1F276605C368A4697B</string>
+				<string>BBABF380D562EBABF83269AF11874019</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Console</string>
+			<string>Classes</string>
 			<key>path</key>
-			<string>Console</string>
+			<string>Classes</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>3A914B1001953AB15BACD6B6C365D92A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C03BADC46EBFCF5760F5CC0E3ED704BD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>3AEF91EFB1220D7F1F3100DAB3C3DCCB</key>
+		<key>33EFAA0509F271AEEE4B1FF1075B79D5</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -259,7 +381,33 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>GAIEcommerceFields.h</string>
+			<string>GAILogger.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>34790CD7BBD614CE5E474CD328AFC20F</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BA455FBB764FC81BC19266DE417F10BA</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>37E80C152920121BD73C1E360BBD6209</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>GAIEcommerceProductAction.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -276,7 +424,7 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>3F5DCB9E6629DD446AF2FEA4199AA6E1</key>
+		<key>3FA0DA04C5BF4B055709446CD5561886</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -286,6 +434,20 @@
 			<string>ICACrashReporter.modulemap</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>40AF4816C11698F3AE391345A5845A6B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>498DAC532406DEF9E4D8F245751D4845</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 		<key>46250A3650007C6A68EC2F095DEC1869</key>
 		<dict>
@@ -321,19 +483,44 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>46BB79D6C58AA4346213FE941AF55BB3</key>
+		<key>4969D27D9C2877AD062A1E0C4DBB5E1C</key>
 		<dict>
-			<key>fileRef</key>
-			<string>A3B8622A93422F763BCE1E18249144F0</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>ICAGoogleAnalyticsCrashReporter.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>498DAC532406DEF9E4D8F245751D4845</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>GAITrackedViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4B689245FF5A9DE13660C05948A93DB6</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>GAIEcommerceProduct.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>4B7D746702D2B1274FB82FE62DCC3341</key>
 		<dict>
@@ -349,30 +536,10 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>4EC4BA16273ED5C4E837C7BA5692760E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3F5DCB9E6629DD446AF2FEA4199AA6E1</string>
-				<string>C24046BF0DA6D7076880F3A3A8847EAA</string>
-				<string>74E90CF6466899792C11BE76EFAC1F8B</string>
-				<string>6BDC1E6FD0DDD5842BE72F1CB995A0AE</string>
-				<string>1059F5B2E5016C1AB16468B54453443F</string>
-				<string>C0E5604933004F4510ED04208F4C6F13</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>Example/Swift/Pods/Target Support Files/ICACrashReporter</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>51DB0B045F64EC8C52F3E7D8B80E2410</key>
+		<key>4CAC262C6C2AED361E56390C381CA606</key>
 		<dict>
 			<key>fileRef</key>
-			<string>88E828872D59EB29E6DB704331E867D6</string>
+			<string>1344A7B529C47C44191C85BDE25879AD</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -382,6 +549,32 @@
 					<string>Public</string>
 				</array>
 			</dict>
+		</dict>
+		<key>4D1A6DDAB571D37D626578A47A9F6183</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0B9F460A8B2E404974341406917AE148</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>4DF62C4253792211A0641B8B32F59505</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>A9C4B853FAC8E170C5EB023F51572453</string>
+				<string>71DB62D76D581536C3B40042BC4E8D01</string>
+				<string>B458087276AA17B79A21C71FBA6B6F17</string>
+				<string>BC4951B2275EE2CB3841B2ABD9ADD00D</string>
+				<string>251F991921E5F2A894AE2A1EC11DC7C0</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Core</string>
+			<key>path</key>
+			<string>Core</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>53E481791C17968790B75A92EA4DAAB4</key>
 		<dict>
@@ -397,39 +590,34 @@
 				</array>
 			</dict>
 		</dict>
-		<key>59778DBEF6A6BE9FE4DB41524F7FFC3F</key>
+		<key>594503FC5A3CCB68BAF996E58125590F</key>
 		<dict>
-			<key>fileRef</key>
-			<string>6206FB5C02A4111FF9003CA334A40070</string>
+			<key>children</key>
+			<array>
+				<string>7D2F080C7EA5AE9C9AD42961749FB438</string>
+				<string>4969D27D9C2877AD062A1E0C4DBB5E1C</string>
+			</array>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>GoogleAnalytics</string>
+			<key>path</key>
+			<string>GoogleAnalytics</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>5A6E29874A119F7C6FC946F2EEA73D62</key>
+		<key>5B01C0181FFEC54DBD00ACF20B52C7F4</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>GAITracker.h</string>
+			<string>ICACrittercismCrashReporter.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5BAACDDC4D54F0EF0230F562DF88A38A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9228102A79A7D3D1A5B831B30E5C2174</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
 		</dict>
 		<key>5C0F5C3872B91FD24332753B6AE8391C</key>
 		<dict>
@@ -438,16 +626,18 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>5CA8ED81241537AA5EAF1E5B0DE99F74</key>
+		<key>5D1E3222D2B01638D44CDF7D0D7B2C2D</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>0E54A664F40847C356860BC4C4AB77FC</string>
+				<string>5F34BE407D15730047054F30A517C460</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Frameworks</string>
+			<string>GoogleAnalytics</string>
+			<key>path</key>
+			<string>GoogleAnalytics</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -468,20 +658,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>5E13B0D0D4EC61DFFD172258C251C5AD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>93300732089B8FB292114BFD33EE30EB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
 		<key>5E534497464E74743026A0656CFF5BFD</key>
 		<dict>
 			<key>explicitFileType</key>
@@ -497,16 +673,26 @@
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-		<key>5FAF9777C6325AC3FFD8A023BDF357F1</key>
+		<key>5F34BE407D15730047054F30A517C460</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>children</key>
+			<array>
+				<string>ABFAD04E593C30FE6EDD3F83A40A606F</string>
+				<string>1344A7B529C47C44191C85BDE25879AD</string>
+				<string>DF8C67C9BAFA1CF0222D3753E7C66165</string>
+				<string>4B689245FF5A9DE13660C05948A93DB6</string>
+				<string>37E80C152920121BD73C1E360BBD6209</string>
+				<string>82041C0A393AF7A012EEA6173AE01413</string>
+				<string>33EFAA0509F271AEEE4B1FF1075B79D5</string>
+				<string>498DAC532406DEF9E4D8F245751D4845</string>
+				<string>2C9807A23B854712CDE4493B70D91356</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Headers</string>
 			<key>path</key>
-			<string>ICAConsoleCrashReporter.m</string>
+			<string>Headers</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -514,7 +700,7 @@
 		<dict>
 			<key>children</key>
 			<array>
-				<string>DDEEB8D2B32D6A6CA627F124466C88DE</string>
+				<string>2C74CCCB5A7A8D292BD744078B836C31</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -523,94 +709,29 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>611382A5556C288148535DD44FCC566C</key>
+		<key>64A3C29A4C5555AA7FD4F1F5615940EC</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>ICACrittercismCrashReporter.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>65518BC495B5F4433C66C56967B61A67</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>D020922B9B5A446F57CF469DCC445A96</string>
+				<string>A363CDB33ED935850700FCB98B121C8C</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>GoogleAnalytics</string>
-			<key>path</key>
-			<string>GoogleAnalytics</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6206FB5C02A4111FF9003CA334A40070</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>ICACrashReporterTransactionController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>639904B0E75D3E6FEE70AD2AFB02E472</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2B9D2BC46BE333760AA79F7228BC3FBB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>63A9F3E0F0A4D57F3306CCBF4539F341</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7C9CF2D4B746F909149520823B4AA838</string>
-				<string>1FBD9B0A46DA612715D41061D3599D80</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>GoogleAnalytics</string>
-			<key>path</key>
-			<string>GoogleAnalytics</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>64BB48C28CF654DEBD4792BEE29A334B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F40F15ABF50E284D60D1770B7F84EE42</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>6A7C35BF4DACAED5C5847F398E57A500</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>GAIEcommerceProductAction.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6BDC1E6FD0DDD5842BE72F1CB995A0AE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>ICACrashReporter-prefix.pch</string>
+			<string>Core</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -647,14 +768,7 @@
 			<key>sourceTree</key>
 			<string>DEVELOPER_DIR</string>
 		</dict>
-		<key>7149BB92999DE8EC422E5DD50587A010</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CB102648C098AC94F5EFC32FFFBD02F2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>74E90CF6466899792C11BE76EFAC1F8B</key>
+		<key>71DB62D76D581536C3B40042BC4E8D01</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -663,9 +777,36 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>ICACrashReporter-dummy.m</string>
+			<string>ICACrashReporter.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>72F965A42A69EF4D19637AF0FBAC78FC</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>74D2613DE3F18A154CB3BEDF07D53F37</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4B689245FF5A9DE13660C05948A93DB6</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 		<key>7511B762113487AE2E8E817721C03C91</key>
 		<dict>
@@ -753,24 +894,19 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>790C9EF5A4B9A4F1B8A4D7AC755B6ED0</key>
+		<key>776FBFE2E955CB40B66EC56AC0D11607</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>182545F8BD4B3C4F6885DF9C280B422C</string>
-				<string>2B9D2BC46BE333760AA79F7228BC3FBB</string>
-				<string>F40F15ABF50E284D60D1770B7F84EE42</string>
-				<string>6206FB5C02A4111FF9003CA334A40070</string>
-				<string>CB102648C098AC94F5EFC32FFFBD02F2</string>
-			</array>
+			<key>fileRef</key>
+			<string>64A3C29A4C5555AA7FD4F1F5615940EC</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Core</string>
-			<key>path</key>
-			<string>Core</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 		<key>79A9DEDC89FE8336BF5FEDAAF75BF7FC</key>
 		<dict>
@@ -783,7 +919,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>7C9CF2D4B746F909149520823B4AA838</key>
+		<key>7D2F080C7EA5AE9C9AD42961749FB438</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -795,20 +931,6 @@
 			<string>ICAGoogleAnalyticsCrashReporter.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7D19BB7370DAE60069437D25F5D09972</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1059F5B2E5016C1AB16468B54453443F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
 		</dict>
 		<key>7DB346D0F39D3F0E887471402A8071AB</key>
 		<dict>
@@ -825,23 +947,26 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>8092D86F9B9E075BBE6EC963C5FEE72B</key>
+		<key>7E81757AC9A3895BDD6CFDCF1F4BDE18</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>children</key>
+			<array>
+				<string>3155E5591792931F98DCD56ABAF6A027</string>
+				<string>82519653AA5D5205ACC2849E121C0C90</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pod</string>
 			<key>path</key>
-			<string>GAI.h</string>
+			<string>Pod</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>811D604A54760D459686D032C07993E2</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>C24046BF0DA6D7076880F3A3A8847EAA</string>
+			<string>A27769C615C0BCA770ADDD90E0F890D1</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -894,7 +1019,7 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>84A33AE3E68D2969CDF1A1B84AE804AF</key>
+		<key>82041C0A393AF7A012EEA6173AE01413</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -903,14 +1028,48 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>ICASplunkCrashReporter.h</string>
+			<string>GAIEcommercePromotion.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>86479F9F98CDE612CC995FF8AC5D5A5D</key>
+		<key>82519653AA5D5205ACC2849E121C0C90</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>5D1E3222D2B01638D44CDF7D0D7B2C2D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Libraries</string>
+			<key>path</key>
+			<string>Libraries</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>852963AB311880051E2107207C679D36</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>E8A094CE4D99C8ED36EE29C25AACCFE4</string>
+				<string>4D1A6DDAB571D37D626578A47A9F6183</string>
+				<string>DE766490E6569E76DF77C2DF3C96323C</string>
+				<string>A4D67E4FBB49931AC1B433585142FFAA</string>
+				<string>C8A49E420496B614E7691C6A6D985DC2</string>
+				<string>C38F5EFAA8A0F41E40E94BD901DDF152</string>
+				<string>0223F8FA34FB3D590F6F0C7EFB90BB9F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>869659B96CE91B80BAC44CFFBC4A97EB</key>
 		<dict>
 			<key>fileRef</key>
-			<string>A6EF2892BC5E671504B28DCA9D2798BF</string>
+			<string>37E80C152920121BD73C1E360BBD6209</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -934,33 +1093,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>88AF2B9D0B2D73993352149BC6860C04</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>987B090312EC3A3C26523EAF97718B29</string>
-				<string>96441E5A6E3148051010150D9EB986A4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>GoogleAnalytics</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>88E828872D59EB29E6DB704331E867D6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>GAIEcommerceProduct.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>894E5DA93A9F359521A89826BE6DA777</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -974,20 +1106,33 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>8B6FF75B441414EB84657B3B78189B8E</key>
+		<key>8A3FC4FB54D70210A43C6993105BF8C9</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>2EB6325CA2560AF648D0F71BB7F11D56</string>
-			</array>
+			<key>fileRef</key>
+			<string>0823456298DCDE450AAD5162C6F0B44C</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pod</string>
-			<key>path</key>
-			<string>Pod</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>8B39DA5DD2D6910780AE75A5E325B356</key>
+		<dict>
+			<key>fileRef</key>
+			<string>DF8C67C9BAFA1CF0222D3753E7C66165</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 		<key>8D4835F99CF503EDB0ED7A0DD391D83E</key>
 		<dict>
@@ -1002,39 +1147,12 @@
 			<key>sourceTree</key>
 			<string>DEVELOPER_DIR</string>
 		</dict>
-		<key>8D7C5BA6E3031037B6AE885393ABAC6A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>ICAMultiCrashReporter.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>8D7E9CBA655A01293A1F3715E81231D5</key>
 		<dict>
 			<key>fileRef</key>
 			<string>6ED3C3B37B51935832336D3BDFB74B6E</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>8EC1C2118E16BA590420FFA7157AB33D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8D7C5BA6E3031037B6AE885393ABAC6A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
 		</dict>
 		<key>8FE30E37AC14A7B007EA7089255C7DCB</key>
 		<dict>
@@ -1049,46 +1167,6 @@
 			<key>sourceTree</key>
 			<string>DEVELOPER_DIR</string>
 		</dict>
-		<key>901DB0ADB71A365E67265B5FB6509013</key>
-		<dict>
-			<key>fileRef</key>
-			<string>182545F8BD4B3C4F6885DF9C280B422C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>9228102A79A7D3D1A5B831B30E5C2174</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>ICAMultiCrashReporter.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>93300732089B8FB292114BFD33EE30EB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>GAITrackedViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>9552E949CD61F4419BC6E7E0F95350B0</key>
 		<dict>
 			<key>isa</key>
@@ -1099,22 +1177,6 @@
 			<string>D975054BBE85E28087A91AF5699FF64C</string>
 			<key>targetProxy</key>
 			<string>EA1318C91DE35CD9ABEE4CD5502CCADA</string>
-		</dict>
-		<key>96441E5A6E3148051010150D9EB986A4</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>24DB68B19D934345558EA285978002CF</string>
-				<string>9F8C84B958F5A9DA915D5DE7394128E4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pod</string>
-			<key>path</key>
-			<string>Pod</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>977577C045EDA9D9D1F46E2598D19FC7</key>
 		<dict>
@@ -1129,10 +1191,10 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>97B2644BDD77F98B3C8E17E73FDD69D5</key>
+		<key>A16E9E0C32F4BFCDDA0713DA006C027C</key>
 		<dict>
 			<key>fileRef</key>
-			<string>6A7C35BF4DACAED5C5847F398E57A500</string>
+			<string>ABFAD04E593C30FE6EDD3F83A40A606F</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1143,92 +1205,40 @@
 				</array>
 			</dict>
 		</dict>
-		<key>987B090312EC3A3C26523EAF97718B29</key>
+		<key>A27769C615C0BCA770ADDD90E0F890D1</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>ICACrashReporter.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A363CDB33ED935850700FCB98B121C8C</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>2158EAB21DCD185976E368E1D02BCED4</string>
+				<string>06E001D3B6A39D133642300EB05CC635</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Frameworks</string>
+			<string>Pod</string>
+			<key>path</key>
+			<string>Pod</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>9C0C82BCA8070C5E69FEE6BCD5A5F916</key>
+		<key>A4D67E4FBB49931AC1B433585142FFAA</key>
 		<dict>
 			<key>fileRef</key>
-			<string>5A6E29874A119F7C6FC946F2EEA73D62</string>
+			<string>251F991921E5F2A894AE2A1EC11DC7C0</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>9C79710C0507DDB53D666EB48739CA3F</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>FAA91EAA6391AE322A4C352F8ABF15C4</string>
-				<string>2356D82A5FA1F16F0EB4CBDC13084BCF</string>
-				<string>639904B0E75D3E6FEE70AD2AFB02E472</string>
-				<string>7149BB92999DE8EC422E5DD50587A010</string>
-				<string>B6CAB11304531DC5DD87BD6891465969</string>
-				<string>5BAACDDC4D54F0EF0230F562DF88A38A</string>
-				<string>E2BD2D0CFB5BB4E8EEA37CD1803DE0D6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>9F8C84B958F5A9DA915D5DE7394128E4</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>611382A5556C288148535DD44FCC566C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Libraries</string>
-			<key>path</key>
-			<string>Libraries</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A3B8622A93422F763BCE1E18249144F0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Core.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A6EF2892BC5E671504B28DCA9D2798BF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>GAIEcommercePromotion.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>A83A4EA0405B1A571F389FEBA68E1B35</key>
 		<dict>
@@ -1241,6 +1251,19 @@
 			<string>PBXGroup</string>
 			<key>name</key>
 			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A9C4B853FAC8E170C5EB023F51572453</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>ICACrashReporter.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1257,7 +1280,88 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>B0851F0E83DB9F2311D0778942E109AF</key>
+		<key>ABFAD04E593C30FE6EDD3F83A40A606F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>GAI.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>ACBA764FFDB8DCD9C99DFE88E5C81036</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>ICAMultiCrashReporter.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>AD1DF179DF82EE50B0F91E4D994DF4F2</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>31C9376B46D2B2BB27598CC6A3CE2D8E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pod</string>
+			<key>path</key>
+			<string>Pod</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B006FF2D602E76AE161D9A0EC1D81077</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1671C328C8D78AAB0874DAB7F15E1B8E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>B2C513F031ACCAAF7B927F16BE010E99</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>ICAConsoleCrashReporter.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B458087276AA17B79A21C71FBA6B6F17</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>ICACrashReporterProvider.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B5A6E25D3DF1865272428AA4E7127EB9</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1269,27 +1373,6 @@
 			<string>GoogleAnalytics.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B65E938B3DE23C8B72F88960D9332EDB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B0851F0E83DB9F2311D0778942E109AF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>B6CAB11304531DC5DD87BD6891465969</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1FBD9B0A46DA612715D41061D3599D80</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
 		</dict>
 		<key>B7B80995527643776607AFFA75B91E24</key>
 		<dict>
@@ -1304,17 +1387,38 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>B982243C0A83FD8D8BB7F9EDB4CC20AF</key>
+		<key>B99B47D59D53CBB7199A1CF4966E8337</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>5CA8ED81241537AA5EAF1E5B0DE99F74</string>
-				<string>BAABCA9531C8830C284405F5CF12C220</string>
+				<string>3FA0DA04C5BF4B055709446CD5561886</string>
+				<string>A27769C615C0BCA770ADDD90E0F890D1</string>
+				<string>0B9F460A8B2E404974341406917AE148</string>
+				<string>2699230685F68C8300F282F16F6A5C64</string>
+				<string>0823456298DCDE450AAD5162C6F0B44C</string>
+				<string>72F965A42A69EF4D19637AF0FBAC78FC</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Splunk</string>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>Example/Swift/Pods/Target Support Files/ICACrashReporter</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BA455FBB764FC81BC19266DE417F10BA</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>archive.ar</string>
+			<key>name</key>
+			<string>libGoogleAnalyticsServices.a</string>
+			<key>path</key>
+			<string>Pod/Libraries/GoogleAnalytics/libGoogleAnalyticsServices.a</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1335,22 +1439,23 @@
 			<key>xcLanguageSpecificationIdentifier</key>
 			<string>xcode.lang.ruby</string>
 		</dict>
-		<key>BAABCA9531C8830C284405F5CF12C220</key>
+		<key>BBABF380D562EBABF83269AF11874019</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>F616643D07A9CCDAB891F33982BF40A5</string>
+				<string>64A3C29A4C5555AA7FD4F1F5615940EC</string>
+				<string>5B01C0181FFEC54DBD00ACF20B52C7F4</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Pod</string>
+			<string>Crittercism</string>
 			<key>path</key>
-			<string>Pod</string>
+			<string>Crittercism</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>BEF76A2DDEE8B8B83517A875A55443C7</key>
+		<key>BC4951B2275EE2CB3841B2ABD9ADD00D</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1359,22 +1464,23 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>Splunk.h</string>
+			<string>ICACrashReporterTransactionController.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C03BADC46EBFCF5760F5CC0E3ED704BD</key>
+		<key>C03C5E88525E696896DF14FAB696D89C</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>7D2F080C7EA5AE9C9AD42961749FB438</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>GAILogger.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 		<key>C074F63C9EE7CB4D8C618390A32CEC35</key>
 		<dict>
@@ -1449,43 +1555,10 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>C0E5604933004F4510ED04208F4C6F13</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C1DC12DD14B6301D8043299F5EDC41A6</key>
+		<key>C145C8D41EAC2B1D4A0A18AE3C331CCA</key>
 		<dict>
 			<key>fileRef</key>
-			<string>894E5DA93A9F359521A89826BE6DA777</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C24046BF0DA6D7076880F3A3A8847EAA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>ICACrashReporter.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C8F5A840750D340B463AD1ABA0181C2B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DBDA30DDEB2EB45C7CB097CAE6994FD9</string>
+			<string>216170E2C7C4ACCD484F748A3D57F35F</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1496,31 +1569,40 @@
 				</array>
 			</dict>
 		</dict>
-		<key>CB102648C098AC94F5EFC32FFFBD02F2</key>
+		<key>C1DC12DD14B6301D8043299F5EDC41A6</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>894E5DA93A9F359521A89826BE6DA777</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>ICACrashReporterTransactionController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
 		</dict>
-		<key>CB1E6EC5697801D47B31C85874ABCC9B</key>
+		<key>C38F5EFAA8A0F41E40E94BD901DDF152</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>8B6FF75B441414EB84657B3B78189B8E</string>
-			</array>
+			<key>fileRef</key>
+			<string>4969D27D9C2877AD062A1E0C4DBB5E1C</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Core</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C755DF99397A4F043CD9FA7227FC2F23</key>
+		<dict>
+			<key>fileRef</key>
+			<string>272187DF1293BE1F276605C368A4697B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>C8A49E420496B614E7691C6A6D985DC2</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5B01C0181FFEC54DBD00ACF20B52C7F4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>CBC0F7C552B739C909B650A0F42F7F38</key>
 		<dict>
@@ -1535,41 +1617,19 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>CD7ED762F1EA7865A7377F32BB36E288</key>
+		<key>CFFC50E1AE0E6375B58D33D783039990</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>82041C0A393AF7A012EEA6173AE01413</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>ICASplunkCrashReporter.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D020922B9B5A446F57CF469DCC445A96</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8092D86F9B9E075BBE6EC963C5FEE72B</string>
-				<string>E41FD1737E4574D97BA850B2E83D2470</string>
-				<string>3AEF91EFB1220D7F1F3100DAB3C3DCCB</string>
-				<string>88E828872D59EB29E6DB704331E867D6</string>
-				<string>6A7C35BF4DACAED5C5847F398E57A500</string>
-				<string>A6EF2892BC5E671504B28DCA9D2798BF</string>
-				<string>C03BADC46EBFCF5760F5CC0E3ED704BD</string>
-				<string>93300732089B8FB292114BFD33EE30EB</string>
-				<string>5A6E29874A119F7C6FC946F2EEA73D62</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Headers</string>
-			<key>path</key>
-			<string>Headers</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 		<key>D0405803033A2A777B8E4DFA0C1800ED</key>
 		<dict>
@@ -1591,6 +1651,20 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
+		<key>D19DD5E5B40D64485EF0F8C36FC594FB</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>34790CD7BBD614CE5E474CD328AFC20F</string>
+				<string>7E81757AC9A3895BDD6CFDCF1F4BDE18</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>GoogleAnalytics</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>D2CD3F095607FF2191FF353A42F06A80</key>
 		<dict>
 			<key>buildActionMask</key>
@@ -1607,20 +1681,6 @@
 			<string>PBXFrameworksBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
-		</dict>
-		<key>D300C8D877439ACE79C16D656149661C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3AEF91EFB1220D7F1F3100DAB3C3DCCB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
 		</dict>
 		<key>D41D8CD98F00B204E9800998ECF8427E</key>
 		<dict>
@@ -1679,7 +1739,7 @@
 		<key>D814F2D455CB6D47E7F010360F42D212</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>C24046BF0DA6D7076880F3A3A8847EAA</string>
+			<string>A27769C615C0BCA770ADDD90E0F890D1</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -1738,9 +1798,9 @@
 			<string>4B7D746702D2B1274FB82FE62DCC3341</string>
 			<key>buildPhases</key>
 			<array>
-				<string>9C79710C0507DDB53D666EB48739CA3F</string>
+				<string>852963AB311880051E2107207C679D36</string>
 				<string>D2CD3F095607FF2191FF353A42F06A80</string>
-				<string>FEF43E27E201581788E5B9EECB893E8B</string>
+				<string>E236657A942002DEE53C568FFF31EE8A</string>
 			</array>
 			<key>buildRules</key>
 			<array/>
@@ -1783,19 +1843,6 @@
 			<key>sourceTree</key>
 			<string>DEVELOPER_DIR</string>
 		</dict>
-		<key>DBDA30DDEB2EB45C7CB097CAE6994FD9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>ICAConsoleCrashReporter.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>DC79356099B84A24B3824BBE4BA46EE0</key>
 		<dict>
 			<key>isa</key>
@@ -1809,28 +1856,10 @@
 			<key>sourceTree</key>
 			<string>DEVELOPER_DIR</string>
 		</dict>
-		<key>DDEEB8D2B32D6A6CA627F124466C88DE</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>CB1E6EC5697801D47B31C85874ABCC9B</string>
-				<string>88AF2B9D0B2D73993352149BC6860C04</string>
-				<string>B982243C0A83FD8D8BB7F9EDB4CC20AF</string>
-				<string>4EC4BA16273ED5C4E837C7BA5692760E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>ICACrashReporter</string>
-			<key>path</key>
-			<string>../../..</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E00B4207CDD3AC09E1877A5F5C86BF06</key>
+		<key>DCD14F0676D25ABCF8BC1C72E4891930</key>
 		<dict>
 			<key>fileRef</key>
-			<string>84A33AE3E68D2969CDF1A1B84AE804AF</string>
+			<string>BC4951B2275EE2CB3841B2ABD9ADD00D</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1841,14 +1870,14 @@
 				</array>
 			</dict>
 		</dict>
-		<key>E2BD2D0CFB5BB4E8EEA37CD1803DE0D6</key>
+		<key>DE766490E6569E76DF77C2DF3C96323C</key>
 		<dict>
 			<key>fileRef</key>
-			<string>CD7ED762F1EA7865A7377F32BB36E288</string>
+			<string>71DB62D76D581536C3B40042BC4E8D01</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>E41FD1737E4574D97BA850B2E83D2470</key>
+		<key>DF8C67C9BAFA1CF0222D3753E7C66165</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1857,9 +1886,69 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>GAIDictionaryBuilder.h</string>
+			<string>GAIEcommerceFields.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E04C7216D86B608AE38F1B4FBB64839E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B5A6E25D3DF1865272428AA4E7127EB9</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>E236657A942002DEE53C568FFF31EE8A</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>C145C8D41EAC2B1D4A0A18AE3C331CCA</string>
+				<string>C755DF99397A4F043CD9FA7227FC2F23</string>
+				<string>A16E9E0C32F4BFCDDA0713DA006C027C</string>
+				<string>4CAC262C6C2AED361E56390C381CA606</string>
+				<string>8B39DA5DD2D6910780AE75A5E325B356</string>
+				<string>74D2613DE3F18A154CB3BEDF07D53F37</string>
+				<string>869659B96CE91B80BAC44CFFBC4A97EB</string>
+				<string>CFFC50E1AE0E6375B58D33D783039990</string>
+				<string>247DF35906D8A45D448C3DEBEEABF482</string>
+				<string>40AF4816C11698F3AE391345A5845A6B</string>
+				<string>0186D0230AD5046FED39A2787252A4F5</string>
+				<string>E04C7216D86B608AE38F1B4FBB64839E</string>
+				<string>E3E162947A8FD3088E5829D2A59C4754</string>
+				<string>8A3FC4FB54D70210A43C6993105BF8C9</string>
+				<string>148F29A900C7438461DE1BD1DC222DBC</string>
+				<string>21C3101E2EC275909C42958F1EA3B430</string>
+				<string>DCD14F0676D25ABCF8BC1C72E4891930</string>
+				<string>776FBFE2E955CB40B66EC56AC0D11607</string>
+				<string>C03C5E88525E696896DF14FAB696D89C</string>
+				<string>B006FF2D602E76AE161D9A0EC1D81077</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>E3E162947A8FD3088E5829D2A59C4754</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B2C513F031ACCAAF7B927F16BE010E99</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 		<key>E43846B588E1892F3093F3B7082B6DFB</key>
 		<dict>
@@ -1955,6 +2044,13 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>E8A094CE4D99C8ED36EE29C25AACCFE4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0D634334A2D0C4C30F460CCB7B38B310</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>EA1318C91DE35CD9ABEE4CD5502CCADA</key>
 		<dict>
 			<key>containerPortal</key>
@@ -1968,76 +2064,35 @@
 			<key>remoteInfo</key>
 			<string>ICACrashReporter</string>
 		</dict>
-		<key>EA519C0F575406EBA842476D8F65C14A</key>
+		<key>F3D4E6B295824CE23896C46A4808EC68</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>84A33AE3E68D2969CDF1A1B84AE804AF</string>
-				<string>CD7ED762F1EA7865A7377F32BB36E288</string>
+				<string>1671C328C8D78AAB0874DAB7F15E1B8E</string>
+				<string>ACBA764FFDB8DCD9C99DFE88E5C81036</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Splunk</string>
+			<string>Multi</string>
 			<key>path</key>
-			<string>Splunk</string>
+			<string>Multi</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>EFE97BDE4E4BC844CCE4CD35E7FB8806</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BEF76A2DDEE8B8B83517A875A55443C7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>F2B74A1CB8F519DE638EEFE9CDBF26A9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E41FD1737E4574D97BA850B2E83D2470</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>F40F15ABF50E284D60D1770B7F84EE42</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>ICACrashReporterProvider.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F616643D07A9CCDAB891F33982BF40A5</key>
+		<key>F84AA1ADCFEE152BD89851C637A2FEC4</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>BEF76A2DDEE8B8B83517A875A55443C7</string>
-				<string>EA519C0F575406EBA842476D8F65C14A</string>
+				<string>B2C513F031ACCAAF7B927F16BE010E99</string>
+				<string>0D634334A2D0C4C30F460CCB7B38B310</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Classes</string>
+			<string>Console</string>
 			<key>path</key>
-			<string>Classes</string>
+			<string>Console</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -2102,61 +2157,6 @@
 			<string>XCBuildConfiguration</string>
 			<key>name</key>
 			<string>Debug</string>
-		</dict>
-		<key>FAA91EAA6391AE322A4C352F8ABF15C4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5FAF9777C6325AC3FFD8A023BDF357F1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FD5DA0B5303D95E94257D42E825E4215</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8D7C5BA6E3031037B6AE885393ABAC6A</string>
-				<string>9228102A79A7D3D1A5B831B30E5C2174</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Multi</string>
-			<key>path</key>
-			<string>Multi</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FEF43E27E201581788E5B9EECB893E8B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>46BB79D6C58AA4346213FE941AF55BB3</string>
-				<string>0DF770F8FB8887A1900106B458EB2CA3</string>
-				<string>F2B74A1CB8F519DE638EEFE9CDBF26A9</string>
-				<string>D300C8D877439ACE79C16D656149661C</string>
-				<string>51DB0B045F64EC8C52F3E7D8B80E2410</string>
-				<string>97B2644BDD77F98B3C8E17E73FDD69D5</string>
-				<string>86479F9F98CDE612CC995FF8AC5D5A5D</string>
-				<string>3A914B1001953AB15BACD6B6C365D92A</string>
-				<string>5E13B0D0D4EC61DFFD172258C251C5AD</string>
-				<string>9C0C82BCA8070C5E69FEE6BCD5A5F916</string>
-				<string>B65E938B3DE23C8B72F88960D9332EDB</string>
-				<string>C8F5A840750D340B463AD1ABA0181C2B</string>
-				<string>7D19BB7370DAE60069437D25F5D09972</string>
-				<string>901DB0ADB71A365E67265B5FB6509013</string>
-				<string>64BB48C28CF654DEBD4792BEE29A334B</string>
-				<string>59778DBEF6A6BE9FE4DB41524F7FFC3F</string>
-				<string>1F8C99A3F5996B50506D2E8F9D6941B4</string>
-				<string>8EC1C2118E16BA590420FFA7157AB33D</string>
-				<string>E00B4207CDD3AC09E1877A5F5C86BF06</string>
-				<string>EFE97BDE4E4BC844CCE4CD35E7FB8806</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
 		</dict>
 	</dict>
 	<key>rootObject</key>

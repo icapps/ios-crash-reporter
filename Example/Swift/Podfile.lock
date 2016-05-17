@@ -1,13 +1,13 @@
 PODS:
   - ICACrashReporter/Core (1.3.0)
-  - ICACrashReporter/GoogleAnalytics (1.3.0):
+  - ICACrashReporter/Crittercism (1.3.0):
     - ICACrashReporter/Core
-  - ICACrashReporter/Splunk (1.3.0):
+  - ICACrashReporter/GoogleAnalytics (1.3.0):
     - ICACrashReporter/Core
 
 DEPENDENCIES:
+  - ICACrashReporter/Crittercism (from `../../`)
   - ICACrashReporter/GoogleAnalytics (from `../../`)
-  - ICACrashReporter/Splunk (from `../../`)
 
 EXTERNAL SOURCES:
   ICACrashReporter:

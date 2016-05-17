@@ -11,7 +11,7 @@
 		045301561C10DFBF00D66DFA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 045301551C10DFBF00D66DFA /* Default-568h@2x.png */; };
 		045301591C10E02900D66DFA /* CoreObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045301581C10E02900D66DFA /* CoreObject.swift */; };
 		0453015F1C10E5F900D66DFA /* GoogleAnalyticsObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0453015E1C10E5F900D66DFA /* GoogleAnalyticsObject.swift */; };
-		84A62A7B1CE0D0FD001C4E30 /* SplunkObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A62A7A1CE0D0FD001C4E30 /* SplunkObject.swift */; };
+		841599371CEB0F05003D8639 /* CrittercismObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841599361CEB0F05003D8639 /* CrittercismObject.swift */; };
 		C65F77043609458479CB0526 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1969BAF3E9AA9F598D7C2306 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,7 +25,7 @@
 		0453015E1C10E5F900D66DFA /* GoogleAnalyticsObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleAnalyticsObject.swift; sourceTree = "<group>"; };
 		1969BAF3E9AA9F598D7C2306 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E47664E85F41CDF43A9C0E8 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		84A62A7A1CE0D0FD001C4E30 /* SplunkObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplunkObject.swift; sourceTree = "<group>"; };
+		841599361CEB0F05003D8639 /* CrittercismObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrittercismObject.swift; sourceTree = "<group>"; };
 		DFECB8E4D843D7E9D6AFF001 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -65,7 +65,7 @@
 				045301431C10DF9500D66DFA /* AppDelegate.swift */,
 				045301581C10E02900D66DFA /* CoreObject.swift */,
 				0453015E1C10E5F900D66DFA /* GoogleAnalyticsObject.swift */,
-				84A62A7A1CE0D0FD001C4E30 /* SplunkObject.swift */,
+				841599361CEB0F05003D8639 /* CrittercismObject.swift */,
 				045301571C10DFF400D66DFA /* Supporting files */,
 			);
 			path = ICACrashReporter;
@@ -187,7 +187,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				045301441C10DF9500D66DFA /* AppDelegate.swift in Sources */,
-				84A62A7B1CE0D0FD001C4E30 /* SplunkObject.swift in Sources */,
+				841599371CEB0F05003D8639 /* CrittercismObject.swift in Sources */,
 				0453015F1C10E5F900D66DFA /* GoogleAnalyticsObject.swift in Sources */,
 				045301591C10E02900D66DFA /* CoreObject.swift in Sources */,
 			);
