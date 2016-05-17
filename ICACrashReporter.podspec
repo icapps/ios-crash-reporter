@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   ### Meta data
   ###
   s.name             = 'ICACrashReporter'
-  s.version          = '1.4.0'
+  s.version          = '1.4.1'
   s.summary          = 'The iCapps Crash Reporture component for iOS applications.'
   s.license       = {
     type: 'Commercial',
