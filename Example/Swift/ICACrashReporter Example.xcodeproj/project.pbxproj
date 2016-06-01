@@ -11,8 +11,8 @@
 		045301561C10DFBF00D66DFA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 045301551C10DFBF00D66DFA /* Default-568h@2x.png */; };
 		045301591C10E02900D66DFA /* CoreObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045301581C10E02900D66DFA /* CoreObject.swift */; };
 		0453015F1C10E5F900D66DFA /* GoogleAnalyticsObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0453015E1C10E5F900D66DFA /* GoogleAnalyticsObject.swift */; };
+		685DC7770C761D731DBDA04A /* Pods_ICACrashReporter_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2C4D2D3A1C113D736BBA36B /* Pods_ICACrashReporter_Example.framework */; };
 		841599371CEB0F05003D8639 /* CrittercismObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841599361CEB0F05003D8639 /* CrittercismObject.swift */; };
-		C65F77043609458479CB0526 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1969BAF3E9AA9F598D7C2306 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,9 +24,10 @@
 		0453015A1C10E14300D66DFA /* ICACrashReporter Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ICACrashReporter Example-Bridging-Header.h"; sourceTree = "<group>"; };
 		0453015E1C10E5F900D66DFA /* GoogleAnalyticsObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleAnalyticsObject.swift; sourceTree = "<group>"; };
 		1969BAF3E9AA9F598D7C2306 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6E47664E85F41CDF43A9C0E8 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		841599361CEB0F05003D8639 /* CrittercismObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrittercismObject.swift; sourceTree = "<group>"; };
-		DFECB8E4D843D7E9D6AFF001 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		A7FC1EAD118CECFF301C9E51 /* Pods-ICACrashReporter Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ICACrashReporter Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ICACrashReporter Example/Pods-ICACrashReporter Example.release.xcconfig"; sourceTree = "<group>"; };
+		C2C4D2D3A1C113D736BBA36B /* Pods_ICACrashReporter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ICACrashReporter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D47967E8657101C888ED6C4C /* Pods-ICACrashReporter Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ICACrashReporter Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ICACrashReporter Example/Pods-ICACrashReporter Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,7 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C65F77043609458479CB0526 /* Pods.framework in Frameworks */,
+				685DC7770C761D731DBDA04A /* Pods_ICACrashReporter_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,7 +48,7 @@
 				045301421C10DF9500D66DFA /* ICACrashReporter */,
 				045301411C10DF9500D66DFA /* Products */,
 				F35BE280454C6082CA051D29 /* Frameworks */,
-				54090898AE02265BB1D104A1 /* Pods */,
+				A3FC4D659ABD4CB808FC5F5C /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,11 +82,11 @@
 			name = "Supporting files";
 			sourceTree = "<group>";
 		};
-		54090898AE02265BB1D104A1 /* Pods */ = {
+		A3FC4D659ABD4CB808FC5F5C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6E47664E85F41CDF43A9C0E8 /* Pods.debug.xcconfig */,
-				DFECB8E4D843D7E9D6AFF001 /* Pods.release.xcconfig */,
+				D47967E8657101C888ED6C4C /* Pods-ICACrashReporter Example.debug.xcconfig */,
+				A7FC1EAD118CECFF301C9E51 /* Pods-ICACrashReporter Example.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -94,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				1969BAF3E9AA9F598D7C2306 /* Pods.framework */,
+				C2C4D2D3A1C113D736BBA36B /* Pods_ICACrashReporter_Example.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -105,10 +107,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 045301521C10DF9500D66DFA /* Build configuration list for PBXNativeTarget "ICACrashReporter Example" */;
 			buildPhases = (
+				9988FEB5E9061DA9CEB2B05E /* 📦 Check Pods Manifest.lock */,
 				0453013C1C10DF9500D66DFA /* Sources */,
 				0453013D1C10DF9500D66DFA /* Frameworks */,
 				0453013E1C10DF9500D66DFA /* Resources */,
-				16B3032759C469072DAD34C3 /* Embed Pods Frameworks */,
+				C508568784255A6AA83BC1D7 /* 📦 Embed Pods Frameworks */,
+				C2473AEE965D54DE4F8BB815 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,19 +168,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		16B3032759C469072DAD34C3 /* Embed Pods Frameworks */ = {
+		9988FEB5E9061DA9CEB2B05E /* 📦 Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "📦 Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C2473AEE965D54DE4F8BB815 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ICACrashReporter Example/Pods-ICACrashReporter Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C508568784255A6AA83BC1D7 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ICACrashReporter Example/Pods-ICACrashReporter Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -279,7 +313,7 @@
 		};
 		045301531C10DF9500D66DFA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6E47664E85F41CDF43A9C0E8 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = D47967E8657101C888ED6C4C /* Pods-ICACrashReporter Example.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				ENABLE_BITCODE = NO;
@@ -294,7 +328,7 @@
 		};
 		045301541C10DF9500D66DFA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DFECB8E4D843D7E9D6AFF001 /* Pods.release.xcconfig */;
+			baseConfigurationReference = A7FC1EAD118CECFF301C9E51 /* Pods-ICACrashReporter Example.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				ENABLE_BITCODE = NO;

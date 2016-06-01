@@ -1,0 +1,6 @@
+framework module Pods_ICACrashReporter_Example {
+  umbrella header "Pods-ICACrashReporter Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
