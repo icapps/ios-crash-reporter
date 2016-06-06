@@ -1,6 +1,6 @@
 {
   "name": "ICACrashReporter",
-  "version": "1.4.2",
+  "version": "1.4.3",
   "summary": "The iCapps Crash Reporture component for iOS applications.",
   "license": {
     "type": "Commercial",
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://github.com/icapps/ios-crash-reporter.git",
-    "tag": "1.4.2"
+    "tag": "1.4.3"
   },
   "social_media_url": "https://twitter.com/icapps",
   "platforms": {
