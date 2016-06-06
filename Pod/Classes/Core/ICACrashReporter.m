@@ -67,7 +67,7 @@
 }
 
 - (void)logServiceFailureWithStatusCode:(NSInteger)statusCode serviceURL:(NSString *)serviceURL HTTPMethod:(NSString *)HTTPMethod {
-    NSMutableArray *components = [@[@(statusCode).stringValue, serviceURL] mutableCopy];
+    NSMutableArray *components = [@[@(statusCode).stringValue, serviceURL == nil ? @"" : serviceURL] mutableCopy];
     if (HTTPMethod && [HTTPMethod length] > 0) [components insertObject:HTTPMethod atIndex:0];
     [self logEvent:[components componentsJoinedByString:@" - "]];
 }
