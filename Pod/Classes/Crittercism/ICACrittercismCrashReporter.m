@@ -35,7 +35,7 @@
 }
 
 - (void)logEvent:(NSString *)eventInfo {
-    @throw @"Not implemented";
+    [self logKey:@"EVENT" value:eventInfo];
 }
 
 - (void)logKey:(NSString *)key value:(NSString *)value {
